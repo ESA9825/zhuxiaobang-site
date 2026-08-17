@@ -1,0 +1,916 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<meta http-equiv="Content-Language" content="zh-cn" />
+	<meta name="robots" content="all" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="QQ登录是QQ互联的一种接入方式，通过接入QQ登录，用户可以使用QQ账号直接登录接入的站点，QQ登录同时提供API授权，帮助网站主将用户操作同步到QQ空间和朋友网；" />
+	<meta name="keywords" content="QQ登录、QQ登陆、QQ互联、API、QQ账号、QQ互联Wiki、微云API" />
+  <meta name="generator" content="wordpress"/>
+  <meta name="author" content="Tencent"/>
+  <meta name="copyright" content="&copy; 1998 - 2013 Tencent"/>
+	<title>QQ互联SDK隐私保护声明 &#8212; QQ互联WIKI</title>
+  <script type="text/javascript">var _speedMark = new Date();</script>
+  <link rel="profile" href="https://gmpg.org/xfn/11" />
+  <link rel="pingback" href="https://wiki.connect.qq.com/xmlrpc.php" />
+  <link media="all" rel="stylesheet" type="text/css" href="https://connect.qq.com/qconn/site/css/common.css?t=1387868823866"/>
+  <link media="all" rel="stylesheet" type="text/css" href="https://connect.qq.com/qconn/wiki/wikiv2/style.css?v=2-1-2"/>
+  <link rel='dns-prefetch' href='//connect.qq.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/wiki.connect.qq.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<link rel="https://api.w.org/" href="https://wiki.connect.qq.com/wp-json/" /><link rel="alternate" type="application/json" href="https://wiki.connect.qq.com/wp-json/wp/v2/posts/5047" /><link rel="alternate" type="application/json+oembed" href="https://wiki.connect.qq.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwiki.connect.qq.com%2Fqq%25e4%25ba%2592%25e8%2581%2594sdk%25e9%259a%2590%25e7%25a7%2581%25e4%25bf%259d%25e6%258a%25a4%25e5%25a3%25b0%25e6%2598%258e" />
+<link rel="alternate" type="text/xml+oembed" href="https://wiki.connect.qq.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwiki.connect.qq.com%2Fqq%25e4%25ba%2592%25e8%2581%2594sdk%25e9%259a%2590%25e7%25a7%2581%25e4%25bf%259d%25e6%258a%25a4%25e5%25a3%25b0%25e6%2598%258e&#038;format=xml" />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>  <!--[if lt IE 9]>
+  <script src="https://pub.idqqimg.com/qconn/wiki/wikiv2/js/html5.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+
+<body>
+  
+<header class="header">
+  <nav>
+    <a href="https://connect.qq.com" class="logo" id="top" style="background-image:url(https://sola.gtimg.cn/aoi/sola/20210118201807_sNZFi8SENi.png)"></a>
+
+    <!-- ul class="userInfo" id="userInfo">
+      <li>
+        <a href="javascript:void(0);" id="login" hidefocus="false">登录</a>
+        <a href="javascript:void(0);" class="subNav" id="subNav"></a>
+        <a href="javascript:void(0);" id="subNav_hover"></a>
+        <ul id="personal_list">
+            <li><a href="https://connect.qq.com/toc/auth_manager">授权管理</a></li>
+            <li><a id="logout" href="javascript:void(0)">退出</a></li>
+        </ul>
+      </li>
+    </ul>
+    
+    <ul class="navigator">
+      <li id="nav_index"><a href="https://connect.qq.com" hidefocus="false">首页</a></li>
+      <li id="nav_qqlogin"><a href="https://connect.qq.com/intro/login" hidefocus="false">QQ登录</a></li>
+      <li id="nav_intro"><a href="https://connect.qq.com/intro/wpa" hidefocus="false">功能组件</a></li>
+	    <li id="nav_manage"><a href="https://connect.qq.com/manage/login" hidefocus="false">管理中心</a></li>
+      <li class="current"><a href="/" hidefocus="false">文档资料</a></li>
+      <li><a href="https://bbs.open.qq.com/forum.php?gid=110" hidefocus="false" target="_blank">论坛</a></li>
+      <li><a href="/faq" hidefocus="false">FAQ</a></li>
+    </ul -->
+
+  </nav>
+</header>
+
+<div class="page">
+	<div class="page_main">
+		<aside class="page_sidebar">
+			<nav class="menu_sidebar_container"><ul id="menu_sidebar" class="menu_sidebar"><li><h3><a class="item_level1" data-title="重要更新" hidefocus="true" href="https://wiki.connect.qq.com/"><span class="icon dot">·</span><span class="icon arrow">></span>重要更新</a></h3></li>
+<li><h3><a class="item_level1" data-title="接入指南" hidefocus="true" href="javascript:;" isCategory="1"><span class="icon dot">·</span><span class="icon arrow">></span>接入指南</a></h3>
+<ul class="sub_menu sub_menu_level1">
+	<li><a data-title="成为开发者" hidefocus="true" title="成为开发者" href="https://wiki.connect.qq.com/%e6%88%90%e4%b8%ba%e5%bc%80%e5%8f%91%e8%80%85">成为开发者</a></li>
+	<li><a data-title="创建应用" hidefocus="true" title="创建应用" href="https://wiki.connect.qq.com/__trashed-2">创建应用</a></li>
+	<li><a data-title="Universal Links适配" hidefocus="true" title="Universal Links适配" href="https://wiki.connect.qq.com/universal-links%e9%80%82%e9%85%8dfaq">Universal Links适配</a></li>
+	<li><h4><a data-title="SDK及资源下载" hidefocus="true" href="javascript:;" isCategory="1"><span class="icon triangle"></span>SDK及资源下载</a></h4>
+	<ul class="sub_menu">
+		<li><a data-title="SDK下载" hidefocus="true" title="SDK下载" href="https://wiki.connect.qq.com/sdk%e4%b8%8b%e8%bd%bd">SDK下载</a></li>
+		<li><a data-title="视觉素材下载" hidefocus="true" title="视觉素材下载" href="https://wiki.connect.qq.com/%e8%a7%86%e8%a7%89%e7%b4%a0%e6%9d%90%e4%b8%8b%e8%bd%bd">视觉素材下载</a></li>
+	</ul>
+</li>
+	<li><h4><a data-title="OAuth协议介绍" hidefocus="true" title="OAuth协议介绍" href="javascript:;" isCategory="1"><span class="icon triangle"></span>OAuth协议介绍</a></h4>
+	<ul class="sub_menu">
+		<li><a data-title="OAuth2.0简介" hidefocus="true" title="OAuth2.0简介" href="https://wiki.connect.qq.com/oauth2-0%e7%ae%80%e4%bb%8b">OAuth2.0简介</a></li>
+		<li><h4><a data-title="OAuth2.0开发指引" hidefocus="true" title="OAuth2.0开发指引" href="javascript:;" isCategory="1"><span class="icon triangle"></span>OAuth2.0开发指引</a></h4>
+		<ul class="sub_menu">
+			<li><a data-title="开发攻略_Server-side" hidefocus="true" title="开发攻略_Server-side" href="https://wiki.connect.qq.com/%e5%bc%80%e5%8f%91%e6%94%bb%e7%95%a5_server-side">开发攻略_Server-side</a></li>
+			<li><a data-title="开发攻略_Client-side" hidefocus="true" title="开发攻略_Client-side" href="https://wiki.connect.qq.com/%e5%bc%80%e5%8f%91%e6%94%bb%e7%95%a5_client-side">开发攻略_Client-side</a></li>
+		</ul>
+</li>
+		<li><h4><a data-title="OAuth2.0升级指引" hidefocus="true" title="OAuth2.0升级指引" href="javascript:;" isCategory="1"><span class="icon triangle"></span>OAuth2.0升级指引</a></h4>
+		<ul class="sub_menu">
+			<li><a data-title="OAuth2.0常见问题" hidefocus="true" title="OAuth2.0常见问题" href="https://wiki.connect.qq.com/%e5%8d%87%e7%ba%a7oauth2-0%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98">OAuth2.0常见问题</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li><h4><a data-title="API文档" hidefocus="true" title="API文档" href="javascript:;" isCategory="1"><span class="icon triangle"></span>API文档</a></h4>
+	<ul class="sub_menu">
+		<li><a data-title="API列表" hidefocus="true" title="API列表" href="https://wiki.connect.qq.com/api%e5%88%97%e8%a1%a8">API列表</a></li>
+		<li><a data-title="API调试工具" target="_blank" hidefocus="true" title="API调试工具" href="http://connect.qq.com/sdk/webtools/index.html">API调试工具</a></li>
+		<li><a data-title="返回码说明" hidefocus="true" title="返回码说明" href="https://wiki.connect.qq.com/%e5%85%ac%e5%85%b1%e8%bf%94%e5%9b%9e%e7%a0%81%e8%af%b4%e6%98%8e">返回码说明</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li><h3><a class="item_level1" data-title="网站应用" hidefocus="true" href="javascript:;" isCategory="1"><span class="icon dot">·</span><span class="icon arrow">></span>网站应用</a></h3>
+<ul class="sub_menu sub_menu_level1">
+	<li><a data-title="网站应用接入概述" hidefocus="true" title="网站应用接入概述" href="https://wiki.connect.qq.com/%e7%bd%91%e7%ab%99%e5%ba%94%e7%94%a8%e6%8e%a5%e5%85%a5%e6%b5%81%e7%a8%8b">网站应用接入概述</a></li>
+	<li><h4><a data-title="网站开发流程" hidefocus="true" title="OAuth2.0开发文档" href="javascript:;" isCategory="1"><span class="icon triangle"></span>网站开发流程</a></h4>
+	<ul class="sub_menu">
+		<li><a data-title="准备工作_OAuth2.0" hidefocus="true" title="准备工作_OAuth2.0" href="https://wiki.connect.qq.com/%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c_oauth2-0">准备工作_OAuth2.0</a></li>
+		<li><a data-title="放置“QQ登录”按钮" hidefocus="true" title="放置“QQ登录”按钮" href="https://wiki.connect.qq.com/%e6%94%be%e7%bd%aeqq%e7%99%bb%e5%bd%95%e6%8c%89%e9%92%ae_oauth2-0">放置“QQ登录”按钮</a></li>
+		<li><a data-title="获取Access_Token" hidefocus="true" title="获取Access_Token" href="https://wiki.connect.qq.com/%e4%bd%bf%e7%94%a8authorization_code%e8%8e%b7%e5%8f%96access_token">获取Access_Token</a></li>
+		<li><a data-title="获取用户OpenID" hidefocus="true" title="获取用户OpenID" href="https://wiki.connect.qq.com/%e8%8e%b7%e5%8f%96%e7%94%a8%e6%88%b7openid_oauth2-0">获取用户OpenID</a></li>
+		<li><a data-title="OpenAPI调用说明" hidefocus="true" title="OpenAPI调用说明" href="https://wiki.connect.qq.com/openapi%e8%b0%83%e7%94%a8%e8%af%b4%e6%98%8e_oauth2-0">OpenAPI调用说明</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li><h3><a class="item_level1" data-title="移动应用" hidefocus="true" href="javascript:;" isCategory="1"><span class="icon dot">·</span><span class="icon arrow">></span>移动应用</a></h3>
+<ul class="sub_menu sub_menu_level1">
+	<li><h4><a data-title="Android应用" hidefocus="true" title="" href="javascript:;" isCategory="1"><span class="icon triangle"></span>Android应用</a></h4>
+	<ul class="sub_menu">
+		<li><a data-title="Android_SDK环境搭建" hidefocus="true" title="Android_SDK环境搭建" href="https://wiki.connect.qq.com/qq%e7%99%bb%e5%bd%95">Android_SDK环境搭建</a></li>
+		<li><a data-title="Android_SDK功能列表" hidefocus="true" title="Android_SDK功能列表" href="https://wiki.connect.qq.com/android_sdk%e5%8a%9f%e8%83%bd%e5%88%97%e8%a1%a8">Android_SDK功能列表</a></li>
+		<li><a data-title="Android_SDK常见问题" hidefocus="true" title="Android_SDK常见问题" href="https://wiki.connect.qq.com/android%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98">Android_SDK常见问题</a></li>
+		<li><a data-title="Android_SDK历史变更" hidefocus="true" title="Android_SDK历史变更" href="https://wiki.connect.qq.com/android_sdk%e5%8e%86%e5%8f%b2%e5%8f%98%e6%9b%b4">Android_SDK历史变更</a></li>
+	</ul>
+</li>
+	<li><h4><a data-title="iOS应用" hidefocus="true" href="javascript:;" isCategory="1"><span class="icon triangle"></span>iOS应用</a></h4>
+	<ul class="sub_menu">
+		<li><a data-title="iOS_SDK环境搭建" hidefocus="true" title="iOS_SDK环境搭建" href="https://wiki.connect.qq.com/ios_sdk%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba">iOS_SDK环境搭建</a></li>
+		<li><a data-title="iOS_SDK功能列表" hidefocus="true" title="iOS_SDK功能列表" href="https://wiki.connect.qq.com/ios_sdk%e5%8a%9f%e8%83%bd%e5%88%97%e8%a1%a8">iOS_SDK功能列表</a></li>
+		<li><a data-title="iOS_SDK接口说明" hidefocus="true" title="iOS_SDK接口说明" href="https://wiki.connect.qq.com/ios_sdk%e5%a4%b4%e6%96%87%e4%bb%b6%e6%89%80%e6%9c%89api%e6%8e%a5%e5%8f%a3%e8%af%b4%e6%98%8e">iOS_SDK接口说明</a></li>
+		<li><a data-title="iOS_SDK历史变更" hidefocus="true" title="iOS_SDK历史变更" href="https://wiki.connect.qq.com/ios_sdk%e5%8e%86%e5%8f%b2%e5%8f%98%e6%9b%b4">iOS_SDK历史变更</a></li>
+	</ul>
+</li>
+	<li><h4><a data-title="HarmonyOS应用" hidefocus="true" href="javascript:;" isCategory="1"><span class="icon triangle"></span>HarmonyOS应用</a></h4>
+	<ul class="sub_menu">
+		<li><a data-title="HarmonyOS_SDK环境搭建" hidefocus="true" title="HarmonyOS_SDK环境搭建" href="https://wiki.connect.qq.com/harmonyos_sdk%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba">HarmonyOS_SDK环境搭建</a></li>
+		<li><a data-title="HarmonyOS_SDK接口说明" hidefocus="true" title="HarmonyOS_SDK接口说明" href="https://wiki.connect.qq.com/harmonyos_sdk%e6%8e%a5%e5%8f%a3%e8%af%b4%e6%98%8e">HarmonyOS_SDK接口说明</a></li>
+		<li><a data-title="HarmonyOS_SDK历史变更" hidefocus="true" title="HarmonyOS_SDK历史变更" href="https://wiki.connect.qq.com/harmonyos_sdk%e5%8e%86%e5%8f%b2%e5%8f%98%e6%9b%b4">HarmonyOS_SDK历史变更</a></li>
+		<li><a data-title="HarmonyOS_SDK常见问题" hidefocus="true" title="HarmonyOS_SDK常见问题" href="https://wiki.connect.qq.com/harmonyos_sdk%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98">HarmonyOS_SDK常见问题</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li><h3><a class="item_level1" data-title="问题&amp;解答" hidefocus="true" href="javascript:;" isCategory="1"><span class="icon dot">·</span><span class="icon arrow">></span>问题&amp;解答</a></h3>
+<ul class="sub_menu sub_menu_level1">
+	<li><a data-title="概念和术语" hidefocus="true" title="概念和术语" href="https://wiki.connect.qq.com/%e6%a6%82%e5%bf%b5%e5%92%8c%e6%9c%af%e8%af%ad">概念和术语</a></li>
+	<li><a data-title="申请注册相关" hidefocus="true" title="申请注册相关" href="https://wiki.connect.qq.com/%e5%b8%b8%e8%a7%84%e9%97%ae%e9%a2%98-20170322">申请注册相关</a></li>
+	<li><a data-title="开发接入相关" hidefocus="true" title="开发接入相关" href="https://wiki.connect.qq.com/%e5%bc%80%e5%8f%91%e8%81%94%e8%b0%83%e7%9b%b8%e5%85%b3%e9%97%ae%e9%a2%98">开发接入相关</a></li>
+	<li><a data-title="回调校验相关" hidefocus="true" title="回调校验相关" href="https://wiki.connect.qq.com/%e5%9b%9e%e8%b0%83%e5%9c%b0%e5%9d%80%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e5%8f%8a%e4%bf%ae%e6%94%b9%e6%96%b9%e6%b3%95">回调校验相关</a></li>
+	<li><a data-title="常见问题" hidefocus="true" title="常见问题" href="https://wiki.connect.qq.com/%e7%89%b9%e6%ae%8a%e9%97%ae%e9%a2%98-top10">常见问题</a></li>
+	<li><a data-title="联系我们" hidefocus="true" title="联系我们" href="https://wiki.connect.qq.com/%e5%bc%80%e5%8f%91%e8%80%85%e5%8f%8d%e9%a6%88">联系我们</a></li>
+</ul>
+</li>
+<li><h3><a class="item_level1 item_level1_current" data-title="政策与规范" hidefocus="true" title="政策与规范" href="javascript:;" isCategory="1"><span class="icon dot">·</span><span class="icon arrow">></span>政策与规范</a></h3>
+<ul class="sub_menu menu_open sub_menu_level1">
+	<li><a class="item_current item_open" data-title="QQ互联SDK隐私保护声明" hidefocus="true" title="QQ互联SDK隐私保护声明" href="https://wiki.connect.qq.com/qq%e4%ba%92%e8%81%94sdk%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4%e5%a3%b0%e6%98%8e">QQ互联SDK隐私保护声明</a></li>
+	<li><a data-title="应用审核规范" hidefocus="true" title="应用审核规范" href="https://wiki.connect.qq.com/%e7%bd%91%e7%ab%99%e5%ae%a1%e6%a0%b8%e8%a7%84%e8%8c%83">应用审核规范</a></li>
+	<li><a data-title="网站前端页面规范" hidefocus="true" title="网站前端页面规范" href="https://wiki.connect.qq.com/%e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e6%8e%a5%e5%85%a5%e6%b5%81%e7%a8%8b%ef%bc%88%e6%94%b9%ef%bc%89test">网站前端页面规范</a></li>
+	<li><a data-title="开发者协议" hidefocus="true" title="开发者协议" href="https://wiki.connect.qq.com/%e5%bc%80%e5%8f%91%e8%80%85%e5%8d%8f%e8%ae%ae">开发者协议</a></li>
+</ul>
+</li>
+</ul></nav>		</aside>
+		<div class="page_content">
+			
+		<form role="search" method="get" id="searchform" action="https://wiki.connect.qq.com/" >
+			<div class="search-tool">
+				<input type="text" value="" name="s" id="s"/>
+				<input type="submit" id="searchsubmit" value="搜索" class="btn" />
+				
+			</div>
+		</form>
+				<div id="share">
+	<span>分享到 : </span>
+	<a class="qcShareQQDiv" href="###" target="_blank" hidefocus="true" title="分享到QQ" style="background-image: url(https://sola.gtimg.cn/aoi/sola/20210118201807_hzF9zYwEBj.png);background-position: 0;"></a>
+	<!-- <a class="qzOpenerDiv" href="###" target="_blank" hidefocus="true" title="分享到Qzone"></a> -->
+</div>			<div class="page_content_inner wrapper">
+				
+<div id="post-5047" class="post">
+
+	<h1 class="post_title">QQ互联SDK隐私保护声明</h1>
+
+	<div class="wp-editor">
+		
+<p style="text-align:right">更新日期：2024年4月26日<br>生效日期：2024年4月26日</p>
+
+为更充分保障你的权利，我们对《QQ互联SDK隐私保护声明》进行了更新，此版本的更新主要集中于：
+在第1章节“我们如何收集和使用App开发者和/或终端用户的个人信息”部分，进一步披露了我们在用户使用分享到QQ/TIM、加好友等功能时需使用的信息。
+
+
+
+<p class="has-normal-font-size" style="text-align:center"><strong><a name="yinyan" style="color: #5D6170;cursor: default;text-decoration:none">引言</a></strong></p>
+
+
+
+<p>深圳市腾讯计算机系统有限公司（以下简称为“我们”或 “腾讯公司”）严格遵守法律法规，按照业界成熟的安全与隐私标准，保护App开发者和其终端用户的个人信息。</p>
+
+
+
+<p>《QQ互联SDK隐私保护声明》（以下简称为“本声明”）按照中国相关的法律、法规、标准制订，旨在释明我们如何处理App开发者和其终端用户的个人信息，以及App开发者和其终端用户如何维护其个人信息。</p>
+
+
+
+<p>本声明适用于我们通过QQ互联SDK Android版、QQ互联SDK iOS版、QQ互联SDK HarmonyOS版以及我们不时提供或更新的QQ互联SDK其他版本向您提供的产品和/或服务。如某一版本有特殊功能或特殊个人信息处理活动的，我们会予以说明。如我们的产品和/或服务单独设置了隐私政策/隐私协议的，单独的隐私政策/隐私协议优先于本声明适用；单独的隐私政策/隐私协议未提及的内容，适用本声明。</p>
+
+
+
+<p><strong>请注意，本声明不适用于QQ互联SDK产品和/或服务集成的任何第三方应用程序或软件，或者任何其他第三方产品、服务或业务（统称为“第三方服务”）。第三方服务受其自有隐私政策约束。我们建议App开发者和其终端用户在使用任何第三方服务之前仔细查看对其加以约束的隐私政策。</strong></p>
+
+
+
+<p><strong>在注册、接入、使用QQ互联SDK产品和/或服务前，请App开发者务必仔细阅读本声明，并确认已经充分理解本声明的内容，按照本声明，作出认为适当的选择。同时，App开发者应将本声明提供给App终端用户以便于终端用户了解相关内容并获取终端用户同意。除非另有说明，<u>如果App开发者或终端用户不同意本声明或其更新，App开发者或终端用户应立即停止接入和/或使用QQ互联SDK产品和/或服务。</u></strong></p>
+
+
+
+<p>我们对关键术语进行了定义，请参见本声明“附录：定义”。<strong><u>我们对个人敏感信息采用<em>“</em>加粗<em>”</em>的书写方式进行特别提醒。</u></strong>如对本声明内容有任何疑问、意见或建议，可随时通过本声明第9条提供的方式与我们联系。</p>
+
+
+
+<p class="has-text-align-left has-normal-font-size"><br>本声明将帮助App开发者和其终端用户了解以下内容：</p>
+
+
+
+<p>1、<a style="color: #5D6170" href="#one">我们如何收集和使用App开发者和/或终端用户的个人信息</a></p>
+
+
+
+<p>2、<a style="color: #5D6170" href="#three">我们如何共享、转让、公开披露App开发者和/或终端用户的个人信息</a></p>
+
+
+
+<p>3、<a style="color: #5D6170" href="#four">我们如何存储App开发者和/或终端用户的个人信息</a></p>
+
+
+
+<p>4、<a style="color: #5D6170" href="#five">我们如何保护App开发者和/或终端用户的个人信息安全</a></p>
+
+
+
+<p>5、<a style="color: #5D6170" href="#six">App开发者和/或终端用户如何管理其个人信息</a></p>
+
+
+
+<p>6、<a style="color: #5D6170" href="#seven">我们如何处理儿童个人信息</a></p>
+
+
+
+<p>7、<a style="color: #5D6170" href="#eight">如何变更与更新本声明</a></p>
+
+
+
+<p>8、<a style="color: #5D6170" href="#nine">如何联系我们</a></p>
+
+
+
+<p>9、<a style="color: #5D6170" href="#ten">其它</a><br></p>
+
+
+
+<br><p style="font-size:15px"><a name="one" style="color: #5D6170;cursor: default;text-decoration:none"><strong>1、我们如何收集和使用App开发者和/或终端用户的个人信息</strong></a></p>
+
+
+
+<p>我们遵循合法、正当、必要的原则，基于本声明第1条所述的目的，收集和使用个人信息。我们收集的个人信息类型会因产品和/或服务的内容不同而有所区别，具体以产品/服务实际提供为准。点击查看<em><a href="https://privacy.qq.com/document/preview/a3834412e9bb4098802f5a9f86f70287" target="_blank" rel="noreferrer noopener">《QQ互联SDK已收集个人信息清单》</a></em>。</p>
+
+
+
+<p><strong>1.1&nbsp;</strong><strong>从App开发者收集的App开发者和/或终端用户的个人信息</strong></p>
+
+
+
+<p><strong>1.1.1&nbsp;</strong><strong>从App开发者间接收集的终端用户的个人信息</strong></p>
+
+
+
+<p>为实现QQ互联SDK产品和/或服务的基础业务功能（包括但不限于实现App终端用户QQ互联登录、分享到QQ等基础功能，本QQ互联SDK无其他扩展功能），我们可能需要从App开发者间接收集并使用其终端用户的相关个人信息。以下将详细列出我们的基础业务功能及为实现该等基础功能所必需的信息类型，这些个人信息的收集、使用仅会在App开发者确认已获得了其终端用户同意的前提下进行：</p>
+
+
+
+<p>(1)为实现QQ互联SDK后台上报与问题监控（包括：快速定位解决机型兼容性问题等）的目的，需要收集App终端用户的【设备型号信息】；</p>
+
+
+
+<p>(2)为调用App终端用户通过QQ互联SDK （iOS版）拉起手机QQ传递信息能力的目的，在App使用分享能力并拉起手机QQ时，申请调用App终端用户的【剪切板】（该等调用行为仅限QQ互联SDK相关信息，不会获取、上传用户的剪切板信息）；</p>
+
+
+
+<p>(3)为实现QQ互联SDK（Android版、HarmonyOS版）终端用户使用多媒体文件分享至QQ、QQ空间或进行头像设置的目的，在App开发者采取非fileprovider的方式提供相关服务的情况下，调用App终端用户的【相册、内存卡权限】；</p>
+
+
+
+<p>(4)为实现QQ互联SDK（Android版）分享到QQ/TIM、加好友等功能，需要收集您设备上QQ/TIM的应用安装情况（仅判断特定应用的安装情况）；</p>
+
+
+
+<p><strong>1.1.2 App</strong><strong>开发者的个人信息</strong></p>
+
+
+
+<p>为实现QQ互联SDK产品和/或服务的业务功能，我们可能需要收集、使用App开发者的相关个人信息。以下将详细说明我们的业务功能以及为实现该功能所需的个人信息类型，若App开发者拒绝提供，则无法使用QQ互联SDK相关产品和/或服务。</p>
+
+
+
+<p>(1) 注册、登录</p>
+
+
+
+<p>当App开发者注册/登录QQ互联SDK账户时，我们将收集App开发者（个人）的姓名、QQ号码、联系地址、手机号码、电子邮箱、<strong>身份证号码及手持身份证照片</strong>等个人信息；收集App开发者（企业）的公司名称、地址、营业执照号码及照片、公司负责人及QQ号码、联系电话、电子邮箱等信息；以便我们与App开发者沟通产品使用与费用支付情况。</p>
+
+
+
+<p>根据《中华人民共和国网络安全法》， App开发者使用信息发布、即时通讯等服务时，我们还将收集App开发者的<strong>身份证信息</strong>用于开发者实名认证。</p>
+
+
+
+<p>(2) 账户与系统安全</p>
+
+
+
+<p>为保障App开发者的账户安全与系统运行安全，更准确地预防钓鱼网站欺诈，当App开发者在访问和浏览QQ互联SDK网站（如有）时，我们会自动收集App开发者使用QQ互联SDK产品和/或服务的详细情况，并作为网络日志进行保存，包括Internet 协议(IP)地址，浏览器类型，Internet 服务提供商（ISP），参考/退出页面，操作系统，日期/时间戳和点击数据流，以判断App开发者的账户风险，保障QQ互联SDK正常提供服务，统计流量，排查异常信息以及检测、预防和调查欺诈、滥用或安全事件。</p>
+
+
+
+<p><strong>1.3 </strong><strong>从第三方获取</strong><strong>的A</strong><strong>pp</strong><strong>开发者和/或终端用户的个人信息</strong></p>
+
+
+
+<p>我们可能会从第三方间接收集并使用App开发者和/或终端用户的个人信息，但这只发生在：我们确认该等第三方已经就将相关个人信息分享给我们获得App开发者和/或终端用户的同意，或者第三方依法被许可或被要求向我们披露App开发者和/或终端用户的个人信息。</p>
+
+
+
+<p>我们会要求第三方对个人信息来源的合法性和合规性作出承诺，如第三方有违反行为的，我们会明确要求对方承担相应法律责任。</p>
+
+
+
+<p>我们会了解第三方已获得的个人信息处理的同意范围，包括使用目的，个人信息主体是否同意转让、共享、公开披露、删除等内容。</p>
+
+
+
+<p>这些从第三方获取的个人信息将用于为App开发者和/或终端用户提供服务，以及用于保证我们所掌握的App开发者和/或终端用户的相关记录的准确性。如果我们对这些个人信息的处理活动超出第三方已获得的同意范围，在获取个人信息的合理期限内或处理个人信息前，我们会直接或通过提供信息的第三方征得App开发者和/或终端用户的同意。</p>
+
+
+
+<p><strong>1.4 App</strong><strong>开发者的义务</strong></p>
+
+
+
+<p><strong><u>App</u></strong><strong><u>开发者知悉并同意：</u></strong></p>
+
+
+
+<p>1.4.1 App开发者已经<strong>遵守并将持续遵守</strong>适用的法律、法规和监管要求收集、使用和处理App终端用户的个人信息，包括但不限于制定和公布有关App《个人信息保护声明》或《隐私政策》等；</p>
+
+
+
+<p>1.4.2 App开发者已遵从国家法律法规、政策及标准的要求，在App上对《个人信息保护声明》或《隐私政策》进行展示，包括但不限于：</p>
+
+
+
+<p>(1)《个人信息保护声明》或《隐私政策》具有独立性和明显提示性，即《隐私政策》应单独成文;</p>
+
+
+
+<p>(2) App首次运行时会通过弹窗等明显方式提示终端用户阅读《个人信息保护声明》或《隐私政策》，终端用户确认同意《个人信息保护声明》或《隐私政策》后，再启用QQ互联SDK产品和/或服务进行个人信息的收集与处理；</p>
+
+
+
+<p>(3) App已向终端用户明示收集使用个人信息的目的、方式和范围，但请App开发者注意，仅是改善服务质量、提升用户体验、定向推送信息、研发新产品还不足以能成为要求终端用户同意收集其个人信息的理由；</p>
+
+
+
+<p>(4)《隐私政策》由终端用户自主选择是否同意，而非以默认勾选同意的方式或以欺骗诱导的方式取得终端用户同意；</p>
+
+
+
+<p>1.4.3 App开发者已将QQ互联SDK产品和/或服务的相关信息在App《个人信息保护声明》或《隐私政策》中、App《已收集个人信息清单》、《与第三方共享个人信息清单》以及《第三方SDK目录》中向终端用户进行<strong>充分告知</strong>；</p>
+
+
+
+<p>1.4.4 App开发者已经<strong>告知</strong>App终端用户并且<strong>已经获得终端用户充分、必要且明确的授权、同意和许可</strong>（包括获取了儿童监护人对提供终端用户是儿童的个人信息的同意）、为提供QQ互联SDK产品和/或服务以及与App功能对应的目的，我们会收集和共享以及如何使用（包括允许我们根据本声明的规定收集和处理）App终端用户的个人信息，并就App向我们分享终端用户个人信息已获得终端用户的<strong>单独同意</strong>（我们受App开发者委托处理终端用户个人信息的除外）；</p>
+
+
+
+<p>1.4.5 除非适用法律另有规定，App开发者已经<strong>告知</strong>终端用户并且获得终端用户<strong>充分必要的授权、同意和许可</strong>，<strong>允许我们对已经收集的个人信息进行去标识化处理，并且在符合相关法律法规的前提下，可以将收集、处理的信息用于本声明第1条列明的用途；</strong></p>
+
+
+
+<p>1.4.6 App开发者已经向终端用户提供了<strong>易于操作的用户权利实现机制</strong>，并说明了终端用户可以如何以及何时行使选择权、如何访问、更正其个人信息，以及行使删除权、更改其同意的范围等操作。</p>
+
+
+
+<p><strong>1.5&nbsp;</strong><strong>征得同意的例外情形</strong></p>
+
+
+
+<p><strong>尽管本声明有其他规定，以下情形中，我们处理（包括个人信息的收集、使用、存储、加工、传输、提供、公开、删除等）个人信息无需征得App开发者和/或终端用户的同意：</strong></p>
+
+
+
+<p>(1) 为订立、履行App开发者和/或终端用户作为一方当事人的合同所必需，或者按照依法制定的劳动规章制度和依法签订的集体合同实施人力资源管理所必需；</p>
+
+
+
+<p>(2) 为履行法定职责或者法定义务所必需；</p>
+
+
+
+<p>(3) 为应对突发公共卫生事件，或者紧急情况下为保护自然人的生命健康和财产安全所必需；</p>
+
+
+
+<p>(4) 为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理App开发者和/或终端用户的个人信息；</p>
+
+
+
+<p>(5) 依照《个人信息保护法》规定在合理范围内处理App开发者和/或终端用户自行公开或者其他已经合法公开的个人信息；</p>
+
+
+
+<p>(6) 法律、行政法规规定的其他情形。</p>
+
+
+
+<p><strong>1.6&nbsp;</strong><strong>个人信息的使用规则</strong></p>
+
+
+
+<p>1.6.1 我们会根据本声明和/或与App开发者的合同约定，并仅为实现QQ互联SDK产品和/或服务功能，对所收集的个人信息进行处理。<strong>若需要将收集的个人信息用于其他目的，我们会以合理方式告知App开发者，并在App开发者获得其终端用户同意后进行使用；如涉及我们直接向App终端用户收集的个人信息，则我们将通过单独弹窗或页面跳转等方式向终端用户告知并获得终端用户同意。</strong></p>
+
+
+
+<p>1.6.2 在收集App开发者和/或终端用户的个人信息后，我们将通过技术手段对个人信息进行去标识化或匿名化处理。 1.6.3我们向App开发者提供的QQ互联SDK产品和/或服务停止运营后，或者App开发者和/或终端用户撤回个人信息的授权后，或者App开发者和/或终端用户注销账号后，我们将会于合理的时间内销毁或匿名化处理从App开发者和/或终端用户接收的所有个人信息，除非法律另有规定。</p>
+
+
+
+<br><p style="font-size:15px"><a name="three" style="color: #5D6170;cursor: default;text-decoration:none"><strong>2、我们如何共享、转让、公开披露App开发者和/或终端用户的个人信息</strong></a></p>
+
+
+
+<p><strong>2.1&nbsp;</strong><strong>共享</strong></p>
+
+
+
+<p><strong>在获得App开发者和/或终端用户同意的前提下（分享经匿名化处理的个人信息除外），我们可能会向合作伙伴等第三方共享App开发者和/或终端用户的个人信息，以保障为App开发者和/或终端用户提供的服务顺利完成。我们仅会在符合合法、正当、必要原则且出于本声明所明确的目的与第三方分享App开发者和/或终端用户的个人信息。如果第三方改变或超越App开发者和/或终端用户原同意范围处理个人信息，则我们会要求第三方再次征得App开发者和/或终端用户的同意。</strong></p>
+
+
+
+<p><strong>对我们与之共享个人信息的第三方，我们会要求其提供数据安全能力和信息安全资质（例如：等级保护测评、信息安全管理体系等）证明，并严格遵守我们关于数据隐私保护的措施和要求，包括但不限于根据数据保护协议、承诺书及相关数据处理政策进行个人信息的处理，避免识别出个人身份，保障隐私安全。在个人敏感信息的处理上，我们会要求第三方采用数据脱敏加密技术，从而更好地保护个人信息。如果App开发者和/或终端用户对第三方处理个人信息有异议或发现这些第三方存在风险时，请按照本声明第9条所述方式联系我们。</strong></p>
+
+
+
+<p><strong>2.2&nbsp;</strong><strong>转让</strong></p>
+
+
+
+<p><strong>我们不会将App开发者和/或终端用户的个人信息转让给任何公司、组织和个人，但以下情况除外：</strong></p>
+
+
+
+<p>(1) 事先获得App开发者和/或终端用户明确的同意；</p>
+
+
+
+<p>(2) 在涉及合并、分立、解散、被宣告破产、收购、资产转让或类似的交易时，如涉及到个人信息转让，我们将向App开发者和/或终端用户告知接收方的名称或者姓名和联系方式，并会要求新的持有App开发者和/或终端用户个人信息的公司、组织继续受本声明的约束，否则，我们将要求该公司、组织重新向App开发者和/或终端用户征求同意。</p>
+
+
+
+<p><strong>2.3&nbsp;</strong><strong>公开披露</strong></p>
+
+
+
+<p><strong>我们不会公开披露App开发者和/或终端用户的个人信息，如必须公开披露时，我们会向App开发者和/或终端用户告知此次公开披露的目的、披露信息的类型及可能涉及的敏感信息，并征得App开发者和/或终端用户的单独同意</strong>。</p>
+
+
+
+<p><strong>2.4&nbsp;</strong><strong>共享、转让、公开披露个人信息时事先征得同意的例外</strong></p>
+
+
+
+<p>请理解，在本声明“征得同意的例外”条款所列的情形中，根据《个人信息保护法》，我们共享、转让、公开披露App开发者和/或终端用户的个人信息，无需事先征得App开发者和/或终端用户的同意。</p>
+
+
+
+<br><p style="font-size:15px"><a name="four" style="color: #5D6170;cursor: default;text-decoration:none"><strong>3、我们如何存储App开发者和/或终端用户的个人信息</strong></a></p>
+
+
+
+<p><strong>3.1&nbsp;</strong><strong>存储方式和期限</strong></p>
+
+
+
+<p>我们会通过安全的方式存储App开发者和/或终端用户的信息，包括本地存储、数据库和服务器日志。</p>
+
+
+
+<p>一般情况下，我们只会在为实现本声明所述目的所必需的最短时间内或法律法规规定或个人信息主体另行同意的条件/范围内存储App开发者和/或终端用户的个人信息。但在下列情况下，且仅出于下列情况相关的目的，我们有可能需要较长时间保留App开发者和/或终端用户的个人信息：</p>
+
+
+
+<p>(1) 遵守适用的法律法规等有关规定；</p>
+
+
+
+<p>(2) 遵守法院判决、裁定或其他法律程序的要求；</p>
+
+
+
+<p>(3) 遵守相关政府机关或其他有权机关的要求；</p>
+
+
+
+<p>(4) 为执行相关服务协议或本声明、维护社会公共利益、处理投诉/纠纷，保护我们的客户、我们或我们的关联公司、其他用户或雇员的人身和财产安全或合法权益所合理必需的用途。超出上述存储期限后，我们会对App开发者和/或终端用户的个人信息进行删除或匿名化处理。</p>
+
+
+
+<p>当我们的产品和/或服务停止运营时，我们将以推送通知、公告等形式通知App开发者和/或终端用户，并在合理期限内删除其个人信息或进行匿名化处理，法律法规另有规定的除外。</p>
+
+
+
+<p><strong>3.2&nbsp;</strong><strong>存储地域</strong></p>
+
+
+
+<p>我们会按照法律法规规定，将在中国境内收集和产生的个人信息存储于中国境内。</p>
+
+
+
+<p>如我们因业务等需要，确需向中国境外提供个人信息的，我们应具备法律规定的条件（通过国家网信部门组织的安全评估或按照国家网信部门制定的标准合同与境外接收方订立合同，约定双方的权利和义务等），并将向App开发者和/或终端用户告知境外接收方的名称或者姓名、联系方式、处理目的、处理方式、个人信息的种类以及您向境外接收方行使个人信息主体权利的方式和程序等事项，取得App开发者和/或终端用户的单独同意。我们将采取必要措施，保障境外接收方处理个人信息的活动达到中国法律规定的个人信息保护标准。</p>
+
+
+
+<br><p style="font-size:15px"><a name="five" style="color: #5D6170;cursor: default;text-decoration:none"><strong>4、我们如何保护App开发者和/或终端用户的个人信息安全</strong></a></p>
+
+
+
+<p><strong>4.1&nbsp;</strong><strong>安全保护措施</strong></p>
+
+
+
+<p>我们已使用符合业界标准的安全防护措施保护App开发者和/或终端用户提供的个人信息，防止数据遭到未经授权访问、公开披露、使用、修改、损坏或丢失。</p>
+
+
+
+<p>我们采用业界领先的技术保护措施。我们使用的技术手段包括但不限于防火墙、加密（例如SSL）、去标识化或匿名化处理、访问控制措施等。此外，我们还会不断加强将SDK集成到App上的安全能力。</p>
+
+
+
+<p>我们建立了保障个人信息安全专门的管理制度、流程和组织。我们也会审查该管理制度、流程和组织，以防未经授权的人员擅自访问、使用或披露用户的信息。</p>
+
+
+
+<p><strong>4.2&nbsp;</strong><strong>安全事件处置措施</strong></p>
+
+
+
+<p>若发生个人信息泄露、损毁、丢失等安全事件，我们会启动应急预案，阻止安全事件扩大。安全事件发生后，我们会及时以推送通知、邮件等形式向App开发者和/或终端用户告知安全事件的基本情况、我们即将或已经采取的处置措施和补救措施，以及我们对App开发者的应对建议。如果难以实现逐一告知，我们将通过公告等方式发布警示。</p>
+
+
+
+<br><p style="font-size:15px"><a name="six" style="color: #5D6170;cursor: default;text-decoration:none"><strong>5、App开发者和/或终端用户如何管理其个人信息</strong></a></p>
+
+
+
+<p>我们非常重视App开发者和/或终端用户对个人信息的管理，并尽全力提供对个人信息的查询、访问及修改等的相关权利，以使App开发者和/或终端用户有能力保障自身的隐私和信息安全。</p>
+
+
+
+<p><strong>5.1&nbsp;</strong><strong>针对App开发者</strong></p>
+
+
+
+<p>App开发者在适用的范围内有权查询及更正个人信息。App开发者可以通过QQ互联SDK官方网站“应用管理”界面查询、更正和补充其个人信息，也可以通过本声明第9条提供的方式联系我们，以行使其他适用App开发者的权利。</p>
+
+
+
+<p><strong>5.1.1&nbsp;</strong><strong>查询个人信息</strong></p>
+
+
+
+<p>App开发者可以通过QQ互联SDK官方网站“应用管理”界面查询其个人信息。</p>
+
+
+
+<p><strong>5.1.2</strong><strong>更正、补充个人信息</strong></p>
+
+
+
+<p>当App开发者发现我们处理的App开发者的个人信息不准确或者不完整时，App开发者有权要求我们作出更正或补充。App开发者可以通过QQ互联SDK官方网站“应用管理”界面，自行对其个人信息进行更正、补充。</p>
+
+
+
+<p>App开发者也可以通过本声明第9条提供的方式联系我们，我们对App开发者的个人信息予以核实后，会及时更正、补充其个人信息。</p>
+
+
+
+<p><strong>5.1.3&nbsp;</strong><strong>获取本隐私声明的解释说明</strong></p>
+
+
+
+<p>App开发者可以通过本声明第9条提供的方式联系我们，要求我们对本声明进行解释说明。</p>
+
+
+
+<p><strong>5.1.4&nbsp;</strong><strong>去世用户的个人信息保护</strong></p>
+
+
+
+<p>用户去世的，其近亲属为了自身的合法、正当利益，可以对死者的相关个人信息行使本声明规定的查阅、复制、更正、删除等权利；死者生前另有安排的除外。</p>
+
+
+
+<p><strong>5.2&nbsp;</strong><strong>针对App终端用户</strong></p>
+
+
+
+<p>由于App终端用户不是我们的直接客户，我们建议：</p>
+
+
+
+<p>5.2.1 当终端用户所使用的App中某项功能由QQ互联SDK产品和/或服务提供，终端用户可以在使用我们服务的过程中，访问、修改和删除向App开发者提供的注册信息和其他个人信息，也可按照本声明第9条所述方式与我们联系；</p>
+
+
+
+<p>5.2.2 当终端用户直接向我们主张个人信息主体权利时，应提供必要的证明文件，我们还会对终端用户进行身份验证。我们会向App开发者核实终端用户身份以保障终端用户App账号安全的情况下，响应终端用户的相关请求；</p>
+
+
+
+<p>5.2.3 当终端用户直接向我们主张个人信息主体权利时，根据App开发者的隐私政策或个人信息保护声明，我们还可能将与终端用户个人信息相关的请求直接发送给该App开发者，要求其处理和/或寻求帮助。</p>
+
+
+
+<p>5.2.4 基于终端用户的同意而进行的个人信息处理活动，终端用户有权撤回该同意。QQ互联SDK已向App开发者提供关闭SDK服务的能力。如QQ互联SDK与终端用户无直接的交互对话界面，请终端用户直接向App开发者主张撤回同意的权利。</p>
+
+
+
+<p><strong>5.3&nbsp;</strong><strong>响应App开发者和/或终端用户的合理请求</strong></p>
+
+
+
+<p>为保障安全，如App开发者和/或终端用户根据本声明第6条向我们提出请求，我们将先验证App开发者和/或终端用户的个人信息主体身份，然后再处理其请求。</p>
+
+
+
+<p>我们会响应App开发者和/或终端用户上述的合理请求且原则上不收取费用，但对多次重复、超出合理限度的请求，我们将视情况收取一定成本费用。对于那些无端重复、需要过多技术手段（例如，需要开发新系统或从根本上改变现行惯例）、给他人合法权益带来风险或者非常不切实际（例如，涉及备份磁带上存放的信息）、根据法律、行政法规的规定无需响应的请求或响应将违反法律、行政法规的请求，我们可能会予以拒绝，并说明理由。</p>
+
+
+
+<p><strong>如App开发者和/或终端用户的对上述权利实现存在疑问，可以根据本声明第9条所述方式与我们联系。</strong></p>
+
+
+
+<br><p style="font-size:15px"><a name="seven" style="color: #5D6170;cursor: default;text-decoration:none"><strong>6、我们如何处理儿童个人信息</strong></a></p>
+
+
+
+<p><strong><u>请</u></strong><strong><u>App</u></strong><strong><u>开发者确保其是</u></strong><strong><u>18</u></strong><strong><u>周岁（含）以上人士。我们原则上不接受未满</u></strong><strong><u>18</u></strong><strong><u>周岁的未成年人注册登记成为我们的开发者用户，并且我们原则上也不接受</u></strong><strong><u>App</u></strong><strong><u>开发者提供终端用户为儿童的个人信息，请</u></strong><strong><u>App</u></strong><strong><u>开发者注意并谨慎提供。</u></strong><strong><u></u></strong></p>
+
+
+
+<p><strong><u>请</u></strong><strong><u>App</u></strong><strong><u>开发者理解并知悉，</u></strong><strong> </strong><strong>如果</strong><strong>App</strong><strong>用户中包括儿童用户或</strong><strong>App</strong><strong>是针对儿童并为儿童用户设计和开发的，请</strong><strong>App</strong><strong>开发者务必确保</strong><strong>App</strong><strong>终端用户（儿童）的监护人已经阅读并同意了</strong><strong>App</strong><strong>的隐私政策以及</strong><a href="https://privacy.qq.com/privacy-children.htm" target="_blank" rel="noreferrer noopener"><strong>《腾讯儿童隐私保护声明》</strong></a><strong>，并且经其同意后提供儿童个人信息给我们，以实现</strong><strong>App</strong><strong>在隐私政策中所述的相关功能。</strong><strong></strong></p>
+
+
+
+<p><strong>在我们直接向终端用户收集个人信息的情形下，儿童及其监护人应仔细阅读本声明。只有在取得监护人对本声明的同意后，我们才会处理的儿童个人信息。</strong></p>
+
+
+
+<p>如果我们在不知情的情况下收集了儿童的个人信息，我们将及时对其进行删除，除非法律要求我们保留此类资料。如果App开发者和/或终端用户或其监护人认为我们错误或意外地向儿童收集了信息，请按本声明第9条所述方式及时联系我们。如果经我们发现App开发者未获得儿童的监护人同意向我们提供儿童个人信息的，我们将尽快删除该儿童的个人信息并确保不对其进一步处理。</p>
+
+
+
+<br><p style="font-size:15px"><a name="eight" style="color: #5D6170;cursor: default;text-decoration:none"><strong>7、如何变更与更新本声明</strong></a></p>
+
+
+
+<p>为给App开发者提供更好的服务以及随着本产品和/或服务的不断发展与变化，我们可能会适时对本声明进行修订。</p>
+
+
+
+<p><strong>当本声明的条款发生变更时，我们会在版本更新时以弹窗、红点提示和/或网站公告等方式对App开发者进行提示，并说明生效日期。此外，如果更新后的本声明对App终端用户的权利有所影响，还需要请App开发者适时更新App的隐私政策。</strong></p>
+
+
+
+<p>对于重大变更，我们还会提供更为显著的通知（包括对于某些服务，我们会通过电子邮件或站内信形式或公告形式发送通知，说明本声明的具体变更内容）。因此，请随时查看和了解本声明。如果App开发者和/或终端用户不同意接受本声明，请停止接入和/或使用我们的服务。</p>
+
+
+
+<p>本声明所指的重大变更包括但不限于：</p>
+
+
+
+<p>(1) 我们的名称或者姓名和联系方式发生变化；</p>
+
+
+
+<p>(2) 个人信息的处理目的、处理方式，处理的个人信息种类、保存期限发生变化；</p>
+
+
+
+<p>(3) 个人行使法定权利的方式和程序发生变化；</p>
+
+
+
+<p>(4) 法律、行政法规规定应当告知的其他事项。</p>
+
+
+
+<p>请App开发者和/或终端用户仔细阅读变更后的本声明内容，App开发者和/或终端用户继续使用QQ互联SDK产品和/或服务表示其同意我们按照更新后的本声明处理其个人信息。如果个人信息的处理目的、处理方式和处理的个人信息种类发生变更的，我们将重新取得App开发者和/或终端用户的同意。<br></p>
+
+
+
+<br><p style="font-size:15px"><a name="nine" style="color: #5D6170;cursor: default;text-decoration:none"><strong>8、如何联系我们</strong></a></p>
+
+
+
+<p>如App开发者和/或终端用户对本声明或个人信息相关事宜有疑问，可以通过以下方式与我们及我们的个人信息保护负责人取得联系：</p>
+
+
+
+<p>(1) 通过&nbsp;<a href="https://kf.qq.com/" target="_blank" rel="noreferrer noopener">https://kf.qq.com/</a>与我们联系进行在线咨询；</p>
+
+
+
+<p>(2) 发送邮件至：Dataprivacy@tencent.com；</p>
+
+
+
+<p>(3) 邮寄信件至：中国广东省深圳市南山区科技中一路腾讯大厦&nbsp;法务部&nbsp;数据及隐私保护中心（收）邮编：518057。</p>
+
+
+
+<p>我们将及时验证请求人身份并尽快审核所涉问题，并在十五个工作日或法律法规规定的期限内予以回复。</p>
+
+
+
+<br><p style="font-size:15px"><a name="ten" style="color: #5D6170;cursor: default;text-decoration:none"><strong>9、其它</strong></a></p>
+
+
+
+<p>10.1 <a href="https://privacy.qq.com/" target="_blank" rel="noreferrer noopener">《腾讯隐私政策》</a>是腾讯统一适用的一般性隐私条款，其中所规定的用户权利及信息安全保障措施均适用于App开发者和/或终端用户。如《腾讯隐私政策》与本声明存在不一致或矛盾之处，请以本声明为准。</p>
+
+
+
+<p><strong>10.2 </strong><strong>我们请</strong><strong>App</strong><strong>开发者特别注意：当</strong><strong>App</strong><strong>开发者进行个人信息的处理活动，如果</strong><strong>App</strong><strong>开发者符合以下任何一项条件，请</strong><strong>App</strong><strong>开发者注意遵守《欧盟通用数据保护条例》（</strong><strong>General Data Protection Regulation</strong><strong>，以下简称</strong><strong>“GDPR”</strong><strong>）：</strong></p>
+
+
+
+<p>(1) App开发者在欧盟经济区域（“EEA”），无论该处理活动是否在欧盟进行；</p>
+
+
+
+<p>(2) 向在EEA的个人提供商品或服务（不论是否有偿），或者监视其在EEA内的行为；</p>
+
+
+
+<p>(3) 不在EEA内，但根据国际公法适用欧盟成员国法律（例如EEA成员国的使馆或领事馆）。</p>
+
+
+
+<p>如果App开发者和/或终端用户来自EEA，我们收集和使用上述个人信息的法律依据将取决于相关个人信息以及我们收集信息的具体背景。</p>
+
+
+
+<p>对于EEA中的App开发者和/或终端用户，有权根据适用的数据保护法律向主管数据保护机构投诉或向具有管辖权的法院提起诉讼。</p>
+
+
+
+<p>如果App开发者和/或终端用户对我们收集和使用个人信息的法律依据有疑问或需要进一步信息的，请根据本声明第9条所述方式与我们联系。</p>
+
+
+
+<p class="has-text-align-right">深圳市腾讯计算机系统有限公司</p>
+
+
+
+<br><p style="font-size:15px"><a name="fulu" style="color: #5D6170;cursor: default;text-decoration:none"><strong>附录：定义</strong></a></p>
+
+
+
+<p>本声明中使用的特定词语，具有如下含义：</p>
+
+
+
+<p>1、<strong>我们或腾讯公司</strong>：指深圳市腾讯计算机系统有限公司。</p>
+
+
+
+<p>2、<strong>QQ</strong><strong>互联</strong><strong>SDK</strong><strong>产品和</strong><strong>/</strong><strong>或服务</strong>：指深圳市腾讯计算机系统有限公司开发的使用QQ账号对第三方APP进行快捷登录的产品和/或服务。</p>
+
+
+
+<p>3、<strong>App</strong><strong>开发者</strong>：指购买、接入、使用QQ互联SDK产品和/或服务的开发者客户。</p>
+
+
+
+<p>4、<strong>App</strong><strong>终端用户</strong>：指使用嵌入QQ互联SDK产品和/或服务的App终端用户。</p>
+
+
+
+<p>5、<strong>应用程序（</strong><strong>App</strong><strong>）产品和</strong><strong>/</strong><strong>或服务</strong>：指通过接入QQ互联SDK产品和/或服务，App开发者自行开发并向App终端用户提供产品和/或服务。</p>
+
+
+
+<p>6、<strong>关联公司：</strong>是指与深圳市腾讯计算机系统有限公司合并报表范围内的下属公司或其他关联企业。上述公司中任何一方现在或将来控制、受控制或与其处于共同控制下。</p>
+
+
+
+<p>7、<strong>控制：</strong>是指直接或间接地拥有影响所提及公司管理的能力，无论是通过所有权、有投票权的股份、合同或其他被依法认定的方式。</p>
+
+
+
+<p>8、<strong>个人信息：</strong>指以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息，不包括匿名化处理后的信息。</p>
+
+
+
+<p>9、<strong>用户：</strong>通过使用产品和/或服务将其所持有的个人信息交托于数据控制者控制的自然人。</p>
+
+
+
+<p>10、<strong>儿童：</strong>指未满14周岁的未成年人。</p>
+
+
+
+<p>11、<strong>个人敏感信息：</strong>一旦泄露或者非法使用，容易导致自然人的人格尊严受到侵害或者人身、财产安全受到危害的个人信息，包括生物识别、宗教信仰、特定身份、医疗健康、金融账户、行踪轨迹等信息，以及不满十四周岁未成年人的个人信息。</p>
+
+
+
+<p>12、<strong>处理个人信息：</strong>指个人信息的收集、存储、使用、加工、传输、提供、公开、删除等。</p>
+
+
+
+<p>13、<strong>去标识化：</strong>指通过对个人信息的技术处理，使其在不借助额外信息的情况下，无法识别个人信息主体的过程。</p>
+
+
+
+<p>14、<strong>匿名化：</strong>指个人信息经过处理无法识别特定自然人且不能复原的过程。</p>
+
+
+
+<p>15、<strong>Cookie</strong><strong>：</strong>Cookie是包含字符串的小文件，在用户登入和使用网站或其他网络内容时发送、存放在用户计算机、移动设备或其他装置内（通常经过加密）。Cookie同类技术是可用于与Cookie类似用途的其他技术，例如：Web Beacon、Proxy、嵌入式脚本、像素标签等。</p>
+
+
+
+<p>16、<strong>SSL</strong><strong>：</strong>SSL（Secure Socket Layer）又称为安全套接层，是在传输通信协议（TCP/IP）上实现的一种安全协议。SSL支持各种类型的网络，同时提供三种基本的安全服务，均通过使用公开密钥和对称密钥技术以达到信息保密的效果。</p>
+
+
+
+<p>17、<strong>中国或中国境内：</strong>指中华人民共和国大陆地区，仅为本声明之目的，不包含香港特别行政区、澳门特别行政区和台湾地区。</p>
+
+
+
+<p>18、<strong>欧盟经济区域（</strong><strong>EEA</strong><strong>）</strong>：包括冰岛、列支顿士登和挪威（瑞士除外），以及欧盟成员国。</p>
+	</div>
+
+</div>
+				<div class="comment">
+	<!-- <div class="comment_process">
+		<h4 class="comment_title">欢迎对我们文档做出评价:</h4>
+		
+		<div class="comment_main">
+			<div id="commentTextareaWrap">
+				<textarea id="commentTextarea"></textarea>
+				<span id="comment_msg">感谢您留下更多的建议反馈…(限500字以内)</span>
+			</div>
+			<div id="comment_login">
+				<div class="inner"><a href="javascript:void(0);" id="comment_login_btn" class="btn"></a>您还没有登录，</div>
+			</div>
+		</div>
+
+		<div class="comment_footer">
+			<a href="javascript:void(0);" class="btn" id="comment_submit">提交</a>
+			<span id="comment_tip"></span>
+		</div>
+	</div>
+
+	<div id="comment_suc">
+		<p class="comment_suc_title">提交成功！</p>
+		<p>感谢您的批评与建议，我们将针对性的进行优化，为您提供更好的服务。</p>
+		<p>QQ互联与您一同成长！</p>
+	</div> -->
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--页脚部分-->
+<footer>
+  <!--页脚链接-->
+  <section class="links">
+    <!-- <a href="http://connect.qq.com/about">联系我们</a> -->
+    <a href="http://open.qq.com/">开放平台</a>
+    <a href="http://user.qzone.qq.com/1240081547">认证空间</a>
+    <!-- <a href="http://e.t.qq.com/QQConnect">官方微博</a> -->
+    <!-- <a href="http://b.qq.com/webc.htm?new=0&sid=800030681&eid=2188z8p8p8p8P8p8x8z8q&o=opensns.qq.com&q=7" target="_blank">在线客服</a> -->
+  </section>
+
+  <!--版权声明-->
+  <section class="copyright">
+  Copyright &copy; 1998 - <script>document.write(new Date().getFullYear());</script> Tencent. <a href="https://www.tencent.com/en-us/le/copyrightstatement.shtml" target="_blank" class="c_tx2">All Rights Reserved.</a><br />
+  腾讯公司 版权所有
+  </section>
+</footer>
+
+<!-- 回到顶部 -->
+<a href="#" class="totop" id="totop">
+  <i class="icon"></i>
+  <span>返回顶部</span>
+</a>
+
+<link rel='stylesheet' id='wp-block-library-css'  href='https://wiki.connect.qq.com/wp-includes/css/dist/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
+<script type='text/javascript' src='https://connect.qq.com/lib/jquery/1.7.2/jquery.min.js?ver=1.7.2' id='jquery-js'></script>
+<script type='text/javascript' src='https://wiki.connect.qq.com/wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+<script type="text/javascript" src="https://connect.qq.com/qconn/wiki/wikiv2/js/all.js?v=2-1-2"></script>
+</html>

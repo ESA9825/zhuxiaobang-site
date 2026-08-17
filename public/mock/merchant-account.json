@@ -1,0 +1,60 @@
+{
+  "code": 0,
+  "data": {
+    "authenticated": true,
+    "login_org_info": {
+      "organization_id": "local",
+      "organization_uid": "local",
+      "admin_id": "local",
+      "name": "本地商家",
+      "avatar": "",
+      "employee_id": "1"
+    },
+    "user_info": {
+      "name": "本地商家",
+      "avatar": "",
+      "employee_id": "1"
+    },
+    "currentUser": {
+      "name": "本地商家",
+      "avatar": ""
+    },
+    "currentLogin": {
+      "organization_id": "local",
+      "organization_uid": "local",
+      "admin_id": "local",
+      "name": "本地商家",
+      "employee_id": "1"
+    },
+    "organization_id": "local",
+    "organizationId": "local",
+    "menu": [
+      {
+        "id": "home",
+        "name": "首页",
+        "path": "/",
+        "children": []
+      }
+    ],
+    "functionMap": {
+      "home": true
+    },
+    "pathCodeMap": {},
+    "buttons_group": [],
+    "userType": "merchant",
+    "user_type": "merchant",
+    "platformPackInfo": {
+      "isVIP": false,
+      "inPackEffectiveCities": false
+    },
+    "globalOrgParam": {
+      "organization_id": "local",
+      "organization_uid": "local"
+    },
+    "navTheme": "light",
+    "layout": "side",
+    "employee_id": "1",
+    "employeeId": "1",
+    "total_unread_count": 0
+  }
+}

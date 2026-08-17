@@ -1,0 +1,70 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><meta http-equiv=Cache-Control content=no-siteapp><meta name=renderer content=webkit><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=screen-orientation content=portrait><meta name=x5-orientation content=portrait><meta name=full-screen content=yes><meta name=x5-fullscreen content=true><meta name=x5-page-mode content=app><meta name=browsermode content=application><meta name=msapplication-tap-highlight content=no><meta name=copyright content=honor-developer><meta name=keywords content=荣耀开发者平台,荣耀开放平台,荣耀开发者,荣耀开发者服务平台><meta name=description content=荣耀开发者服务平台是面向荣耀开发者的官方网站。为应用开发者和设计人员提供荣耀SDK和文档。致力于构建全场景、面向全渠道、服务全人群，创造属于每个人的智慧新世界。><title></title><link href=https://www.hihonor.com/etc/designs/honor-site/assets/favicon.ico mce_href=favicon.ico rel=bookmark type=image/x-icon><link href=https://www.hihonor.com/etc/designs/honor-site/assets/favicon.ico mce_href=favicon.ico rel=icon type=image/x-icon><link href=https://www.hihonor.com/etc/designs/honor-site/assets/favicon.ico mce_href=favicon.ico rel="shortcut icon" type=image/x-icon><link rel=canonical id=canonical href=https://developer.hihonor.com><script src=/config.js></script><script src=/markdown-it.min.js></script><script src=/highlight.min.js></script><style type=text/css>.edmSDKDemoDocument .batchDownload:hover,
+    .edmSDKDemoDocument .closeButton:hover {
+      background-color: #5c5e5f;
+      cursor: pointer;
+    }
+
+    .edmSDKDemoDocument .closeButton {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 40px;
+      height: 40px;
+      background-color: #9e9e9e;
+      box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.12);
+      border: 1px solid #9e9e9e;
+      border-radius: 50%;
+      color: white;
+      font-size: 32px;
+    }
+
+    .edmSDKDemoDocument iframe {
+      height: 600px;
+      left: 50%;
+      /* margin-left: -200px; */
+      position: absolute;
+      width: 80%;
+    }
+
+    .previewBox {
+      /* height: 70%; */
+      max-width: 90%;
+      max-height: 90%;
+      border: 1px solid #d4d4d4;
+      box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.12);
+      /* margin-left: 0px; */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }</style><link href=/static/css/chunk-vendors.267271123.css rel=stylesheet><link href=/static/css/portal.267271123.css rel=stylesheet></head><body><div id=app></div><div class=edmSDKDemoDocument><div oncontextmenu=handlepaste(event) onclick=hidePriview() id=popup style="width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: rgba(143, 142, 142, 0.41);
+        top: 0;
+        left: 0;
+        display: none;
+        z-index: 99999;"><input onclick=hidePriview() type=button value=× class=closeButton><iframe id=pdfFrame class=previewBox src="" style="height: 85%;
+          display: none;"></iframe></div></div><script src=/static/js/chunk-vendors.267271123.js></script><script src=/static/js/portal.267271123.js></script></body><script>var _hmt = _hmt || [];</script><script>function handlepaste(e) {
+    e.preventDefault()
+    return false
+  }
+  function hidePriview() {
+    document.getElementById("popup").style.display = "none";
+    document.getElementById('pdfFrame').style.display = "none";
+  }</script><script>//  var designWidth = 1920, rem2px = 100;
+  //     window.designSize = ((window.innerWidth / designWidth) * rem2px)
+  //     document.documentElement.style.fontSize = ((window.innerWidth / designWidth) * rem2px) + 'px';</script><script>const vConsoleToolEnv = ['dev.developer.honor.com', 'test.developer.honor.com', 'sec.developer.honor.com'];
+  const domain = window.location.hostname;
+  if (vConsoleToolEnv.includes(domain) && 'production' === 'production') {
+    const script = document.createElement('script');
+    script.src = "https://unpkg.com/vconsole@3.15.1/dist/vconsole.min.js";
+    const vConsoleInstance = function () {
+      var vConsole = new VConsole();
+      console.log('vConsole instance create successs!');
+    };
+    script.onload = function () {
+      vConsoleInstance()
+    }
+    document.body.appendChild(script);
+  }</script></html>

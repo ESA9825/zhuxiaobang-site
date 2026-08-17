@@ -1,0 +1,24 @@
+{
+  "body": "390x4579",
+  "hero": {
+    "x": 0,
+    "y": 68,
+    "width": 390,
+    "height": 609.234375,
+    "top": 68,
+    "right": 390,
+    "bottom": 677.234375,
+    "left": 0
+  },
+  "header": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 68,
+    "top": 0,
+    "right": 390,
+    "bottom": 68,
+    "left": 0
+  },
+  "textLength": 801
+}

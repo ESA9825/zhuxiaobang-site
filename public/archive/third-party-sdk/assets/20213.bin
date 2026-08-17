@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cn">
+  <head>
+    <meta charset="utf-8"/>
+    <title>文档中心</title>
+    <base href="/consumer/cn/doc/">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="applicable-device" content="pc,mobile"/>
+    <link rel="icon" type="image/x-icon" href="/config/favicon.ico"/>
+    <link rel="canonical" id="canonical" href=""/>
+    <link rel="alternate" type="text/markdown" id="alternate" href=""/>
+    <meta name="MobileOptimized" content="width"/>
+    <meta name="jsha" content="20260730160246"/>
+    <meta name="version" content="20260730160246"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <!-- 预加载资源 -->
+    <link rel="preload" href="/config/commonResource/font/font.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+    <noscript>
+      <link rel="stylesheet" href="/config/commonResource/font/font.css" />
+    </noscript>
+    <link rel="stylesheet" href="./assets/css/reset.css?20260730160246"/>
+    <script src="/config/aui-config/grayStrategy.js"></script>
+    <script typet="text/javascript" src="./assets/js/base.js?20260730160246"></script>
+    <script typet="text/javascript" src="./assets/const/official/env.20260730160246.js?20260730160246"></script>
+    
+  <link rel="stylesheet" href="styles.44dda242b34202e2.css"></head>
+  <body>
+    <app-root></app-root>
+    <link rel="stylesheet" href="./assets/css/document.css?20260730160246"/>
+  <script src="runtime.840d3b85bc3d719b.js" type="module"></script><script src="polyfills.84e9dd2a242bef1d.js" type="module"></script><script src="vendor.7f7b340b5d917577.js" type="module"></script><script src="main.38ef39de8d22e671.js" type="module"></script></body>
+</html>

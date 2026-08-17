@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>腾讯开放平台beta|开放成就梦想</title>
+  <meta name="keywords" content="Tencent Store、腾讯、企业服务、腾讯云、开放平台、AI、人工智能、广点通、解决方案、互联网+" />
+  <meta name="description"
+    content="腾讯开放平台，致力于打造最高效、可靠的企业服务平台。依托腾讯20年技术沉淀，整合腾讯内部核心资源，在研发、设计、推广、营收转化、产品体验上全方位赋能合作企业，助力企业加速实现科技转型，快速成长。" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="stylesheet" href="https://yyb.gtimg.com/zc/page/open/index/index-aec9725dc7.css?max_age=31536000">
+</head>
+
+<body>
+  <div class="notify">
+    <div class="wrap">
+      <div class="msg">腾讯开放平台全新升级，提供更丰富的开放能力和解决方案，满足开发者每一个成长阶段的发展需求</div>
+      <a class="btn action" href="https://support.qq.com/product/35224" target="_blank">问题反馈<i class="ico-more"></i></a>
+    </div>
+  </div>
+  <div class="mod-header">
+    <div class="layout clearfix">
+      <a href="/" _stat_click_id="header_2" class="mod-header-logo"></a>
+
+      <!--     <div class="mod-header-nav">
+      <ul>
+        <li class="nav-item">
+          <a href="#">腾讯产品服务</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">腾讯解决方案</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">腾讯行业方案</a>
+        </li>
+      </ul>
+    </div>
+ -->
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="navigation">
+      <div class="nav-item"><a href="#hot" class="dot" data-tooltip="热门服务平台" _stat_click_id="nav_1"></a></div>
+      <div class="nav-item"><a href="#creative" class="dot" data-tooltip="创新功能案例" _stat_click_id="nav_2"></a></div>
+      <div class="nav-item"><a href="#open" class="dot" data-tooltip="腾讯开放能力" _stat_click_id="nav_3"></a></div>
+      <div class="nav-item"><a href="#solution" class="dot" data-tooltip="标准化解决方案" _stat_click_id="nav_4"></a></div>
+      <div class="nav-item"><a href="#industry" class="dot" data-tooltip="行业解决方案" _stat_click_id="nav_5"></a></div>
+      <div class="nav-item"><a href="#support" class="dot" data-tooltip="生态扶持计划" _stat_click_id="nav_6"></a></div>
+    </div>
+
+    <div class="banner">
+      <div class="header-svg"></div>
+      <div class="desc">腾讯核心内部服务，二十年技术沉淀，助你成就更高梦想</div>
+    </div>
+
+    <div class="hot">
+      <div class="hot-hook" id="hot"></div>
+      <div class="wrap">
+        <div class="title">覆盖10亿账户的热门服务平台</div>
+        <div class="cont">
+          <div class="item">
+            <a class="main" href="//app.open.qq.com/p/app/list" target="_blank" _stat_click_id="hot1_0">
+              <div class="logo logo1"></div>
+              <div class="title">应用开放平台</div>
+              <div class="desc">
+                将你的应用接入应用宝，QQ空间等平台共享海量用户，数百万应用开发者共同的选择。
+              </div>
+            </a>
+            <div class="more">
+              <a class="action" href="//app.open.qq.com/p/app/list" target="_blank" _stat_click_id="hot1_1">应用接入<i
+                  class="ico-more"></i></a>
+              <a class="action" href="//app.open.qq.com/p/app/list" target="_blank" _stat_click_id="hot1_2">管理中心<i
+                  class="ico-more"></i></a>
+              <a class="action" href="//wikinew.open.qq.com/index.html" target="_blank" _stat_click_id="hot1_3">文档资料<i
+                  class="ico-more"></i></a>
+            </div>
+          </div>
+          <div class="item">
+            <a class="main" href="https://open.weixin.qq.com/" target="_blank" _stat_click_id="hot2_0">
+              <div class="logo logo2"></div>
+              <div class="title">微信开放平台</div>
+              <div class="desc">
+                接入微信开放平台，让你的应用支持微信登录、微信分享、 微信支付等功能。
+              </div>
+            </a>
+            <div class="more">
+              <a class="action" href="https://open.weixin.qq.com/" target="_blank" _stat_click_id="hot2_1">应用接入<i
+                  class="ico-more"></i></a>
+              <a class="action" href="https://open.weixin.qq.com/cgi-bin/frame?t=home/mp_tmpl&lang=zh_CN"
+                target="_blank" _stat_click_id="hot2_2">微信公众号<i class="ico-more"></i></a>
+              <a class="action" href="https://mp.weixin.qq.com/cgi-bin/wx" target="_blank" _stat_click_id="hot2_3">小程序<i
+                  class="ico-more"></i></a>
+            </div>
+          </div>
+          <div class="item">
+            <a class="main" href="https://ai.qq.com/" target="_blank" _stat_click_id="hot3_0">
+              <div class="logo logo3"></div>
+              <div class="title">AI开放平台</div>
+              <div class="desc">
+                整合AI Lab、优图实验室、微信AI三大实验室的AI技术，可以将丰富的AI能力接入到你的应用中。
+              </div>
+            </a>
+            <div class="more">
+              <a class="action" href="https://ai.qq.com/" target="_blank" _stat_click_id="hot3_1">AI能力库<i
+                  class="ico-more"></i></a>
+              <a class="action" href="https://ai.qq.com/accelerator/index.shtml" target="_blank"
+                _stat_click_id="hot3_2">AI加速器<i class="ico-more"></i></a>
+              <a class="action" href="https://ai.qq.com/doc/index.shtml" target="_blank" _stat_click_id="hot3_3">文档资料<i
+                  class="ico-more"></i></a>
+            </div>
+          </div>
+          <div class="item" style="display: none;">
+            <a class="main" href="https://c.qq.com/" target="_blank" _stat_click_id="hot4_0">
+              <div class="logo logo4"></div>
+              <div class="title">创业服务平台</div>
+              <div class="desc">
+                一站式创业服务平台。提供工商注册、财税服务、知识产权、社保服务、法律服务等创业服务。
+              </div>
+            </a>
+            <div class="more">
+              <a class="action" href="https://c.qq.com/" target="_blank" _stat_click_id="hot4_1">创业服务<i
+                  class="ico-more"></i></a>
+              <a class="action" href="https://c.qq.com/base/index" target="_blank" _stat_click_id="hot4_2">众创空间<i
+                  class="ico-more"></i></a>
+              <a class="action" href="http://vc.open.qq.com/" target="_blank" _stat_click_id="hot4_3">双百计划<i
+                  class="ico-more"></i></a>
+            </div>
+          </div>
+          <div class="item">
+            <a class="main" href="https://om.qq.com/userAuth/index" target="_blank" _stat_click_id="hot5_0">
+              <div class="logo logo5"></div>
+              <div class="title">内容开放平台</div>
+              <div class="desc">
+                内容创作者生产的内容可以通过微信、QQ、QQ空间、腾讯新闻、天天快报等十大平台进行分发。
+              </div>
+            </a>
+            <div class="more">
+              <a class="action" href="https://om.qq.com/userReg/mediaType" target="_blank"
+                _stat_click_id="hot5_1">开通账号<i class="ico-more"></i></a>
+              <a class="action" href="https://om.qq.com/" target="_blank" _stat_click_id="hot5_2">内容发布<i
+                  class="ico-more"></i></a>
+              <a class="action" href="https://om.qq.com/userAuth/index" target="_blank" _stat_click_id="hot5_3">访问官网<i
+                  class="ico-more"></i></a>
+            </div>
+          </div>
+          <div class="item">
+            <a class="main" href="https://q.qq.com/#/" target="_blank" _stat_click_id="hot6_0">
+              <div class="logo logo6"></div>
+              <div class="title">QQ开放平台</div>
+              <div class="desc">
+                为解决个人、企业、组织在QQ平台上的业务服务与用户管理提供实用的服务工具平台。
+              </div>
+            </a>
+            <div class="more">
+              <a class="action" href="https://connect.qq.com/index.html" target="_blank" _stat_click_id="hot6_1">QQ互联<i
+                  class="ico-more"></i></a>
+              <a class="action" href="https://q.qq.com/#/" target="_blank" _stat_click_id="hot6_3">小程序/小游戏<i
+                  class="ico-more"></i></a>
+              <a class="action" href="https://bot.qq.com/wiki/" target="_blank" _stat_click_id="hot6_3">机器人<i
+                  class="ico-more"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="star-product" id="creative">
+      <div class="wrap">
+        <div class="title">助力多款明星产品实现创新功能</div>
+        <div class="pre"></div>
+        <div class="next"></div>
+        <div class="product-list">
+          <div class="product-item cur">
+            <div class="wrap-cont">
+              <div class="image">
+                <img src="https://p.qpic.cn/zc_pic/0/84caee3864c0822f2ec3ae21dde9aa2415331279651665/0" alt="img">
+              </div>
+              <div class="info">
+                <div class="info__logo">
+                  <div class="logo logo-1"></div>
+                  <div class="sperator"></div>
+                  <div class="logo logo-2"></div>
+                </div>
+                <div class="desc">微信作为国内最受欢迎的社交软件之一，为9亿多用户提供全方位的社交服务，基于腾讯位置服务功能，微信实现了共享实时位置、位置分享、地点检索、路线规划等功能。</div>
+                <div class="bottom">
+                  <a class="btn" href="http://lbs.qq.com/" target="_blank" _stat_click_id="creative_1">腾讯位置服务<i
+                      class="ico-more"></i></a>
+                  <div class="indicator">1 / 6</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="wrap-cont">
+              <div class="image">
+                <img src="https://p.qpic.cn/zc_pic/0/fe52718c127ce473fa23e32cb2aa805a15331289228747/0" alt="img">
+              </div>
+              <div class="info">
+                <div class="info__logo">
+                  <div class="logo logo-5"></div>
+                  <div class="sperator"></div>
+                  <div class="logo logo-6"></div>
+                </div>
+                <div class="desc">
+                  QQ视频通话实时美颜，根据不同机型和不同摄像头质量提供不同的美颜算法，从而使得美颜功能在每一款手机上每个细节效果都达到最优。不仅为用户提供一键美颜的功能，同时能提供多强度的无缝切换。</div>
+                <div class="bottom">
+                  <a class="btn" href="http://medialab.qq.com/" target="_blank" _stat_click_id="creative_2">腾讯音视频实验室<i
+                      class="ico-more"></i></a>
+                  <div class="indicator">2 / 6</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="wrap-cont">
+              <div class="image">
+                <img src="https://p.qpic.cn/zc_pic/0/077f27c1577db7cc26e7a187f723e01815330175629024/0" alt="img">
+              </div>
+              <div class="info">
+                <div class="info__logo">
+                  <div class="logo logo-7"></div>
+                  <div class="sperator"></div>
+                  <div class="logo logo-8"></div>
+                </div>
+                <div class="desc">王者荣耀在接入游戏语音GVoice之后，玩家局内、局外的沟通和交流有了非常大的改善，很好的帮助项目提升玩家在游戏内社交以及对战合作上的便利性，对游戏保持长期活跃非常有价值。
+                </div>
+                <div class="bottom">
+                  <a class="btn" href="http://gcloud.qq.com/" target="_blank" _stat_click_id="creative_3">腾讯游戏服务<i
+                      class="ico-more"></i></a>
+                  <div class="indicator">3 / 6</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="wrap-cont">
+              <div class="image">
+                <img src="https://p.qpic.cn/zc_pic/0/7b2f0736306ad5d3c2a748e0f2f0374815331285043343/0" alt="img">
+              </div>
+              <div class="info">
+                <div class="info__logo">
+                  <div class="logo logo-11"></div>
+                  <div class="sperator"></div>
+                  <div class="logo logo-12"></div>
+                </div>
+                <div class="desc">
+                  天天P图推出“军装照”等多款爆款活动，是依托腾讯领先的人脸识别算法和深度学习引擎，将用户上传的照片与特定形象进行面部层面融合，使生成的图片既有用户的五官特点，也呈现出对应形象的外貌特征。</div>
+                <div class="bottom">
+                  <a class="btn" href="https://ai.qq.com/product/facemerge.shtml" target="_blank"
+                    _stat_click_id="creative_4">人脸融合<i class="ico-more"></i></a>
+                  <div class="indicator">4 / 6</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="wrap-cont">
+              <div class="image">
+                <img src="https://p.qpic.cn/zc_pic/0/cb8c0c4097ae5f12183f3411c2b8309e15331289711446/0" alt="img">
+              </div>
+              <div class="info">
+                <div class="info__logo">
+                  <div class="logo logo-9"></div>
+                  <div class="sperator"></div>
+                  <div class="logo logo-10"></div>
+                </div>
+                <div class="desc">
+                  腾讯视频借助AI技术进行内容审核，依托腾讯领先的DeepEye智能鉴黄技术，有效鉴别色情图片。该技术大幅提升了色情内容的打击覆盖面和打击效率，成倍地解放审核人力，助力网络环境更健康。</div>
+                <div class="bottom">
+                  <a class="btn" href="https://ai.qq.com/product/yellow.shtml" target="_blank"
+                    _stat_click_id="creative_5">AI开放平台<i class="ico-more"></i></a>
+                  <div class="indicator">5 / 6</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="wrap-cont">
+              <div class="image">
+                <img src="https://p.qpic.cn/zc_pic/0/3291d48a5fb5556b247e6557c064d7b715332000697572/0" alt="img">
+              </div>
+              <div class="info">
+                <div class="info__logo">
+                  <div class="logo logo-13"></div>
+                  <div class="sperator"></div>
+                  <div class="logo logo-14"></div>
+                </div>
+                <div class="desc">腾讯情感分析在腾讯千亿级社交语料的支撑下，不断完善算法模型，深度理解语义，分析和识别文本中表达的情感状态。帮助腾讯新闻全面分析广大网友的情绪动态，做出正确的舆论引导。
+                </div>
+                <div class="bottom">
+                  <a class="btn" href="https://ai.qq.com/product/nlpemo.shtml" target="_blank"
+                    _stat_click_id="creative_6">AI情感分析<i class="ico-more"></i></a>
+                  <div class="indicator">6 / 6</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="product" id="open">
+      <div class="wrap">
+        <div class="product-title">
+          <!-- <div class="eng">PRODUCT</div> -->
+          <h2>为开发者开放更丰富的能力</h2>
+        </div>
+        <div class="product-section clearfix">
+
+          <div class="nav is-fixed" style="display: none;">
+            <div class="tab">
+              <ul>
+                <li class="item active" data-tab="1">研发提升</li>
+                <li class="item" data-tab="2">用户增长</li>
+                <li class="item" data-tab="3">营收赋能</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tab normal">
+            <ul>
+              <li class="item active" data-tab="1">研发提升</li>
+              <li class="item" data-tab="2">用户增长</li>
+              <li class="item" data-tab="3">营收赋能</li>
+            </ul>
+          </div>
+          <div class="tab-content content1 clearfix" data-tab="1"></div>
+          <div style="height: 16px;"></div>
+          <div class="tab-content content2 clearfix" data-tab="2"></div>
+          <div style="height: 16px;"></div>
+          <div class="tab-content content3 clearfix" data-tab="3"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="solution" id="solution">
+      <div class="solution-title">
+        <h2>针对多种场景的标准化解决方案</h2>
+      </div>
+      <div class="solution-section clearfix">
+        <a class="solution-item" _stat_click_id="solution_1"
+          style="background-image: url('https://p.qpic.cn/zc_pic/0/5ce046f080af1ad929e7633bed841d8a15331312231542/0')"
+          target="_blank" href="http://haina.com">
+          <div class="title">腾讯海纳</div>
+          <div class="subtitle">互联网+物业综合解决方案</div>
+          <div class="desc">连接物业、居民、政府、媒体和社区服务提供方，形成“互联网+社区”一站式解决方案，打造智慧社区健康生态。</div>
+          <div class="more">了解更多<i class="ico-more"></i></div>
+        </a>
+        <a class="solution-item" _stat_click_id="solution_2"
+          style="background-image: url('https://p.qpic.cn/zc_pic/0/9ad2250a2cc4a4d8c580b04662bc10f215331312583243/0')"
+          target="_blank" href="http://weixiao.qq.com">
+          <div class="title">腾讯微校</div>
+          <div class="subtitle">基于微信的互联网+校园解决方案</div>
+          <div class="desc">微校是专为高校微信公众号设计的第三方工具，帮助高校公众号运营者零技术实现报名、微信上墙、投票等校园功能。</div>
+          <div class="more">了解更多<i class="ico-more"></i></div>
+        </a>
+        <a class="solution-item" _stat_click_id="solution_3"
+          style="background-image: url('https://p.qpic.cn/zc_pic/0/852cd03792767b048ff284a626b0d61215331313248249/0')"
+          target="_blank" href="http://jia.qq.com">
+          <div class="title">企鹅智家</div>
+          <div class="subtitle">互联网+家居解决方案</div>
+          <div class="desc">企鹅智家致力打造集“智能硬件+智慧社区+社交传播“三位一体的生态模型，赋能地产行业，改变未来人居。</div>
+          <div class="more">了解更多<i class="ico-more"></i></div>
+        </a>
+        <a class="solution-item" _stat_click_id="solution_4"
+          style="background-image: url('https://p.qpic.cn/zc_pic/0/593c97be78e488b4d0b7d39ea90bd76315331313548847/0')"
+          target="_blank" href="https://plus.tencent.com/ident">
+          <div class="title">腾讯慧眼</div>
+          <div class="subtitle">线上身份认证解决方案</div>
+          <div class="desc">腾讯互联网+为数字经济提供身份认证系统，提供各种认证模块功能，证件OCR识别、活体检测、人脸识别系统和技术1:1等能力，广泛被应用于公安人设等领域。</div>
+          <div class="more">了解更多<i class="ico-more"></i></div>
+        </a>
+        <a class="solution-item" _stat_click_id="solution_5"
+          style="background-image: url('https://p.qpic.cn/zc_pic/0/2012098feb8324ba4996d179c1b8196115331313831751/0')"
+          target="_blank" href="http://tas.qq.com">
+          <div class="title">腾讯车联</div>
+          <div class="subtitle">车联网生态系统解决方案</div>
+          <div class="desc">全面开放基于AI的连接能力和生态资源，致力于和合作伙伴一同为车主打造全方位的智慧车生活。</div>
+          <div class="more">了解更多<i class="ico-more"></i></div>
+        </a>
+        <a class="solution-item" _stat_click_id="solution_6"
+          style="background-image: url('https://p.qpic.cn/zc_pic/0/65d80ae2c80f63dee3d48a1ef0f0bc9915331314229247/0')"
+          target="_blank" href="http://miying.qq.com">
+          <div class="title">腾讯觅影</div>
+          <div class="subtitle">AI+医疗解决方案</div>
+          <div class="desc">腾讯首款将人工智能技术运用到医学领域的产品，目前主要有“AI医学影像”及“AI医学辅诊”两个研究方向。</div>
+          <div class="more">了解更多<i class="ico-more"></i></div>
+        </a>
+        <a class="solution-item" _stat_click_id="solution_7"
+          style="background-image: url('https://p.qpic.cn/zc_pic/0/f9794cbd2ccc2e53f508bad6133bce9c15331314448748/0')"
+          target="_blank" href="http://aq.tencent.com">
+          <div class="title">腾讯安全</div>
+          <div class="subtitle">互联网安全解决方案</div>
+          <div class="desc">腾讯安全旗下产品已成为中国最强的互联网安全矩阵，包含面对用户的全方位网络安全应用、对企业与政府网络安全的系列解决方案。</div>
+          <div class="more">了解更多<i class="ico-more"></i></div>
+        </a>
+        <a class="solution-item" _stat_click_id="solution_8"
+          style="background-image: url('https://p.qpic.cn/zc_pic/0/906147278fb512014c54181d8b866fad15331315237815/0')"
+          target="_blank" href="http://wetest.qq.com/solution/game">
+          <div class="title">WeTest</div>
+          <div class="subtitle">一站式游戏测试解决方案</div>
+          <div class="desc">将腾讯游戏沉淀十余年，历经千款游戏锤炼的优秀测试方案和工具，开放给广大游戏开发者，助力提高用户的研发效率和产品品质。</div>
+          <div class="more">了解更多<i class="ico-more"></i></div>
+        </a>
+        <div class="more-content jmod_more_content">
+          <a class="solution-item" _stat_click_id="solution_9"
+            style="background-image: url('https://p.qpic.cn/zc_pic/0/14ec841284905150fbe181fc0599b8d615331315511694/0')"
+            target="_blank" href="http://tour.qq.com">
+            <div class="title">企鹅景区管理平台</div>
+            <div class="subtitle">互联网+景区综合解决方案</div>
+            <div class="desc">提供自动售核闸机、增值优惠体系、景区舆情监控、游客分布热区等智慧景区解决方案，提升景区服务质量，优化景区资源利用。</div>
+            <div class="more">了解更多<i class="ico-more"></i></div>
+          </a>
+          <a class="solution-item" _stat_click_id="solution_10"
+            style="background-image: url('https://p.qpic.cn/zc_pic/0/2d7b4be796ec78af093b0cfe1e7296a815331315681593/0')"
+            target="_blank" href="http://uni.qq.com">
+            <div class="title">QQ智慧校园</div>
+            <div class="subtitle">基于QQ的智慧校园解决方案</div>
+            <div class="desc">腾讯QQ智慧校园是跨平台认证、移动互联网化、校园大数据化等多种技术的综合应用。</div>
+            <div class="more">了解更多<i class="ico-more"></i></div>
+          </a>
+          <a class="solution-item" _stat_click_id="solution_11"
+            style="background-image: url('https://p.qpic.cn/zc_pic/0/7cc1e2d0849c4ef319bd98c77e2a0b2315331315905588/0')"
+            target="_blank" href="https://plus.tencent.com/bigdata">
+            <div class="title">腾讯慧聚</div>
+            <div class="subtitle">政企大数据解决方案</div>
+            <div class="desc">基于腾讯多年的大数据平台建设经验和海量数据处理能力的政企大数据解决方案。</div>
+            <div class="more">了解更多<i class="ico-more"></i></div>
+          </a>
+          <a class="solution-item" _stat_click_id="solution_12"
+            style="background-image: url('https://p.qpic.cn/zc_pic/0/57322b11906b4d19b38dff0a3b18a04c15331316117128/0')"
+            target="_blank" href="http://doctor.qq.com">
+            <div class="title">腾爱医生</div>
+            <div class="subtitle">医疗领域信息管理解决方案</div>
+            <div class="desc">腾讯为医生群体量身定做的平台产品，定位于为医生和医生团队提供一个稳定，便捷，高效，安全的医疗移动化工具。</div>
+            <div class="more">了解更多<i class="ico-more"></i></div>
+          </a>
+          <a class="solution-item" _stat_click_id="solution_13"
+            style="background-image: url('https://p.qpic.cn/zc_pic/0/9a97c24b9d1f08dd8a75d55dac8aca0415331316453289/0')"
+            target="_blank" href="http://s.tencent.com">
+            <div class="title">腾讯企业安全</div>
+            <div class="subtitle">企业安全服务解决方案</div>
+            <div class="desc">拥有十九年安全能力沉淀，服务数亿用户，致力于为企业用户和企业管理者提供全球领先的安全产品，安全服务及解决方案。</div>
+            <div class="more">了解更多<i class="ico-more"></i></div>
+          </a>
+          <a class="solution-item" _stat_click_id="solution_14"
+            style="background-image: url('https://p.qpic.cn/zc_pic/0/29dd82e6e15ed20298b6922b9583841415331316725688/0')"
+            target="_blank" href="https://e.tencent.com/v2/index.php">
+            <div class="title">腾讯We+</div>
+            <div class="subtitle">数字营销综合解决方案</div>
+            <div class="desc">腾讯WE+是腾讯在数字经济发展的进程中以 “开放” 为核心理念，通过数据共通、全景共鸣、全链共赢三大能力构建的营销体系。</div>
+            <div class="more">了解更多<i class="ico-more"></i></div>
+          </a>
+        </div>
+        <div class="solution-item more-item jmod_more_btn clearfix">
+          <div class="header">展开全部</div>
+          <div class="eng">EXPAND</div>
+          <div class="ico"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="industry clearfix" id="industry">
+      <div class="wrap clearfix">
+        <div class="industry-title">
+          <h2>基于行业生态提供定制化解决方案</h2>
+        </div>
+        <div class="industry-section">
+          <a class="industry-item" _stat_click_id="industry_1" target="_blank"
+            href="http://lbs.qq.com/solution/logistics.html">
+            <div class="header">
+              <div class="ico ico1"></div>
+              <div class="title">物流解决方案</div>
+            </div>
+            <div class="cont">
+              基于物流行业的具体场景，从各应用端的实际需求出发，提供具有针对性的位置服务解决方案。
+            </div>
+          </a>
+          <a class="industry-item" _stat_click_id="industry_2" target="_blank"
+            href="https://cloud.tencent.com/solution/smart_retail_solution">
+            <div class="header">
+              <div class="ico ico2"></div>
+              <div class="title">智慧零售解决方案</div>
+            </div>
+            <div class="cont">
+              融合腾讯流量、数据与生态优势，帮助线下零售业态提升营销、门店管理以及数据分析效率，助力零售回归商业本质。
+            </div>
+          </a>
+          <a class="industry-item" _stat_click_id="industry_3" target="_blank" href="http://campus.qq.com">
+            <div class="header">
+              <div class="ico ico3"></div>
+              <div class="title">教育解决方案</div>
+            </div>
+            <div class="cont">
+              针对信息流转、媒体宣传、家校互动、师生教学、工作办公5大校园场景，依角色提供精准服务解决方案。
+            </div>
+          </a>
+          <a class="industry-item" _stat_click_id="industry_4" target="_blank" href="http://jiguang.tencent.com/">
+            <div class="header">
+              <div class="ico ico4"></div>
+              <div class="title">游戏解决方案</div>
+            </div>
+            <div class="cont">
+              致力打造一站式服务体系，为各类极致创新游戏提供全方位的孵化支持。
+            </div>
+          </a>
+          <a class="industry-item" _stat_click_id="industry_5" target="_blank" href="http://plus.tencent.com/jiaotong/">
+            <div class="header">
+              <div class="ico ico5"></div>
+              <div class="title">交通解决方案</div>
+            </div>
+            <div class="cont">
+              提供智能出行、智能交通系统搭建等服务，建设互联网+交通共赢生态。
+            </div>
+          </a>
+          <a class="industry-item" _stat_click_id="industry_6" target="_blank"
+            href="https://cloud.tencent.com/solution/government">
+            <div class="header">
+              <div class="ico ico6"></div>
+              <div class="title">政务解决方案</div>
+            </div>
+            <div class="cont">
+              依托腾讯云开放的技术与海量数据运营的经验，全面打造“互联网＋政务”解决方案，创新政府管理和服务模式，提升“放管服”实效。
+            </div>
+          </a>
+          <a class="industry-item" _stat_click_id="industry_7" target="_blank" href="http://plus.tencent.com/jingwu/">
+            <div class="header">
+              <div class="ico ico7"></div>
+              <div class="title">警务解决方案</div>
+            </div>
+            <div class="cont">
+              依托微信、手Q，开展在线民生应用服务，提供互联网电子警察、智能警务系统、智慧公安等服务，助力政务公开和信息服务平台建设。
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource" id="support">
+      <div class="title">
+        <h2>腾讯致力于为梦想者们提供支持和资源</h2>
+      </div>
+      <div class="cont">
+        <div class="nav">
+          <!-- <div class="item hover" data-id="1">青腾大学</div> -->
+          <div class="item hover" data-id="2">腾讯AI加速器</div>
+          <!-- <div class="item" data-id="3">双百计划</div> -->
+          <div class="item" data-id="4">云+创业扶持计划</div>
+          <div class="item" data-id="5">云+校园扶持计划</div>
+          <div class="item" data-id="6">云+公益扶持计划</div>
+          <div class="item" data-id="7">游戏扶持计划</div>
+        </div>
+        <div class="info">
+          <!-- <div class="item item1">
+        <div class="logo logo1"></div>
+        <div class="desc">青腾大学创办于2015年7月，旨在整合全球最优质的产学研资源，为前沿产业创造者提供持续生长的平台，包含青腾学堂、青腾汇以及青腾研究院。青腾大学专注在互联网+ 、AI +、未来科技、文创产业等前沿产业领域。</div>
+        <a class="btn" href="https://qteng.qq.com/" target="_blank" _stat_click_id="resource_1">查看详情<i class="ico-more"></i></a>
+      </div> -->
+          <div class="item item2">
+            <div class="logo logo2"></div>
+            <div class="desc">腾讯AI加速器汇聚顶尖技术，专业人才和行业资源，依托腾讯AI
+              Lab、优图实验室、微信AI、腾讯云及合作伙伴强大的AI技术能力，升级锻造创业项目。通过腾讯品牌、创投和流量广告等资源，为AI技术及产品找到更多的应用场景，实现产品从打造到引爆的全过程。</div>
+            <a class="btn" href="https://ai.qq.com/accelerator/index.shtml" target="_blank"
+              _stat_click_id="resource_2">查看详情<i class="ico-more"></i></a>
+          </div>
+          <div class="item item3" style="display: none;">
+            <div class="logo logo3"></div>
+            <div class="desc">腾讯双百计划，即腾讯计划3年内投入价值100亿的资源，充分利用线上及线下的流量、品牌、硬件及创业基地等资源，扶持100家创业企业市值过亿，努力创造出100个亿万富翁。</div>
+            <a class="btn" href="http://vc.open.qq.com/" target="_blank" _stat_click_id="resource_3">查看详情<i
+                class="ico-more"></i></a>
+          </div>
+          <div class="item item4" style="display: none;">
+            <div class="logo logo4"></div>
+            <div class="desc">
+              腾讯云为处于不同阶段的创业者，提供全面的技术和资源的支持。专属架构师提供全程技术指导和最佳实践，解决技术难题，降低企业研发成本，帮助创业者轻松上云投入市场。更有千万广告营销优惠券，并通过腾讯云官网、社区、公众号、技术沙龙、峰会等平台增加品牌曝光，促进企业获客增收。
+            </div>
+            <a class="btn"
+              href="https://cloud.tencent.com/act/plan?utm_source=qcloud&utm_medium=topnav&utm_campaign=ventures"
+              target="_blank" _stat_click_id="resource_4">查看详情<i class="ico-more"></i></a>
+          </div>
+          <div class="item item5" style="display: none;">
+            <div class="logo logo5"></div>
+            <div class="desc">云+校园计划是腾讯云为在校大学生推出的专项扶持计划，1元即可享受腾讯云提供的免费域名+专享云服务器，助力莘莘学子轻松上云！</div>
+            <a class="btn"
+              href="https://cloud.tencent.com/act/campus?utm_source=qcloud&utm_medium=head&utm_campaign=campus"
+              target="_blank" _stat_click_id="resource_5">查看详情<i class="ico-more"></i></a>
+          </div>
+          <div class="item item6" style="display: none;">
+            <div class="logo logo6"></div>
+            <div class="desc">对于加入“助力公益”计划的公益组织，腾讯云提供免费云服务，让爱心持续传递！</div>
+            <a class="btn" href="https://cloud.tencent.com/act/benefit" target="_blank"
+              _stat_click_id="resource_6">查看详情<i class="ico-more"></i></a>
+          </div>
+          <div class="item item7" style="display: none;">
+            <div class="logo logo7"></div>
+            <div class="desc">GAD游戏开发者扶持计划致力于为游戏创业团队提供成员招募、专家指导及技术、资金、发行等全面扶持，一站式解决从产品，立项到上线的所有问题。</div>
+            <a class="btn" href="http://gad.qq.com/hatch" target="_blank" _stat_click_id="resource_7">查看详情<i
+                class="ico-more"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="mod-footer">
+    <div class="wrap">
+      <div class="nav">
+        <div class="title">文档资料</div>
+        <div class="list">
+          <a href="//wikinew.open.qq.com/index.html" target="_blank" class="item" _stat_click_id="footer1_1">应用分发平台</a>
+          <a href="https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&lang=zh_CN"
+            target="_blank" class="item" _stat_click_id="footer1_2">微信开放平台</a>
+          <a href="https://ai.qq.com/doc/index.shtml" target="_blank" class="item" _stat_click_id="footer1_3">AI开放平台</a>
+          <a href="https://cloud.tencent.com/document/product" target="_blank" class="item"
+            _stat_click_id="footer1_4">腾讯云</a>
+          <a href="http://wiki.connect.qq.com/" target="_blank" class="item" _stat_click_id="footer1_5">QQ互联</a>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="title">生态扶持计划</div>
+        <div class="list">
+          <a href="https://qteng.qq.com/" target="_blank" class="item" _stat_click_id="footer2_1">青腾大学</a>
+          <a href="https://ai.qq.com/accelerator/index.shtml" target="_blank" class="item"
+            _stat_click_id="footer2_2">腾讯AI加速器</a>
+          <a href="http://gad.qq.com/hatch" target="_blank" class="item" _stat_click_id="footer2_3">游戏扶持计划</a>
+          <a href="https://cloud.tencent.com/act/plan?utm_source=qcloud&utm_medium=topnav&utm_campaign=ventures"
+            target="_blank" class="item" _stat_click_id="footer2_4">腾讯云创业扶持计划</a>
+          <a href="http://vc.open.qq.com/" target="_blank" class="item" _stat_click_id="footer2_5">双百计划</a>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="title">开发者社区</div>
+        <div class="list">
+          <a href="https://cloud.tencent.com/developer" target="_blank" class="item" _stat_click_id="footer3_1">云+社区</a>
+          <a href="http://gad.qq.com/community" target="_blank" class="item" _stat_click_id="footer3_2">游戏开发者社区</a>
+          <a href="https://www.tapd.cn/forum" target="_blank" class="item" _stat_click_id="footer3_3">TAPD社区</a>
+          <a href="http://wetest.qq.com/lab/" target="_blank" class="item" _stat_click_id="footer3_4">WeTest专栏</a>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="qrcode">
+          <div class="item">
+            <img class="ico" src="https://p.qpic.cn/zc_pic/0/611edb91f61822d3d7806bb5b783d77315332585853176/0"
+              alt="open">
+            <div class="msg">腾讯开放平台</div>
+          </div>
+          <div class="item">
+            <img class="ico" src="https://p.qpic.cn/zc_pic/0/b4910ab9e50dc850a484f8177956a0af15332585260058/0" alt="zc">
+            <div class="msg">腾讯众创空间</div>
+          </div>
+        </div>
+        <a href="http://open.qq.com/support" target="_blank" class="btn">联系我们</a>
+      </div>
+    </div>
+    <div class="info">
+      <a href="http://open.qq.com/support" target="_blank" class="item">
+        联系我们
+      </a>
+      <a href="//wikinew.open.qq.com/index.html#/iwiki/950503848" target="_blank" class="item">
+        投诉举报
+      </a>
+      <a href="//wikinew.open.qq.com/index.html#/iwiki/901252325" target="_blank" class="item">
+        Complaint Guidelines
+      </a>
+      <a href="https://www.tencent.com/zh-cn/index.html" target="_blank" class="item">
+        关于腾讯
+      </a>
+    </div>
+    <div class="copyright">Copyright © 1998 - 2019 Tencent. All Rights Reserved.</div>
+  </div>
+
+  <script src="https://yyb.gtimg.com/zc/common/js/lib/jquery-4f252523d4.min.js?max_age=31536000"></script>
+  <script src="https://yyb.gtimg.com/zc/page/open/index/main-7d93806788.entry.js?max_age=31536000"></script>
+  <script>
+    // 由于找不到js，下面都是一些hack方法
+    const tencentCloud = $("a[_stat_click_id='product2_3']");
+    tencentCloud.attr('href', 'https://tmc.tencent.com/')
+    $('.jmod_more_btn').click(() => {
+      setTimeout(() => {
+        $("a[_stat_click_id='product1_12']").attr('href', 'https://midas.qq.com/')
+        $("a[_stat_click_id='product1_29'] .title").text('优测云服务平台')
+        $("a[_stat_click_id='product1_29'] .icon img").attr('src', './img/utest.png')
+        $("a[_stat_click_id='product1_29'] .desc").text('一站式测试平台，为应用、游戏、H5的研发团队提供产品质量检测与问题解决服务。')
+        $("a[_stat_click_id='product1_29']").attr('href', 'https://utest.21kunpeng.com/home')
+      }, 500)
+    })
+  </script>
+</body>
+
+</html>

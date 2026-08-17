@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type"
+		  content="text/html; charset=utf-8" />
+	<meta name="viewport"
+		  content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes">
+	<meta content="always"
+		  name="referrer">
+	<title>中国移动认证服务条款</title>
+	<link rel="stylesheet"
+		  href="../css/pass.css">
+
+	<script src="../js/jquery.min.js"
+			type="text/javascript"></script>
+
+
+
+	<style type="text/css">
+		body {
+			/* 允许在单词内换行 */
+			word-break: break-all;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		.ta_c_u {
+			font-size: 12px;
+			padding: 15px 35px 0;
+		}
+
+		.c_222 {
+			color: #222;
+		}
+
+		.c_444 {
+			color: #444;
+		}
+
+		.c_000 {
+			color: #000;
+		}
+
+		.c_888 {
+			color: #888;
+		}
+
+		._ml_20 {
+			margin-left: 20px;
+		}
+
+
+
+
+
+		.content {
+			padding: 0px;
+		}
+
+		.content .headers {
+			display: flex;
+			height: 50px;
+			border-bottom: 1px solid #e8e8e8;
+
+		}
+
+		.content .headers .back {
+			justify-content: center;
+			align-items: center;
+			display: flex;
+		}
+
+		.content .headers .back img {
+			width: 10px;
+			margin-left: 10px;
+		}
+
+		.content .headers .title {
+			flex: 0.9;
+			text-align: center;
+			line-height: 50px;
+		}
+
+		.content .main .contract {
+			display: flex;
+			height: 50px;
+			border-bottom: 1px solid #e8e8e8;
+		}
+
+		.content .main .contract .title {
+			flex: 0.9;
+			margin-left: 30px;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+		}
+
+		.content .main .contract .goTo {
+			justify-content: center;
+			align-items: center;
+			display: flex;
+		}
+
+		.content .main .contract .goTo img {
+			width: 10px;
+		}
+
+		.fz_16 {
+			font-size: 16px;
+			line-height: 24px;
+		}
+
+		.gray {
+			color: #666;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="content">
+		<div class="headers">
+			<div class="back"
+				 id="backbutton">
+				<img src="../images/goback.png" />
+			</div>
+			<div class="title">
+				<span>中国移动认证服务条款</span>
+			</div>
+		</div>
+		<div class="main">
+			<div class="contract"
+				 id="contract">
+				<div class="title fz_16">
+					<span>中国移动认证服务协议</span>
+				</div>
+				<div class="goTo">
+					<img src="../images/come.png" />
+				</div>
+			</div>
+			<div class="contract"
+				 id="numCardContract">
+				<div class="title fz_16">
+					<span>中国移动认证隐私政策</span>
+				</div>
+				<div class="goTo">
+					<img src="../images/come.png" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <footer>
+			<p class="copyRight mt_20 c_969696">中国移动版权所有</p>
+		</footer> -->
+	<script type="text/javascript">
+		//跳转移动认证服务协议
+		document.getElementById("contract").onclick = function () {
+
+			window.location.href = getUrlParam("hideReturn") === "1" ? './contract1.html?hideReturn=1' : './contract1.html'
+		}
+		//跳转号码认证隐私政策
+		document.getElementById("numCardContract").onclick = function () {
+			window.location.href = getUrlParam("hideReturn") === "1" ? './contract2.html?hideReturn=1' : './contract2.html'
+		}
+		//返回上一页
+		$("#backbutton").click(function () {
+
+			closeWindows();
+		})
+
+		function closeWindows() {
+			window.history.go(-1);
+		}
+		function getUrlParam(name) {
+			var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+			var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+			if (r != null) return decodeURI(r[2]); return null; //返回参数值
+		}
+
+		function getSystem() {
+			var u = navigator.userAgent,
+				app = navigator.appVersion;
+			var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
+			var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+			var num = 0;
+			if (isAndroid) {
+				//这个是安卓操作系统
+				return '0';
+			}
+			if (isIOS) {
+				//这个是ios操作系统
+				return '1';
+			}
+			return '3';
+		};
+		if (getSystem() === '1') {
+			/* 用户使用暗色主题界面 */
+			var css = '@media (prefers-color-scheme: dark) {body {background-color: #333030;}.content {color: #fff;}.c_000 {color: #fff;}.c_888 {color: #fff;}.c_666 {color: #fff;}.gray {color: #fff;}}';
+			var head = document.getElementsByTagName('head')[0],
+				style = document.createElement('style');
+			style.type = 'text/css';
+			if (style.styleSheet) {
+				style.styleSheet.cssText = css;
+			} else {
+				style.appendChild(document.createTextNode(css));
+			}
+			style.id = 'add-style-id';
+			head.appendChild(style);
+		}
+		if (getUrlParam("flag") === "true") {
+			$(".content .headers").show();
+		} else {
+			$(".content .headers").hide();
+		}
+
+
+	</script>
+</body>
+
+</html>

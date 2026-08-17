@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>住小帮应用权限申请与使用情况说明</title>
+    <link
+      rel="shortcut icon"
+      href="http://lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <style>
+      body {
+        max-width: 80%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        font: 12px/1.4 Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei",
+          sans-serif;
+        font-size: 16px;
+        -webkit-font-smoothing: antialiased;
+        color: #484d57;
+        line-height: 30px;
+        background-color: #fff;
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      p {
+        text-indent: 24px;
+        text-indent: 2em;
+        font-size: inherit;
+      }
+
+      p.p2 {
+        text-indent: 36px;
+        text-indent: 3em;
+        font-size: inherit;
+      }
+
+      span {
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: inherit;
+      }
+
+      .table-wrapper {
+        width: 100%;
+        overflow: auto;
+      }
+
+      table {
+        height: 300px;
+        border: 1px solid #484d57;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        font-size: 12px;
+        line-height: 18px;
+        border: 1px solid #484d57;
+        text-align: center;
+        max-width: 350px;
+        min-width: 100px;
+        padding: 5px;
+      }
+
+      tr > th:first-child,
+      tr > td:first-child {
+        min-width: 30px;
+      }
+
+      @media (max-width: 768px) {
+        p {
+          text-indent: 0;
+          word-break: break-all;
+        }
+        p.p2 {
+          text-indent: 0;
+          word-break: break-all;
+        }
+        body {
+          max-width: 92%;
+        }
+      }
+    </style>
+  <script>window.gfdatav1={"env":"prod","envName":"prod","runtime":"node","ver":"1.0.0.204","canary":0,"idc":"lf","region":"CN","vdc":"lf","vregion":"China-North","extra":{"canaryType":null}}</script></head>
+
+  <body>
+    <h3>住小帮应用权限申请与使用情况说明</h3>
+
+    <p>
+      1.
+      为保障住小帮产品功能实现与安全稳定运行之目的，我们可能会申请或使用操作系统的相关权限；
+    </p>
+
+    <p>
+      2.
+      为保障您的知情权，我们通过下列列表将产品可能申请、使用的相关操作系统权限进行展示，您可以根据实际需要对相关权限进行管理；
+    </p>
+
+    <p>
+      3.
+      根据产品的升级，申请、使用权限的类型与目可能会有变动，我们将及时根据这些变动对列表进行调整，以确保您及时获悉权限的申请与使用情况；
+    </p>
+
+    <p>
+      4.
+      请您知悉，我们为业务与产品的功能与安全需要，我们可能也会使用第三方SDK，这些第三方也可能会申请或使用相关操作系统权限；
+    </p>
+
+    <p>
+      5.
+      在使用产品的过程中，您可能会使用第三方开发的H5页面或小程序，这些第三方开发开发的插件或小程序也可能因业务功能所必需而申请或使用相关操作系统权限。
+    </p>
+
+    <p>
+      <strong>Android应用权限申请与使用情况（附列表）</strong>
+    </p>
+    <div class="table-wrapper">
+      <table>
+        <tr>
+          <th>序号</th>
+          <th colspan="2">权限名称</th>
+          <th>权限功能说明</th>
+          <th>使用场景或目的</th>
+          <th>拒绝提供的后果</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>相机<br />CAMERA</td>
+          <td>拍摄<br />CAMERA</td>
+          <td>使用拍摄照片和视频、完成扫描二维码</td>
+          <td>
+            用于拍摄照片和视频，以便用户可在拍摄照片、视频后，上传发布至APP，或用于更换头像
+          </td>
+          <td>可能导致用户无法拍摄照片、视频并发布至APP或更换头像</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td rowspan="2">位置<br />LOCATION</td>
+          <td>访问精准定位<br />ACCESS_FINE_LOCATION</td>
+          <td>
+            通过全球定位系统（GPS）或网络位置信息（例如基站和WLAN）获取精准地理位置信息
+          </td>
+          <td>
+            用于定位用户所在的具体位置区域，基于此为用户推荐在临近区域中匹配的商家服务或内容
+          </td>
+          <td>可能导致无法为用户推荐在临近区域中匹配的商家服务或内容</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>访问粗略位置<br />ACCESS_COARSE_LOCATION</td>
+          <td>通过网络位置信息（例如基站和WLAN）获取大致地理位置信息</td>
+          <td>用于定位用户所在的城市区域，为用户推荐同城商家或内容</td>
+          <td>可能导致无法为用户推荐同城商家或内容</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>麦克风<br />MICROPHONE</td>
+          <td>录音<br />RECORD_AUDIO</td>
+          <td>使用麦克风录制音频</td>
+          <td>用于用户拍摄录制视频后上传发布</td>
+          <td>可能导致用户无法录制拍摄视频并上传</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td rowspan="2">电话<br />PHONE</td>
+          <td>读取电话状态(设备 IMSI/IMEI 号）<br />READ_PHONE_STATE</td>
+          <td>
+            提供读取手机设备标识等信息，请您放心该权限无法监听、获取您的任何通话内容与信息
+          </td>
+          <td>
+            保障软件服务的安全、运营的质量及效率、判断账户状态、身份验证、检测及防范安全事件、实现信息推送的基本功能
+          </td>
+          <td>可能导致无法实现产品的基本业务功能</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>拨打电话<br />CALL_PHONE</td>
+          <td>允许App直接拨打电话</td>
+          <td>
+            通过APP直接拨打电话，便于用户直接联系商家或设计师，进行电话咨询
+          </td>
+          <td>可能导致无法在APP内拨打电话</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td rowspan="5">存储<br />STORAGE</td>
+          <td>读取外置存储器<br />READ_EXTERNAL_STORAGE</td>
+          <td>提供读取手机储存空间内数据的功能</td>
+          <td>发布/上传视频或图片</td>
+          <td>可能导致无法上传/发布图片或视频</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>写入外置存储器<br />WRITE_EXTERNAL_STORAGE</td>
+          <td>提供写入外部储存功能</td>
+          <td>将视频或图片进行保存</td>
+          <td>可能导致无法保存视频或图片</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>读取音频<br />READ_MEDIA_AUDIO</td>
+          <td>允许App从外部存储读取音频数据</td>
+          <td rowspan="3">
+            需实名认证的功能或服务时，识别过程需要对您的音频、图片和视频数据采集
+          </td>
+          <td rowspan="3">可能导致无法完成实名认证</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>读取图片<br />READ_MEDIA_IMAGES</td>
+          <td>允许App从外部存储读取音频数据</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>读取视频<br />READ_MEDIA_VIDEO</td>
+          <td>允许App从外部存储读取音频数据</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>应用软件列表</td>
+          <td>
+            访问所有应用软件列表<br />
+            QUERY_ALL_PACKAGES
+          </td>
+          <td>读取您的应用软件列表</td>
+          <td>
+            用于预防恶意程序、维护服务正常运行、保障您的帐号安全，并为您提供推荐等更优质的服务体验
+          </td>
+          <td>可能导致服务无法正常运行</td>
+        </tr>
+      </table>
+    </div>
+
+    <p>
+      <strong>IOS应用权限申请与使用情况（附列表）</strong>
+    </p>
+    <div class="table-wrapper">
+      <table>
+        <tr>
+          <th>序号</th>
+          <th>plist中描述名称</th>
+          <th>权限功能说明</th>
+          <th>使用场景或目的</th>
+          <th>拒绝提供的后果</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>NSPhotoLibraryAddUsageDescription</td>
+          <td>向相册中添加内容</td>
+          <td>将视频或图片进行保存</td>
+          <td>可能导致无法保存视频或图片</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>NSPhotoLibraryUsageDescription</td>
+          <td>读取相册中内容</td>
+          <td>发布/上传视频或图片</td>
+          <td>可能导致无法上传/发布图片或视频</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>NSCameraUsageDescription</td>
+          <td>使用摄像头</td>
+          <td>
+            用于拍摄照片和视频，以便用户可在拍摄照片、视频后，上传发布至APP，或用于更换头像
+          </td>
+          <td>可能导致用户无法拍摄照片、视频并发布至APP或更换头像</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>NSLocationWhenInUseUsageDescription</td>
+          <td>仅App被使用时获取地理位置</td>
+          <td>
+            用于定位用户所在的具体位置区域，基于此为用户推荐在临近区域中匹配的商家服务或内容
+          </td>
+          <td>可能导致无法为用户推荐在临近区域中匹配的商家服务或内容</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>NSMicrophoneUsageDescription</td>
+          <td>使用麦克风</td>
+          <td>用于用户拍摄录制视频后上传发布</td>
+          <td>可能导致用户无法录制拍摄视频并上传</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>NSUserTrackingUsageDescription</td>
+          <td>申请获取IDFA</td>
+          <td>为获取用户的设备标识符(IDFA)以便向其提供更优质的信息与服务</td>
+          <td>
+            可能导致无法获取用户的设备标识符(IDFA)进而无法向其提供更优质的信息与服务
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

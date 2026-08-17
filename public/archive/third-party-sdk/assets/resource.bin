@@ -1,0 +1,4597 @@
+<!doctype html><html><head><title>高德开放平台 | 高德地图API</title><meta charset="utf-8"><meta name="renderer" content="webkit"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="baidu-site-verification" content="codeva-1igbja2BZK"><meta name="keywords" content="高德开放平台|高德开放平台官网|高德开放平台控制台|官网控制台|控制台|应用管理|应用分析|账号信息|开发者信息|账号权限|KEY管理"><meta name="description" content="高德开放平台|高德开放平台官网|高德开放平台控制台|官网控制台|控制台|应用管理|应用分析|账号信息|开发者信息|账号权限|KEY管理"><meta name="aes-config" content="pid=lbs-dev-yuntu&user_type=101&uid=&username="><link rel="shortcut icon" href="//a.amap.com/pc/static/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="//at.alicdn.com/t/a/font_110998_c24vakawn5i.css"><script>var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?c8ac07c199b1c09a848aaab761f9f909";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();</script><script type="text/javascript">window._AMapSecurityConfig = {
+      serviceHost: location.origin + '/AMapService'
+    };</script><link href="/public/src/assets/main.umd.18df532fdf3a8ccfae38.css" rel="stylesheet"></head><body data-type="body-new" data-os="body-os-macos" data-device="body-pc" data-brower="body-browser-chrome" class="page-type-home page-home"><script src="//g.alicdn.com/??AWSC/AWSC/awsc.js"></script><script type="text/javascript" id="beacon-aplus" src="//g.alicdn.com/alilog/mlog/aplus_v2.js" exparams="clog=o&aplus&sidx=aplusSidx&ckx=aplusCkx"></script><link class="_inject-css" rel="stylesheet" href="//a.amap.com/lbs-dev-yuntu/static/web/views/homenew/homenew.umd.11c1c5738d4d6188f925.css">  <div class="page-body page-body-pc" style="height: calc(100% - 0px);">
+
+<div id="frosted_mask" class="frosted_mask"></div>
+
+<!-- header -->
+<header id="frosted_header" class="frosted_header">
+  <aside class="frosted_logo_grandpa frosted_core">
+    <div class="frosted_logo_father">
+      <a class="frosted_logo" href="/">
+        <embed class="frosted_logo_content" src="/public/img/header/logo_2023.svg" type="image/svg+xml" />
+        <embed class="frosted_logo_content darken" src="/public/img/header/logo_darken_2023.svg" type="image/svg+xml" />
+      </a>
+    </div>
+  </aside>
+
+  <!-- .frosted_core -->
+  <div class="frosted_core frosted_main_core">
+    <div class="user">
+  <div class="user_item console_enter">
+    <a href="javascript:void(0)">控制台</a>
+  </div>
+  <div class="user_item enterprise_cert_enter hide">
+    <a href="https://console.amap.com/dev/user/permission" target="_blank" rel="noopener">
+      <i class="enterprise_cert_icon iconfont icon-renzheng" aria-hidden="true"></i>
+      <span>去认证企业</span>
+    </a>
+  </div>
+  <div class="user_item user_area">
+    <div class="not_login">
+      <a class="sign_up" href="javascript:void(0)">
+        <span>登录</span>
+      </a>
+      <a class="sign_in" target="_blank" href="/dev/id/">
+        <span>注册<i class="iconfont icon-link"></i></span>
+      </a>
+      <a class="mobile_sign_in mobile" href="//id.amap.com?type=spa&ref=https://lbs.amap.com/">
+        <span class="iconfont icon-iconyonghu"></span>
+      </a>
+    </div>
+    <div class="has_login hide">
+      <div class="user_info">
+        <img class="avatar" src="https://a.amap.com/pc/static/img/amaplogo.png" alt="">
+        <div class="red-dot hide"></div>
+      </div>
+      <ul class="user_dropdown">
+        <li class="dropdown_item user_ctrl">
+          <div class="nickname"></div>
+          <div class="sign_out">退出</div>
+        </li>
+        <li class="dropdown_item msg_item">
+          <a href="//console.amap.com/dev/message/inbox" target="_blank">
+            <span>我的消息</span>
+            <span class="msg_unread unread_count"><i class="msg_unread_count"></i></span>
+          </a>
+        </li>
+        <li class="dropdown_item consult_item">
+          <a href="//console.amap.com/dev/market/consult" target="_blank">
+            <span>云图市场</span>
+            <span class="consult_unread unread_count"><i class="consult_unread_count"></i></span>
+          </a>
+        </li>
+        
+        <li class="dropdown_item">
+          
+            <a href="//console.amap.com/dev/key">
+              
+              <span>应用管理</span>
+            </a>
+        </li>
+        
+        <li class="dropdown_item">
+          
+          <a target="_blank" href="https://geohub.amap.com">
+            
+              <span>GeoHUB</span>
+            </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+    <!-- nav -->
+    
+
+<!-- nav -->
+<nav id="frosted_nav" class="frosted_nav">
+  
+  <div
+    class="frosted_nav_item  ">
+    <a class="hover_dropdown" 
+      href="javascript:void(0)">
+      <span class="nav_title"> 产品介绍</span>
+      
+      <span class="icon-down-arrow"></span>
+      
+    </a>
+    
+    <div class="children dropdown_item nav_left">
+      <div class="children_core">
+        <span class="title_box">
+          <span class="title_box_core">
+            
+            <strong>产品介绍</strong>
+            
+            
+            <small>高德开放平台产品介绍</small>
+            
+            
+            <a href="/api" >
+              查看全部文档 <span class="iconfont icon-link"></span>
+            </a>
+            
+          </span>
+        </span>
+
+        <ul class="dropdown_columns dropdown_height_mark dropdown_flex" style="max-height:700px">
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-loc"></i>
+              </span>
+              <span>
+                搜索定位
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/harmonyosnext-location-sdk">
+                  <strong class="columns_black_title">
+                    鸿蒙星河版定位SDK
+                    
+                    <span class="link_tag"><i>HOT</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">鸿蒙星河版定位SDK</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/product/search#/">
+                  <strong class="columns_black_title">
+                    搜索
+                    
+                    <span class="link_tag"><i>HOT</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">位置、周边、行政区、ID等查询接口</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                  
+                  <a class="columns_link"  href="/api/webservice/guide/api/search">
+                    API
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/javascript-api-v2/tutorails/search-poi">
+                    JS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/android-sdk/guide/map-data/poi">
+                    Android
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/ios-sdk/guide/map-data/poi">
+                    iOS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/product/locate#/">
+                  <strong class="columns_black_title">
+                    定位
+                    
+                    <span class="link_tag"><i>HOT</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">基于LBS的定位服务</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                  
+                  <a class="columns_link"  href="/api/webservice/guide/api/ipconfig">
+                    API
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/android-location-sdk/locationsummary/">
+                    Android
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/ios-location-sdk/summary/">
+                    iOS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/webservice/guide/api/georegeo">
+                  <strong class="columns_black_title">
+                    地理/逆地理编码
+                    
+                  </strong>
+                  <small class="columns_desc">位置名称与经纬度之间转换服务</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                  
+                  <a class="columns_link"  href="/api/webservice/guide/api/georegeo">
+                    API
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/javascript-api-v2/guide/services/geocoder">
+                    JS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/android-sdk/guide/map-data/geo">
+                    Android
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/ios-sdk/guide/map-data/geo">
+                    iOS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/track/lieying-kaifa/api/track_fence">
+                  <strong class="columns_black_title">
+                    地理围栏
+                    
+                  </strong>
+                  <small class="columns_desc">虚拟空间围栏服务</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                  
+                  <a class="columns_link"  href="/api/track/lieying-kaifa/api/track_fence">
+                    API
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/android-location-sdk/guide/additional-func/local-geofence">
+                    Android
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/ios-location-sdk/guide/additional-func/local-geofence">
+                    iOS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/webservice/guide/api/weatherinfo">
+                  <strong class="columns_black_title">
+                    天气查询
+                    
+                  </strong>
+                  <small class="columns_desc">查询目标区域当前/未来天气</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/webservice/guide/api-advanced/hardware-location">
+                  <strong class="columns_black_title">
+                    智能硬件定位
+                    
+                  </strong>
+                  <small class="columns_desc">通过基站、Wifi获取位置信息</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-nav"></i>
+              </span>
+              <span>
+                路线导航
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/harmonyosnext-navi-sdk/summary">
+                  <strong class="columns_black_title">
+                    鸿蒙星河版导航SDK
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">鸿蒙星河版导航SDK</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/product/navigation#/">
+                  <strong class="columns_black_title">
+                    导航
+                    
+                    <span class="link_tag"><i>HOT</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">轻松地在APP中加入导航能力</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                  
+                  <a class="columns_link"  href="/api/android-navi-sdk/summary/">
+                    Android
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/ios-navi-sdk/summary">
+                    iOS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/product/path">
+                  <strong class="columns_black_title">
+                    路线规划
+                    
+                    <span class="link_tag"><i>HOT</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">提供步行、驾车等规划能力</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                  
+                  <a class="columns_link"  href="/api/webservice/guide/api/direction">
+                    API
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/javascript-api-v2/tutorails/car-dir">
+                    JS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/android-navi-sdk/guide/route-plan/drive-route-plan">
+                    Android
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/ios-navi-sdk/guide/route-plan/drive-route-plan">
+                    iOS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/product/track-sdk">
+                  <strong class="columns_black_title">
+                    猎鹰服务
+                    
+                  </strong>
+                  <small class="columns_desc">提供专业轨迹管理服务</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                  
+                  <a class="columns_link"  href="/api/track/summary/">
+                    API
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/android-track/summary/">
+                    Android
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/ios-track/summary/">
+                    iOS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/logistic-service/guide/wagon_path/truck-route-plan-basis">
+                  <strong class="columns_black_title">
+                    货车路径规划
+                    
+                  </strong>
+                  <small class="columns_desc">专业的货车路径规划服务</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                  
+                  <a class="columns_link"  href="/api/logistic-service/guide/wagon_path/truck-route-plan-basis">
+                    API
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/android-navi-sdk/guide/truck-navi/truck-route-guide">
+                    Android
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/ios-navi-sdk/guide/truck-navi/truck-route-guide">
+                    iOS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/product/scope">
+                  <strong class="columns_black_title">
+                    智能调度引擎
+                    
+                  </strong>
+                  <small class="columns_desc">智能外勤调度，提升效益</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/logistic-service/summary">
+                  <strong class="columns_black_title">
+                    物流服务
+                    
+                  </strong>
+                  <small class="columns_desc">提供智慧物流API服务接口</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/webservice/guide/api-advanced/bus-inquiry">
+                  <strong class="columns_black_title">
+                    公交信息查询
+                    
+                  </strong>
+                  <small class="columns_desc">查询公交信息</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/webservice/guide/api-advanced/traffic-situation-inquiry">
+                  <strong class="columns_black_title">
+                    交通路况查询
+                    
+                  </strong>
+                  <small class="columns_desc">查询交通态势情况</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/webservice/guide/api-advanced/advanced-path">
+                  <strong class="columns_black_title">
+                    高级路径规划
+                    
+                  </strong>
+                  <small class="columns_desc">高级路径规划等能力</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-map"></i>
+              </span>
+              <span>
+                地图产品
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/harmonyosnext-map3d-sdk">
+                  <strong class="columns_black_title">
+                    鸿蒙星河版地图SDK
+                    
+                    <span class="link_tag"><i>HOT</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">鸿蒙星河版-轻量地图SDK</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/javascript-api-v2/summary">
+                  <strong class="columns_black_title">
+                    动态地图
+                    
+                    <span class="link_tag"><i>HOT</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">动态地图展示、配置</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                  
+                  <a class="columns_link"  href="/api/lightmap/summary/">
+                    API
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/javascript-api-v2/summary">
+                    JS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/android-sdk/summary/">
+                    Android
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/ios-sdk/summary/">
+                    iOS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/harmonyos-sdk/summary">
+                    HarmonyOS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/javascript-api-v2/guide/map/3d-map">
+                  <strong class="columns_black_title">
+                    3D地图
+                    
+                    <span class="link_tag"><i>HOT</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">3D动态地图展示、配置</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/subway-api/subway-summary/">
+                  <strong class="columns_black_title">
+                    地铁图
+                    
+                  </strong>
+                  <small class="columns_desc">简单易用的移动端地铁线路图开发接口</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                  
+                  <a class="columns_link"  href="/api/subway-api/subway-summary/">
+                    JS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/amap-mobile/guide/android/subway">
+                    Android
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  <a class="columns_link"  href="/api/amap-mobile/guide/ios/subway">
+                    iOS
+                    <i class="iconfont icon-icon-tiaozhuan"></i>
+                  </a>
+                  
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/api/webservice/guide/api/staticmaps">
+                  <strong class="columns_black_title">
+                    静态地图
+                    
+                  </strong>
+                  <small class="columns_desc">灵活地将高德地图迁入应用网页</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+              <div class="columns_block  columns_block_table">
+                <a class="columns_black_link" 
+                  href="/product/terrain#/">
+                  <strong class="columns_black_title">
+                    3D地形图
+                    
+                  </strong>
+                  <small class="columns_desc">卫星地形图还原真实地形地貌</small>
+                </a>
+
+                
+                <span class="columns_link_wrapper">
+                  
+                </span>
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-tools"></i>
+              </span>
+              <span>
+                高级地图工具
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/solution/abroad">
+                  <strong class="columns_black_title">
+                    世界地图
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/product/geohub#mapstyle">
+                  <strong class="columns_black_title">
+                    自定义地图
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/product/loca#/">
+                  <strong class="columns_black_title">
+                    地图数据可视化 (LOCA)
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/product/geohub#/geohub">
+                  <strong class="columns_black_title">
+                    地图数据中心 (GeoHUB)
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/tools/picker">
+                  <strong class="columns_black_title">
+                    坐标拾取器
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/uri-api/summary/">
+                  <strong class="columns_black_title">
+                    高德地图URI Web
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/amap-mobile/summary/">
+                  <strong class="columns_black_title">
+                    高德地图URI APP
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/tools/gltf">
+                  <strong class="columns_black_title">
+                    三维模型转换
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/wx/summary/">
+                  <strong class="columns_black_title">
+                    微信小程序插件
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/flutter/summary">
+                  <strong class="columns_black_title">
+                    地图Flutter插件
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/tools/card">
+                  <strong class="columns_black_title">
+                    地图名片
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-wia"></i>
+              </span>
+              <span>
+                高德地图小程序
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/product/wia">
+                  <strong class="columns_black_title">
+                    地图小程序
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/product/wia?pos=customer_manage">
+                  <strong class="columns_black_title">
+                    客户管理
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/product/wia?pos=staff_manage">
+                  <strong class="columns_black_title">
+                    员工管理
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/product/wia?pos=delivery_effect_raising">
+                  <strong class="columns_black_title">
+                    送货提效
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/wia-openapi/product">
+                  <strong class="columns_black_title">
+                    地图小程序API
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-AIyun"></i>
+              </span>
+              <span>
+                空间智能开放平台
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="https://lbsai.amap.com">
+                  <strong class="columns_black_title">
+                    空间智能开放平台
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">用真实空间信息解答业务问题</small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  <!-- /.frosted_nav_item -->
+  
+  <div
+    class="frosted_nav_item  ">
+    <a class="hover_dropdown" 
+      href="javascript:void(0)">
+      <span class="nav_title"> 解决方案</span>
+      
+      <span class="icon-down-arrow"></span>
+      
+    </a>
+    
+    <div class="children dropdown_item nav_left">
+      <div class="children_core">
+        <span class="title_box">
+          <span class="title_box_core">
+            
+            <strong>解决方案</strong>
+            
+            
+            <small>提供各行业LBS解决方案</small>
+            
+            
+          </span>
+        </span>
+
+        <ul class="dropdown_columns dropdown_height_mark " style="max-height:px">
+          
+          <li>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/spatialIntelligence">
+                  <strong class="columns_black_title">
+                    空间智能
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">提供LBS领域的Agent解决方案</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/smartwatch">
+                  <strong class="columns_black_title">
+                    智能手表
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">提供智能守护与运动出行解决方案</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/smartglasses">
+                  <strong class="columns_black_title">
+                    智能眼镜
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">智能眼镜实时导航及智慧出行解决方案</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/abroad">
+                  <strong class="columns_black_title">
+                    世界地图
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">面向开发者提供全球范围内LBS服务</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/two-wheeled-vehicle">
+                  <strong class="columns_black_title">
+                    智能两轮车
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">合规精确的两轮车场景导航</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/mobilebanking">
+                  <strong class="columns_black_title">
+                    手机银行
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">提供手机银行APP地图应用</small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/bankmarketing">
+                  <strong class="columns_black_title">
+                    网格化营销
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">提供银行网格化营销场景应用</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="https://jiaotong.amap.com/">
+                  <strong class="columns_black_title">
+                    智慧交通
+                    
+                  </strong>
+                  <small class="columns_desc">优化交通资源配置，赋能智慧交通系统</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="https://mobility.amap.com/">
+                  <strong class="columns_black_title">
+                    出行
+                    
+                  </strong>
+                  <small class="columns_desc">提供网约车等出行场景解决方案</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/o2o">
+                  <strong class="columns_black_title">
+                    O2O
+                    
+                  </strong>
+                  <small class="columns_desc">到店、到家等多种O2O业务解决方案</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/onsite">
+                  <strong class="columns_black_title">
+                    上门服务调度
+                    
+                  </strong>
+                  <small class="columns_desc">提供上门业务调度解决方案</small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/agrodeveloping">
+                  <strong class="columns_black_title">
+                    三农场景可视化
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc">提供乡村振兴三农场景应用</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/social">
+                  <strong class="columns_black_title">
+                    社交
+                    
+                  </strong>
+                  <small class="columns_desc">社交应用位置服务解决方案</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/sport">
+                  <strong class="columns_black_title">
+                    运动
+                    
+                  </strong>
+                  <small class="columns_desc">运动类应用解决方案</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/smarthard">
+                  <strong class="columns_black_title">
+                    智能硬件
+                    
+                  </strong>
+                  <small class="columns_desc">智能硬件LBS解决方案</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/retail">
+                  <strong class="columns_black_title">
+                    零售铺货
+                    
+                  </strong>
+                  <small class="columns_desc">零售快消行业，渠道铺货解决方案</small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/truck">
+                  <strong class="columns_black_title">
+                    智慧物流
+                    
+                  </strong>
+                  <small class="columns_desc">针对物流行业提供解决方案</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/e-commerce">
+                  <strong class="columns_black_title">
+                    电商
+                    
+                  </strong>
+                  <small class="columns_desc">电商物流行业解决方案</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/product/smart-address">
+                  <strong class="columns_black_title">
+                    地址服务
+                    
+                  </strong>
+                  <small class="columns_desc">综合地址服务，满足客户全景化需求</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/product/me">
+                  <strong class="columns_black_title">
+                    企业智图
+                    
+                  </strong>
+                  <small class="columns_desc">一张图轻松管理企业数据</small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" target=_blank
+                  href="/solution/dispatch">
+                  <strong class="columns_black_title">
+                    智能派单
+                    
+                  </strong>
+                  <small class="columns_desc">一站式精准智能派单解决方案</small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  <!-- /.frosted_nav_item -->
+  
+  <div
+    class="frosted_nav_item  ">
+    <a class="hover_dropdown" 
+      href="javascript:void(0)">
+      <span class="nav_title"> 文档与支持</span>
+      
+      <span class="icon-down-arrow"></span>
+      
+    </a>
+    
+    <div class="children dropdown_item nav_left">
+      <div class="children_core">
+        <span class="title_box">
+          <span class="title_box_core">
+            
+            <strong>文档与支持</strong>
+            
+            
+            <small>高德开放平台开发文档与服务支持</small>
+            
+            
+            <a href="/api" >
+              查看全部文档 <span class="iconfont icon-link"></span>
+            </a>
+            
+          </span>
+        </span>
+
+        <ul class="dropdown_columns dropdown_height_mark " style="max-height:400px">
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-api"></i>
+              </span>
+              <span>
+                API
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/webservice/summary">
+                  <strong class="columns_black_title">
+                    Web基础服务API
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/webservice/guide/api-advanced/search">
+                  <strong class="columns_black_title">
+                    Web高级服务API
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/logistic-service/summary">
+                  <strong class="columns_black_title">
+                    物流服务API
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/track/summary/">
+                  <strong class="columns_black_title">
+                    猎鹰服务 API
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-jsapi"></i>
+              </span>
+              <span>
+                JS API
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/javascript-api-v2">
+                  <strong class="columns_black_title">
+                    JS API
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/loca-v2">
+                  <strong class="columns_black_title">
+                    数据可视化JS API
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/lightmap">
+                  <strong class="columns_black_title">
+                    地图组件
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/uri-api">
+                  <strong class="columns_black_title">
+                    URI API
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/subway-api/subway-summary/">
+                  <strong class="columns_black_title">
+                    地铁图 JS API
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-android"></i>
+              </span>
+              <span>
+                Android 平台
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/android-sdk/summary/">
+                  <strong class="columns_black_title">
+                    Android 地图SDK
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/lightweight-android-sdk/summary">
+                  <strong class="columns_black_title">
+                    Android 轻量版地图SDK
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/android-location-sdk/locationsummary/">
+                  <strong class="columns_black_title">
+                    Android 定位SDK
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/android-navi-sdk/summary/">
+                  <strong class="columns_black_title">
+                    Android 导航SDK
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/android-track/summary/">
+                  <strong class="columns_black_title">
+                    Android 猎鹰SDK
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-ios"></i>
+              </span>
+              <span>
+                iOS 平台
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/ios-sdk/summary/">
+                  <strong class="columns_black_title">
+                    iOS 地图SDK
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/lightweight-ios-sdk/summary">
+                  <strong class="columns_black_title">
+                    iOS 轻量版地图SDK
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/ios-location-sdk/locationsummary/">
+                  <strong class="columns_black_title">
+                    iOS 定位SDK
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/ios-navi-sdk/summary/">
+                  <strong class="columns_black_title">
+                    iOS 导航SDK
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/ios-track/summary/">
+                  <strong class="columns_black_title">
+                    iOS 猎鹰SDK
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-harmonyos"></i>
+              </span>
+              <span>
+                鸿蒙星河版平台
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/harmonyosnext-map3d-sdk">
+                  <strong class="columns_black_title">
+                    鸿蒙星河版地图SDK
+                    
+                    <span class="link_tag"><i>HOT</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/harmonyosnext-location-sdk">
+                  <strong class="columns_black_title">
+                    鸿蒙星河版定位SDK
+                    
+                    <span class="link_tag"><i>HOT</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/harmonyosnext-navi-sdk/summary">
+                  <strong class="columns_black_title">
+                    鸿蒙星河版导航SDK
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-damoxing"></i>
+              </span>
+              <span>
+                大模型开发工具
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/ai/skillzone">
+                  <strong class="columns_black_title">
+                    SKILL专区
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/mcp-server">
+                  <strong class="columns_black_title">
+                    MCP Server
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/api/cli">
+                  <strong class="columns_black_title">
+                    高德开放平台 CLI
+                    
+                    <span class="link_tag"><i>NEW</i></span>
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-server"></i>
+              </span>
+              <span>
+                服务与支持
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/faq">
+                  <strong class="columns_black_title">
+                    常见问题
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="https://console.amap.com/dev/ticket/type">
+                  <strong class="columns_black_title">
+                    创建工单
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/demo/center">
+                  <strong class="columns_black_title">
+                    示例中心
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/compliance-center/ability/sdk-security-review">
+                  <strong class="columns_black_title">
+                    合规中心
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/commercial">
+                  <strong class="columns_black_title">
+                    技术服务许可查询
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  <!-- /.frosted_nav_item -->
+  
+  <div
+    class="frosted_nav_item nav_less ">
+    <a class="hover_dropdown" 
+      href="javascript:void(0)">
+      <span class="nav_title"> 定价</span>
+      
+      <span class="icon-down-arrow"></span>
+      
+    </a>
+    
+    <div class="children dropdown_item ">
+      <div class="children_core">
+        <span class="title_box">
+          <span class="title_box_core">
+            
+            <strong>定价</strong>
+            
+            
+            <small>开放平台产品定价</small>
+            
+            
+            <a href="/upgrade#price" >
+              产品定价 <span class="iconfont icon-link"></span>
+            </a>
+            
+          </span>
+        </span>
+
+        <ul class="dropdown_columns dropdown_height_mark " style="max-height:px">
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-price"></i>
+              </span>
+              <span>
+                产品定价
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/upgrade#price">
+                  <strong class="columns_black_title">
+                    产品定价
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/upgrade#business">
+                  <strong class="columns_black_title">
+                    技术服务许可
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/upgrade#mapstyle">
+                  <strong class="columns_black_title">
+                    GeoHUB自定义地图
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/upgrade#mapdata">
+                  <strong class="columns_black_title">
+                    GeoHUB数据中心
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="columns_title">
+              <span class="iconfont_wrap">
+                <i class="iconfont icon-menu-shengji"></i>
+              </span>
+              <span>
+                产品升级
+              </span>
+            </div>
+            
+            <div class="columns_block_wrap">
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/upgrade#pro">
+                  <strong class="columns_black_title">
+                    高级能力
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/upgrade#me">
+                  <strong class="columns_black_title">
+                    企业智图SaaS
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+              <div class="columns_block ">
+                <a class="columns_black_link" 
+                  href="/market">
+                  <strong class="columns_black_title">
+                    云图市场
+                    
+                  </strong>
+                  <small class="columns_desc"></small>
+                </a>
+
+                
+              </div>
+              
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  <!-- /.frosted_nav_item -->
+  
+  <div
+    class="frosted_nav_item  ">
+    <a class="hover_dropdown" 
+      href="/advantage">
+      <span class="nav_title"> 为什么选择高德</span>
+      
+    </a>
+    
+  </div>
+  <!-- /.frosted_nav_item -->
+  
+
+  <div class="frosted_nav_item children_step_aside">
+    <a href="javascript:void(0)" class="click_dropdown frosted_nav_search_entrance"><span class="iconfont icon-daohangsousuoanniu"></span></a>
+
+    <div class="children dropdown_item">
+      <div class="children_core">
+        <div class="dropdown_height_mark">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- /nav -->
+  </div>
+  <!-- /.frosted_core -->
+
+  <!-- .frosted_dropdown -->
+  <div class="frosted_dropdown">
+    <div id="frosted_dropdown_frosted_core" class="frosted_core">
+      <div class="dropdown_dynamic_content">
+        <!-- #frosted_searchbar -->
+<div id="frosted_searchbar" class="frosted_searchbar">
+  <form class="frosted_search_wrapper" action="/search?s=" method="get">
+    <span class="iconfont icon-daohangsousuoanniu search_icon"></span>
+    <input id="frosted_search_input" class="frosted_search_input" name="s" type="text" autocomplete="off"
+      placeholder="在高德开放平台搜索">
+    <a id="empty_search" class="empty_search" href="javascript:void(0)"><span
+        class="iconfont icon-qingkonganniu"></span></a>
+  </form>
+
+  <div id="frosted_search_sug" class="frosted_search_sug" data-search="" data-sug="0" data-suging="0">
+    <div class="frosted_search_sug_ing">
+      <img class="frosted_search_sug_ing_img" src="/public/img/header/loading.gif" alt="">
+    </div>
+
+    <div id="frosted_search_sug_content" class="frosted_search_sug_content"></div>
+  </div>
+
+  <div id="frosted_search_history_wrapper" class="frosted_search_history_wrapper frosted_search_content"
+    data-history="0">
+    <strong>历史记录</strong>
+
+    <ul id="frosted_search_history" class="frosted_search_history">
+      <!-- <li><a href="/search?s=地图">地图</a></li> -->
+    </ul>
+  </div>
+
+  <div class="frosted_search_content">
+    <strong>热门推荐</strong>
+
+    <ul class="frosted_search_list">
+      
+      <li>
+        <a href="/search?s=Android定位">
+          <span class="left">
+            <span class="iconfont icon-daohanglianjiejiantou"></span>
+            <strong>Android定位</strong>
+          </span>
+
+          <span class="right">
+            <small>Android定位问题相关</small>
+          </span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/search?s=浏览器定位">
+          <span class="left">
+            <span class="iconfont icon-daohanglianjiejiantou"></span>
+            <strong>浏览器定位</strong>
+          </span>
+
+          <span class="right">
+            <small>JS API提供Geolocation定位插件</small>
+          </span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/search?s=逆地理编码">
+          <span class="left">
+            <span class="iconfont icon-daohanglianjiejiantou"></span>
+            <strong>逆地理编码</strong>
+          </span>
+
+          <span class="right">
+            <small>经纬度转换为详细结构化的地址</small>
+          </span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/search?s=自定义地图">
+          <span class="left">
+            <span class="iconfont icon-daohanglianjiejiantou"></span>
+            <strong>自定义地图</strong>
+          </span>
+
+          <span class="right">
+            <small>7大类44种地图元素可定制</small>
+          </span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/search?s=认证开发商">
+          <span class="left">
+            <span class="iconfont icon-daohanglianjiejiantou"></span>
+            <strong>认证开发商</strong>
+          </span>
+
+          <span class="right">
+            <small>商业授权相关问题</small>
+          </span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<!-- /#frosted_searchbar -->
+
+<!--
+<div class="searchbar">
+  <div class="search_input">
+    <input type="text" autocomplete="off" id="search">
+    <i class="iconfont icon-search"></i>
+  </div>
+
+  <div class="search_sug hide">
+    <div class="sug_his_box"></div>
+    <div class="sug_hot_box"></div>
+    <div class="sug_list_box"></div>
+
+    <div class="sug_loading hide">
+      <img src="//a.amap.com/lbs-dev-yuntu/static/web/image/common/loading.gif" alt="">
+    </div>
+  </div>
+</div>
+-->
+
+      </div>
+    </div>
+  </div>
+  <!-- /.frosted_dropdown -->
+</header>
+<!-- /header --><div class="container" id="container"><div class="top-container" id="top-container"> </div><div class="title-container" id="title-container"></div><div class="center-container" id="center-container"><div class="cate-container" id="cate-container"></div><div class="content-container" id="content-container"><div class="home_content">
+  <div class='content_box'>
+    <div class="anchor_wrap_outer">
+      <div class="anchor_wrap">
+        <ul>
+          
+          <li class="home_anchor_item" id="anchor_hot">热门产品</li>
+          
+          <li class="home_anchor_item" id="anchor_featured">精选产品</li>
+          
+          <li class="home_anchor_item" id="anchor_solution">解决方案</li>
+          
+          <li class="home_anchor_item" id="anchor_advantage">优势介绍</li>
+          
+          <li class="home_anchor_item" id="anchor_apidoc">开发文档</li>
+          
+          <li class="home_anchor_item" id="anchor_devflow">成为开发者</li>
+          
+        </ul>
+      </div>
+    </div>
+    <!-- banner -->
+    <div class="banner_outer scroll_wrap" id="banner">
+      <div class="banner_content"><div class="home_banner">
+  <div class="content">
+    <div class="banner_swiper_body swiper">
+      <div class='banner_swiper swiper-wrapper'>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="banner_item">
+            <div class="banner_bg">
+              <div class="bg_shadow"></div>
+              <img class='bg_image' src="https://a.amap.com/lbs-dev-yuntu/static/web/banner/ydgzt@2x.png" alt="" />
+              <div class="bg_shadow_right"></div>
+            </div>
+            <div class="banner_text">
+              <p class='banner_title'>移动工作台上线，业务随时在线</p>
+              <p class='banner_title_sub'></p>
+              
+              <p class='banner_des'>告别电脑束缚，随时随地管理业务。</p>
+              
+              <p class='banner_des'>账号、流量、费用、安全等核心功能尽在掌握，</p>
+              
+              <p class='banner_des'>让业务处理更高效、更便捷。</p>
+              
+              <div class="banner_ctrl">
+                <a class="home_link" href="https://mp.weixin.qq.com/s/f0iLKiLtgxKMX8nqFohnsg" target="_blank">
+                  立即体验
+                  <i class="iconfont icon-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="banner_item">
+            <div class="banner_bg">
+              <div class="bg_shadow"></div>
+              <img class='bg_image' src="https://a.amap.com/lbs-dev-yuntu/static/image/banner/mcp_banner.jpg" alt="" />
+              <div class="bg_shadow_right"></div>
+            </div>
+            <div class="banner_text">
+              <p class='banner_title'>高德地图 MCP Server SSE 解决方案</p>
+              <p class='banner_title_sub'></p>
+              
+              <p class='banner_des'>通过简单配置，实现地理编码、路径规划、地点搜索</p>
+              
+              <p class='banner_des'>等12项核心功能的快速集成</p>
+              
+              <div class="banner_ctrl">
+                <a class="home_link" href="/api/mcp-server" target="_blank">
+                  了解详情
+                  <i class="iconfont icon-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="banner_item">
+            <div class="banner_bg">
+              <div class="bg_shadow"></div>
+              <img class='bg_image' src="https://a.amap.com/lbs-dev-yuntu/static/image/banner/loca.jpg" alt="" />
+              <div class="bg_shadow_right"></div>
+            </div>
+            <div class="banner_text">
+              <p class='banner_title'>LOCA 数据可视化 API 2.0 全面升级</p>
+              <p class='banner_title_sub'></p>
+              
+              <p class='banner_des'>支持百万数据 | 百余种图层样式 | 镜头动效自由切换</p>
+              
+              <div class="banner_ctrl">
+                <a class="home_link" href="https://lbs.amap.com/product/loca" target="_blank">
+                  立即使用
+                  <i class="iconfont icon-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="banner_item">
+            <div class="banner_bg">
+              <div class="bg_shadow"></div>
+              <img class='bg_image' src="https://a.amap.com/lbs-dev-yuntu/static/image/banner/intelligent-contact-center.jpg" alt="" />
+              <div class="bg_shadow_right"></div>
+            </div>
+            <div class="banner_text">
+              <p class='banner_title'>智能客服全新上线</p>
+              <p class='banner_title_sub'></p>
+              
+              <p class='banner_des'>秒级答疑丨丰富的知识库 | 直连人工支持 | 7x24小时响应</p>
+              
+              <div class="banner_ctrl">
+                <a class="home_link" href="https://lbs.amap.com/pages/intelligent-contact-center" target="_blank">
+                  立即使用
+                  <i class="iconfont icon-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="banner_item">
+            <div class="banner_bg">
+              <div class="bg_shadow"></div>
+              <img class='bg_image' src="https://a.amap.com/lbs-dev-yuntu/static/image/banner/lightmap.jpg" alt="" />
+              <div class="bg_shadow_right"></div>
+            </div>
+            <div class="banner_text">
+              <p class='banner_title'>轻量版地图SDK破茧新生</p>
+              <p class='banner_title_sub'></p>
+              
+              <p class='banner_des'>1M体积极限缩包 | 地图渲染核心能力丨高效加载优质性能</p>
+              
+              <div class="banner_ctrl">
+                <a class="home_link" href="/home/news/lite-sdk" target="_blank">
+                  立即使用
+                  <i class="iconfont icon-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <div class="bg_shadow_fix"></div>
+      <div class="bg_shadow_fix_right"></div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"><i class="iconfont icon-bannerzuofanyejiantou"></i></div>
+      <div class="swiper-button-next"><i class="iconfont icon-bannerfanyejiantou"></i></div>
+    </div>
+    <div class="news_entry">
+      <div class="home_news">
+  <div class="content">
+    <div class="news_logo"></div>
+    <div class="news_list">
+      
+      <div class="news_item_wrap">
+        <a class="news_item" href="https://lbs.amap.com/news/privacy_2604_amap" title="高德地图开放平台隐私权政策更新公告" target="_blank">
+          <p class='news_title trans2e'><span>高德地图开放平台隐私权政策更新公告</p>
+        </a>
+      </div>
+      
+      <div class="news_item_wrap">
+        <a class="news_item" href="https://lbs.amap.com/news/terms_2507_amap" title="高德地图开放平台服务协议更新公告" target="_blank">
+          <p class='news_title trans2e'><span>高德地图开放平台服务协议更新公告</p>
+        </a>
+      </div>
+      
+      <div class="news_item_wrap">
+        <a class="news_item" href="https://lbs.amap.com/news/initialization_amap" title="关于“JS地图图面初始化”接口调整及升级公告" target="_blank">
+          <p class='news_title trans2e'><span>关于“JS地图图面初始化”接口调整及升级公告</p>
+        </a>
+      </div>
+      
+      <div class="news_item_wrap">
+        <a class="news_item" href="https://lbs.amap.com/news/privacy_amap" title="高德地图开放平台隐私权政策更新公告" target="_blank">
+          <p class='news_title trans2e'><span>高德地图开放平台隐私权政策更新公告</p>
+        </a>
+      </div>
+      
+    </div>
+    <a class='more_news trans2e' href="https://lbs.amap.com/news" target="_blank">更多</a>
+    <div class="bg_shadow_fix"></div>
+    <div class="bg_shadow_fix_right"></div>
+  </div>
+</div>
+    </div>
+  </div>
+</div></div>
+    </div>
+    <!-- 功能概览 -->
+    <div class="content_outer">
+      <div class="ability_content content_wrap " id="ability">
+        <div class="ability_box">
+          <span class="ability_title">地图功能与服务速览</span>
+          <div class=" play_btn">
+            <span class="play_btn_inner">
+              <i class='iconfont icon-play'></i>
+            </span>
+            <span class="play_tip">播放视频</span>
+          </div>
+          <div class="video_modal hide" id="video_modal">
+            <div class="modal_box">
+              <a class="modal_close_outside" id="modal_video_close" href="javascript:void(0)" title="关闭">
+                <span class="iconfont icon-extend-close"></span>
+              </a>
+              <video id="videoItem" style="--plyr-color-main: #1A66FF;" preload="metadata" controls>
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 热门产品 -->
+    <div class="content_outer">
+      <div class="content_bg hot_content_bg load_hidden">
+        <img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/linebg/1.png" alt="">
+      </div>
+      <div class="hot_content content_wrap scroll_wrap " id="hot">
+        <p class="content_title ">热门产品</p>
+        <p class="content_title_sub ">高德开放平台核心地图服务</p>
+        <div class="hot_list">
+          
+
+<!-- <div class="hot_item big_item load_hidden"> -->
+<div class="hot_item big_item ">
+  <div id="0-0_parent" data-id="0-0" data-extend="extend"
+    class="hot_block big_size">
+    <div class="content">
+      <div class="block big_block">
+        
+        <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/hot/map/3dmap.jpg)"></div>
+        
+        
+        <div class="block_des_box  img_des">
+          <div class='block_des_box_inner'>
+            <p class='block_title'>3D地图</p>
+            
+            <p class='block_title_des'>多种交互支持</p>
+            
+            <p class='block_title_des'>真实3D地图的展示与配置</p>
+            
+            <div class="block_link_wrap">
+              
+              <a class='block_link home_link' href="https://lbs.amap.com/api/javascript-api-v2/guide/map/3d-map" target="_blank" style="color: ">
+                立即使用<i class="iconfont icon-link"></i>
+              </a>
+              
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="block_open">
+          <i class="icon-extend—arrow"></i>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div class="hot_item small_item load_hidden"> -->
+<div class="hot_item small_item ">
+  <div id="0-1_parent" data-id="0-1" data-extend=""
+    class="hot_block small_size">
+    <div class="content">
+      <div class="block small_block">
+        
+        
+        <div class="block_color_box" style="background: linear-gradient(135deg, #369EE9, #EAF5D1)"><i class="iconfont icon-card_search"></i></div>
+        
+        <div class="block_des_box  color_des">
+          <div class='block_des_box_inner'>
+            <p class='block_title'>搜索</p>
+            
+            <p class='block_title_des'>海量地图位置数据</p>
+            
+            <div class="block_link_wrap">
+              
+              <a class='block_link home_link' href="https://lbs.amap.com/api/webservice/guide/api/search" target="_blank" style="color: #359EE9">
+                API<i class="iconfont icon-link"></i>
+              </a>
+              
+              <a class='block_link home_link' href="https://lbs.amap.com/api/javascript-api-v2/tutorails/search-poi" target="_blank" style="color: #359EE9">
+                JS API<i class="iconfont icon-link"></i>
+              </a>
+              
+              <a class='block_link home_link' href="https://lbs.amap.com/api/android-sdk/guide/map-data/poi" target="_blank" style="color: #359EE9">
+                Android<i class="iconfont icon-link"></i>
+              </a>
+              
+              <a class='block_link home_link' href="https://lbs.amap.com/api/ios-sdk/guide/map-data/poi" target="_blank" style="color: #359EE9">
+                iOS<i class="iconfont icon-link"></i>
+              </a>
+              
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id=0-0_sub class="extend_block">
+  <div class='extend_inner'>
+    <div class="extend_close"><i class="iconfont icon-extend-close"></i></div>
+    <div class="block_title load_hidden">生动真实的3D地图渲染</div>
+    <div class="block_desc load_hidden">3D 地图在WebGL的基础上，基于矢量地图数据提供的3D地图视图效果，在保证流畅度的同时，增加了对旋转、视角倾斜、无级别缩放等地图功能的支持</div>
+    <div class='block_link load_hidden'>
+      
+      <a class="home_link" href="https://lbs.amap.com/api/javascript-api-v2/guide/map/3d-map">立即使用<i class="iconfont icon-link"></i></a>
+      
+    </div>
+    <div class="block_list load_hidden">
+      
+      <div class="block_item b-lazy">
+        <div class='media_block_wrap'>
+          <div class="media_block">
+            <div class='media_box'>
+              <!-- <img src="" alt="" /> -->
+              <video loop muted width='100%' preload="auto" playsInline class="media_video"
+                src="https://lbs-public.oss-cn-beijing.aliyuncs.com/video/map2.mp4"></video>
+              </video>
+              <div class="play_btn"><i class="iconfont icon-hot_play"></i></div>
+            </div>
+            <div class="media_title">真实美观的具象3D地图</div>
+            <div class="media_desc">第四代 Web 地图渲染引擎</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="block_item b-lazy">
+        <div class='media_block_wrap'>
+          <div class="media_block">
+            <div class='media_box'>
+              <!-- <img src="" alt="" /> -->
+              <video loop muted width='100%' preload="auto" playsInline class="media_video"
+                src="https://lbs-public.oss-cn-beijing.aliyuncs.com/video/map1.mp4"></video>
+              </video>
+              <div class="play_btn"><i class="iconfont icon-hot_play"></i></div>
+            </div>
+            <div class="media_title">精美的地标建筑模型</div>
+            <div class="media_desc">高精度地图模型数据</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="block_item b-lazy">
+        <div class='media_block_wrap'>
+          <div class="media_block">
+            <div class='media_box'>
+              <!-- <img src="" alt="" /> -->
+              <video loop muted width='100%' preload="auto" playsInline class="media_video"
+                src="https://lbs-public.oss-cn-beijing.aliyuncs.com/video/map3.mp4"></video>
+              </video>
+              <div class="play_btn"><i class="iconfont icon-hot_play"></i></div>
+            </div>
+            <div class="media_title">简洁流畅的轨迹动画</div>
+            <div class="media_desc">开放众多特性接口能力</div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div class="hot_item small_item load_hidden"> -->
+<div class="hot_item small_item ">
+  <div id="1-0_parent" data-id="1-0" data-extend=""
+    class="hot_block small_size">
+    <div class="content">
+      <div class="block small_block">
+        
+        
+        <div class="block_color_box" style="background: linear-gradient(135deg, #49D2E0, #E6EBB9)"><i class="iconfont icon-card_wia"></i></div>
+        
+        <div class="block_des_box  color_des">
+          <div class='block_des_box_inner'>
+            <p class='block_title'>高德地图小程序</p>
+            
+            <p class='block_title_des'>高德App内置外勤管理工具</p>
+            
+            <p class='block_title_des'>一键拓客 外勤无忧 顺路规划</p>
+            
+            <div class="block_link_wrap">
+              
+              <a class='block_link home_link' href="https://lbs.amap.com/product/wia" target="_blank" style="color: #36ABD1">
+                了解详情<i class="iconfont icon-link"></i>
+              </a>
+              
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div class="hot_item big_item load_hidden"> -->
+<div class="hot_item big_item ">
+  <div id="1-1_parent" data-id="1-1" data-extend="extend"
+    class="hot_block big_size">
+    <div class="content">
+      <div class="block big_block">
+        
+        <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/hot/nav/nav.jpg)"></div>
+        
+        
+        <div class="block_des_box  img_des">
+          <div class='block_des_box_inner'>
+            <p class='block_title'>导航</p>
+            
+            <p class='block_title_des'>全场景路径规划</p>
+            
+            <p class='block_title_des'>实时交通的专业导航</p>
+            
+            <div class="block_link_wrap">
+              
+              <a class='block_link home_link' href="https://lbs.amap.com/api/android-navi-sdk/summary/" target="_blank" style="color: ">
+                Android<i class="iconfont icon-link"></i>
+              </a>
+              
+              <a class='block_link home_link' href="https://lbs.amap.com/api/ios-navi-sdk/summary" target="_blank" style="color: ">
+                iOS<i class="iconfont icon-link"></i>
+              </a>
+              
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="block_open">
+          <i class="icon-extend—arrow"></i>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id=1-1_sub class="extend_block">
+  <div class='extend_inner'>
+    <div class="extend_close"><i class="iconfont icon-extend-close"></i></div>
+    <div class="block_title load_hidden">轻松地在APP中加入导航能力</div>
+    <div class="block_desc load_hidden">基于高德海量地图数据，并结合实施交通信息提供在线导航能力。产品功能覆盖路径规划、专业导航、UI界面定制、导航组件等</div>
+    <div class='block_link load_hidden'>
+      
+      <a class="home_link" href="https://lbs.amap.com/api/android-navi-sdk/summary/">Android<i class="iconfont icon-link"></i></a>
+      
+      <a class="home_link" href="https://lbs.amap.com/api/ios-navi-sdk/summary">iOS<i class="iconfont icon-link"></i></a>
+      
+    </div>
+    <div class="block_list load_hidden">
+      
+      <div class="block_item b-lazy">
+        <div class='media_block_wrap'>
+          <div class="media_block">
+            <div class='media_box'>
+              <!-- <img src="" alt="" /> -->
+              <video loop muted width='100%' preload="auto" playsInline class="media_video"
+                src="https://lbs-public.oss-cn-beijing.aliyuncs.com/video/nav1.mp4"></video>
+              </video>
+              <div class="play_btn"><i class="iconfont icon-hot_play"></i></div>
+            </div>
+            <div class="media_title">多种导航方式</div>
+            <div class="media_desc">支持驾车、步行、骑行、货车、公交等多种导航</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="block_item b-lazy">
+        <div class='media_block_wrap'>
+          <div class="media_block">
+            <div class='media_box'>
+              <!-- <img src="" alt="" /> -->
+              <video loop muted width='100%' preload="auto" playsInline class="media_video"
+                src="https://lbs-public.oss-cn-beijing.aliyuncs.com/video/nav2.mp4"></video>
+              </video>
+              <div class="play_btn"><i class="iconfont icon-hot_play"></i></div>
+            </div>
+            <div class="media_title">丰富的导航模式</div>
+            <div class="media_desc">支持实时导航、HUD导航、智能巡航</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="block_item b-lazy">
+        <div class='media_block_wrap'>
+          <div class="media_block">
+            <div class='media_box'>
+              <!-- <img src="" alt="" /> -->
+              <video loop muted width='100%' preload="auto" playsInline class="media_video"
+                src="https://lbs-public.oss-cn-beijing.aliyuncs.com/video/nav3.mp4"></video>
+              </video>
+              <div class="play_btn"><i class="iconfont icon-hot_play"></i></div>
+            </div>
+            <div class="media_title">强大的UI定制能力</div>
+            <div class="media_desc">提供导航UI界面自定义二次开发能力</div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+        </div>
+        <div class="fly load_hidden">
+          <img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/linebg/fly1.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- 精选产品 -->
+    <div class="content_outer">
+      <div class="content_bg featured_content_bg load_hidden ">
+        <img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/linebg/2.png" alt="">
+      </div>
+      <div class="featured_content content_wrap scroll_wrap show_anchor" id="featured">
+        <p class="content_title load_hidden">精选产品</p>
+        <p class="content_title_sub load_hidden">高德开放平台核心地图服务</p>
+        <div class="featured_content_list load_hidden">
+          <div class="feature_swiper_body">
+  <div class='feature_swiper swiper-wrapper' data-label="搜索定位,路线导航,地图产品,高级地图工具">
+    
+    <div class='feature_slide_item swiper-slide'>
+      <div class="featured_list feature_list-0 first_feature">
+        
+        
+        <!-- <div
+          class="featrue_item load_hidden big_item w_2_3"
+          id="featrue_item_0_0"> -->
+        <div class="featrue_item big_item w_2_3"
+          id="featrue_item_0_0">
+          <div class="feature_block big_size">
+            <div class="content">
+              <div class="block big_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/search_loc/loc.gif?v=2)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_top img_des">
+                  <p class='block_title'>定位</p>
+                  
+                  <p class='block_title_des'>轻松地在APP中加入定位功能</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/webservice/guide/api/ipconfig" target="_blank"
+                      style="color: ">
+                      API<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/android-location-sdk/locationsummary/" target="_blank"
+                      style="color: ">
+                      Android<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/ios-location-sdk/summary/" target="_blank"
+                      style="color: ">
+                      iOS<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item load_hidden small_item w_2_3"
+          id="featrue_item_0_1"> -->
+        <div class="featrue_item small_item w_2_3"
+          id="featrue_item_0_1">
+          <div class="feature_block small_size">
+            <div class="content">
+              <div class="block small_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/search_loc/weather.jpg)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_left img_des">
+                  <p class='block_title'>天气查询</p>
+                  
+                  <p class='block_title_des'>查询目标区域当前/未来天气</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/webservice/guide/api/weatherinfo" target="_blank"
+                      style="color: ">
+                      立即使用<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item load_hidden small_item w_1_3"
+          id="featrue_item_0_2"> -->
+        <div class="featrue_item small_item w_1_3"
+          id="featrue_item_0_2">
+          <div class="feature_block small_size">
+            <div class="content">
+              <div class="block small_block">
+                
+                
+                <div class="block_color_box" style="background: linear-gradient(135deg, #369EE9, #EAF5D1)"><i
+                    class="iconfont icon-card_track"></i></div>
+                
+
+                <div
+                  class="block_des_box des_left color_des">
+                  <p class='block_title'>地理围栏</p>
+                  
+                  <p class='block_title_des'>虚拟空间围栏</p>
+                  
+                  <p class='block_title_des'>追踪观测对象进入、离开时间</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/track/lieying-kaifa/api/track_fence" target="_blank"
+                      style="color: #359EE9">
+                      API<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/android-location-sdk/guide/additional-func/local-geofence" target="_blank"
+                      style="color: #359EE9">
+                      Android<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/ios-location-sdk/guide/additional-func/local-geofence" target="_blank"
+                      style="color: #359EE9">
+                      iOS<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item load_hidden big_item w_1_3"
+          id="featrue_item_0_3"> -->
+        <div class="featrue_item big_item w_1_3"
+          id="featrue_item_0_3">
+          <div class="feature_block big_size">
+            <div class="content">
+              <div class="block big_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/search_loc/geo.jpg)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_bottom img_des">
+                  <p class='block_title'>地理/逆地理编码</p>
+                  
+                  <p class='block_title_des'>地址信息与经纬度之间转换服务</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/webservice/guide/api/georegeo" target="_blank"
+                      style="color: ">
+                      API<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/javascript-api-v2/guide/services/geocoder" target="_blank"
+                      style="color: ">
+                      JS API<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/android-sdk/guide/map-data/geo" target="_blank"
+                      style="color: ">
+                      Android<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/ios-sdk/guide/map-data/geo" target="_blank"
+                      style="color: ">
+                      iOS<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="feature_link_list">
+        
+        <a href="https://lbs.amap.com/product/search" class="home_link" target="_blank">了解全部搜索产品<i
+            class="iconfont icon-link"></i></a>
+        
+        <a href="https://lbs.amap.com/product/locate" class="home_link" target="_blank">了解全部定位产品<i
+            class="iconfont icon-link"></i></a>
+        
+      </div>
+    </div>
+    
+    <div class='feature_slide_item swiper-slide'>
+      <div class="featured_list feature_list-1 ">
+        
+        
+        <!-- <div
+          class="featrue_item  big_item w_2_3"
+          id="featrue_item_1_0"> -->
+        <div class="featrue_item big_item w_2_3"
+          id="featrue_item_1_0">
+          <div class="feature_block big_size">
+            <div class="content">
+              <div class="block big_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/nav/nav.gif)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_top img_des">
+                  <p class='block_title'>路线规划</p>
+                  
+                  <p class='block_title_des'>根据道路、实时路况，提供路线规划API接口</p>
+                  
+                  <p class='block_title_des'>支持JS绘制、SDK集成应用</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/webservice/guide/api/newroute" target="_blank"
+                      style="color: ">
+                      API<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/javascript-api-v2/tutorails/car-dir" target="_blank"
+                      style="color: ">
+                      JS API<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/android-navi-sdk/guide/route-plan/drive-route-plan" target="_blank"
+                      style="color: ">
+                      Android<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/ios-navi-sdk/guide/route-plan/drive-route-plan" target="_blank"
+                      style="color: ">
+                      iOS<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item  small_item w_2_3"
+          id="featrue_item_1_1"> -->
+        <div class="featrue_item small_item w_2_3"
+          id="featrue_item_1_1">
+          <div class="feature_block small_size">
+            <div class="content">
+              <div class="block small_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/nav/track.jpg)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_left img_des">
+                  <p class='block_title'>猎鹰轨迹服务</p>
+                  
+                  <p class='block_title_des'>提供专业轨迹管理服务</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/track/summary/" target="_blank"
+                      style="color: ">
+                      API<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/android-track/summary/" target="_blank"
+                      style="color: ">
+                      Android<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/ios-track/summary/" target="_blank"
+                      style="color: ">
+                      iOS<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item  big_item w_1_3"
+          id="featrue_item_1_2"> -->
+        <div class="featrue_item big_item w_1_3"
+          id="featrue_item_1_2">
+          <div class="feature_block big_size">
+            <div class="content">
+              <div class="block big_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/nav/scope.jpg)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_top img_des">
+                  <p class='block_title'>智能调度引擎</p>
+                  
+                  <p class='block_title_des'>智能外勤调度，提升效率</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/product/scope" target="_blank"
+                      style="color: ">
+                      了解详情<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item  small_item w_1_3"
+          id="featrue_item_1_3"> -->
+        <div class="featrue_item small_item w_1_3"
+          id="featrue_item_1_3">
+          <div class="feature_block small_size">
+            <div class="content">
+              <div class="block small_block">
+                
+                
+                <div class="block_color_box" style="background: linear-gradient(135deg, #49D2E0, #E6EBB9)"><i
+                    class="iconfont icon-card_logistic"></i></div>
+                
+
+                <div
+                  class="block_des_box des_left color_des">
+                  <p class='block_title'>物流服务</p>
+                  
+                  <p class='block_title_des'>提供智能物流API服务接口</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/logistic-service/summary" target="_blank"
+                      style="color: #36ABD1">
+                      立即使用<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="feature_link_list">
+        
+        <a href="https://lbs.amap.com/product/navigation" class="home_link" target="_blank">了解全部路线导航产品<i
+            class="iconfont icon-link"></i></a>
+        
+      </div>
+    </div>
+    
+    <div class='feature_slide_item swiper-slide'>
+      <div class="featured_list feature_list-2 ">
+        
+        
+        <!-- <div
+          class="featrue_item  big_item w_2_3"
+          id="featrue_item_2_0"> -->
+        <div class="featrue_item big_item w_2_3"
+          id="featrue_item_2_0">
+          <div class="feature_block big_size">
+            <div class="content">
+              <div class="block big_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/map/2dmap.gif)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_top img_des">
+                  <p class='block_title'>动态2D地图</p>
+                  
+                  <p class='block_title_des'>灵活配置动态地图样式展示</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/lightmap/summary/" target="_blank"
+                      style="color: ">
+                      API<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/javascript-api-v2/summary" target="_blank"
+                      style="color: ">
+                      JS API<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/android-sdk/summary/" target="_blank"
+                      style="color: ">
+                      Android<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/ios-sdk/summary/" target="_blank"
+                      style="color: ">
+                      iOS<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item  small_item w_2_3"
+          id="featrue_item_2_1"> -->
+        <div class="featrue_item small_item w_2_3"
+          id="featrue_item_2_1">
+          <div class="feature_block small_size">
+            <div class="content">
+              <div class="block small_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/map/subway.jpg)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_left img_des">
+                  <p class='block_title'>地铁图</p>
+                  
+                  <p class='block_title_des'>地铁图移动端H5页面</p>
+                  
+                  <p class='block_title_des'>通过API开发查询、路线规划等功能</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/subway-api/subway-summary/" target="_blank"
+                      style="color: ">
+                      JS API<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/amap-mobile/guide/android/subway" target="_blank"
+                      style="color: ">
+                      Android<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/amap-mobile/guide/ios/subway" target="_blank"
+                      style="color: ">
+                      iOS<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item  small_item w_1_3"
+          id="featrue_item_2_2"> -->
+        <div class="featrue_item small_item w_1_3"
+          id="featrue_item_2_2">
+          <div class="feature_block small_size">
+            <div class="content">
+              <div class="block small_block">
+                
+                
+                <div class="block_color_box" style="background: linear-gradient(135deg, #369EE9, #EAF5D1)"><i
+                    class="iconfont icon-card_map"></i></div>
+                
+
+                <div
+                  class="block_des_box des_left color_des">
+                  <p class='block_title'>静态地图</p>
+                  
+                  <p class='block_title_des'>将高德地图嵌入应用网页</p>
+                  
+                  <p class='block_title_des'>自定义地图位置、大小、覆盖物等</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/webservice/guide/api/staticmaps" target="_blank"
+                      style="color: #359EE9">
+                      立即使用<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item  big_item w_1_3"
+          id="featrue_item_2_3"> -->
+        <div class="featrue_item big_item w_1_3"
+          id="featrue_item_2_3">
+          <div class="feature_block big_size">
+            <div class="content">
+              <div class="block big_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/map/terrain.jpg)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_bottom img_des">
+                  <p class='block_title'>3D地形图</p>
+                  
+                  <p class='block_title_des'>卫星地形图还原真实地形地貌</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/product/terrain" target="_blank"
+                      style="color: ">
+                      JS API<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/android-sdk/guide/create-map/terrain" target="_blank"
+                      style="color: ">
+                      Android<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/ios-sdk/guide/create-map/terrain" target="_blank"
+                      style="color: ">
+                      iOS<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="feature_link_list">
+        
+        <a href="https://lbs.amap.com/product/map" class="home_link" target="_blank">了解全部地图产品<i
+            class="iconfont icon-link"></i></a>
+        
+      </div>
+    </div>
+    
+    <div class='feature_slide_item swiper-slide'>
+      <div class="featured_list feature_list-3 ">
+        
+        
+        <!-- <div
+          class="featrue_item  big_item w_1_2"
+          id="featrue_item_3_0"> -->
+        <div class="featrue_item big_item w_1_2"
+          id="featrue_item_3_0">
+          <div class="feature_block big_size">
+            <div class="content">
+              <div class="block big_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/tools/mapstyle.gif)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_top img_des">
+                  <p class='block_title'>自定义地图</p>
+                  
+                  <p class='block_title_des'>自定义地图样式和内容</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/product/geohub#mapstyle" target="_blank"
+                      style="color: ">
+                      了解详情<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item  small_item w_1_2"
+          id="featrue_item_3_1"> -->
+        <div class="featrue_item small_item w_1_2"
+          id="featrue_item_3_1">
+          <div class="feature_block small_size">
+            <div class="content">
+              <div class="block small_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/tools/lnglat.jpg)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_left img_des">
+                  <p class='block_title'>坐标拾取器</p>
+                  
+                  <p class='block_title_des'>地址信息与经纬度坐标转换工具</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/tools/picker" target="_blank"
+                      style="color: ">
+                      了解详情<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item  big_item w_1_4"
+          id="featrue_item_3_2"> -->
+        <div class="featrue_item big_item w_1_4"
+          id="featrue_item_3_2">
+          <div class="feature_block big_size">
+            <div class="content">
+              <div class="block big_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/tools/data.jpg)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_top img_des">
+                  <p class='block_title'>地图数据中心</p>
+                  
+                  <p class='block_title_des'>数据管理、编辑</p>
+                  
+                  <p class='block_title_des'>空间分析、发布</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/product/geohub#geohub" target="_blank"
+                      style="color: ">
+                      了解详情<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item  small_item w_1_4"
+          id="featrue_item_3_3"> -->
+        <div class="featrue_item small_item w_1_4"
+          id="featrue_item_3_3">
+          <div class="feature_block small_size">
+            <div class="content">
+              <div class="block small_block">
+                
+                
+                <div class="block_color_box" style="background: linear-gradient(135deg, #369EE9, #EAF5D1)"><i
+                    class="iconfont "></i></div>
+                
+
+                <div
+                  class="block_des_box des_top color_des">
+                  <p class='block_title'>三维模型转换</p>
+                  
+                  <p class='block_title_des'>三维模型转换工具</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/tools/gltf" target="_blank"
+                      style="color: #359EE9">
+                      立即使用<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item  small_item w_1_4"
+          id="featrue_item_3_4"> -->
+        <div class="featrue_item small_item w_1_4"
+          id="featrue_item_3_4">
+          <div class="feature_block small_size">
+            <div class="content">
+              <div class="block small_block">
+                
+                
+                <div class="block_color_box" style="background: linear-gradient(135deg, #49D2E0, #E6EBB9)"><i
+                    class="iconfont "></i></div>
+                
+
+                <div
+                  class="block_des_box des_top color_des">
+                  <p class='block_title'>URI API</p>
+                  
+                  <p class='block_title_des'>调用高德地图APP、Web端</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/uri-api/summary/" target="_blank"
+                      style="color: #36ABD1">
+                      Web<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/api/amap-mobile/summary/" target="_blank"
+                      style="color: #36ABD1">
+                      APP<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div
+          class="featrue_item  big_item w_1_4"
+          id="featrue_item_3_5"> -->
+        <div class="featrue_item big_item w_1_4"
+          id="featrue_item_3_5">
+          <div class="feature_block big_size">
+            <div class="content">
+              <div class="block big_block">
+                
+                <div class="block_image_box" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/feature/tools/geohub.jpg)"></div>
+                
+                
+
+                <div
+                  class="block_des_box des_bottom img_des">
+                  <p class='block_title'>数据可视化</p>
+                  
+                  <p class='block_title_des'>地图空间数据可视化渲染引擎</p>
+                  
+                  <div class="block_link_wrap">
+                    
+                    <a class='block_link home_link' href="https://lbs.amap.com/product/loca#/" target="_blank"
+                      style="color: ">
+                      了解详情<i class="iconfont icon-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="feature_link_list">
+        
+      </div>
+    </div>
+    
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"><i class="iconfont icon-bannerzuofanyejiantou"></i></div>
+  <div class="swiper-button-next"><i class="iconfont icon-bannerfanyejiantou"></i></div>
+</div>
+        </div>
+      </div>
+    </div>
+    <!-- 解决方案 -->
+    <div class="content_outer">
+      <div class="content_bg solution_content_bg load_hidden">
+        <img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/linebg/3.png" alt="">
+      </div>
+      <div class="solution_content content_wrap scroll_wrap show_anchor" id="solution">
+        <p class="content_title load_hidden">解决方案</p>
+        <p class="content_title_sub load_hidden">提供最专业的产品解决方案</p>
+        <div class="solution_list load_hidden">
+          <div class="home_solution">
+  <div class="content">
+    <div class='solution_swiper_body'>
+      <div class='solution_swiper swiper-wrapper' data-label="出行,货运,海外,游戏,电商,O2O,社交,运动,智能手表,智能硬件">
+        
+        <div class='slide_item swiper-slide'>
+          <div class="solution_item">
+            <div class="solution_bg" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/solution/1.jpg);">
+              <!-- <div class="bg_shadow"></div> -->
+            </div>
+            <div class="solution_text">
+              <p class='solution_title'>出行解决方案</p>
+              <p class='solution_title_sub'>一站式解决行业痛点</p>
+              <ul class='solution_tags'>
+                
+                <li>优化服务体验</li>
+                
+                <li>提升运营效率</li>
+                
+                <li>赋能业务增长</li>
+                
+              </ul>
+              <p class='solution_des'></p>
+              <div class="solution_ctrl">
+                <a class="home_link" href="https://mobility.amap.com/" target='_blank'>了解详情<i class="iconfont icon-link"></i></a>
+              </div>
+            </div>
+            <div class="solution_brand">
+              <img src="https://a.amap.com/lbs-dev-yuntu/static/web/image/home/travel_logo/travel_plan_user_01_2x.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="solution_item">
+            <div class="solution_bg" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/solution/2.jpg);">
+              <!-- <div class="bg_shadow"></div> -->
+            </div>
+            <div class="solution_text">
+              <p class='solution_title'>货运解决方案</p>
+              <p class='solution_title_sub'>帮助近3000万司机安全出行</p>
+              <ul class='solution_tags'>
+                
+                <li>货运地址服务</li>
+                
+                <li>货车路线规划</li>
+                
+                <li>货运里程预估</li>
+                
+                <li>货车导航功能</li>
+                
+              </ul>
+              <p class='solution_des'></p>
+              <div class="solution_ctrl">
+                <a class="home_link" href="https://lbs.amap.com/solution/truck" target='_blank'>了解详情<i class="iconfont icon-link"></i></a>
+              </div>
+            </div>
+            <div class="solution_brand">
+              <img src="https://a.amap.com/lbs-dev-yuntu/static/web/image/home/travel_logo/travel_plan_user_02_1_2x.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="solution_item">
+            <div class="solution_bg" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/solution/3.jpg);">
+              <!-- <div class="bg_shadow"></div> -->
+            </div>
+            <div class="solution_text">
+              <p class='solution_title'>海外解决方案</p>
+              <p class='solution_title_sub'>助力开发者出海</p>
+              <ul class='solution_tags'>
+                
+                <li>5大类基础服务</li>
+                
+                <li>服务覆盖全球</li>
+                
+                <li>海内外产品一体化</li>
+                
+                <li>服务稳定性保证</li>
+                
+              </ul>
+              <p class='solution_des'></p>
+              <div class="solution_ctrl">
+                <a class="home_link" href="https://lbs.amap.com/solution/abroad" target='_blank'>了解详情<i class="iconfont icon-link"></i></a>
+              </div>
+            </div>
+            <div class="solution_brand">
+              <img src="https://a.amap.com/lbs-dev-yuntu/static/web/image/home/travel_logo/travel_plan_user_03_2x.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="solution_item">
+            <div class="solution_bg" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/solution/4.jpg);">
+              <!-- <div class="bg_shadow"></div> -->
+            </div>
+            <div class="solution_text">
+              <p class='solution_title'>游戏解决方案</p>
+              <p class='solution_title_sub'>引擎升级助力实时渲染</p>
+              <ul class='solution_tags'>
+                
+                <li>玩家位置展现</li>
+                
+                <li>绚丽游戏动画</li>
+                
+                <li>自定义地图样式</li>
+                
+                <li>游戏路线规划</li>
+                
+              </ul>
+              <p class='solution_des'></p>
+              <div class="solution_ctrl">
+                <a class="home_link" href="https://lbs.amap.com/solution/game" target='_blank'>了解详情<i class="iconfont icon-link"></i></a>
+              </div>
+            </div>
+            <div class="solution_brand">
+              <img src="https://a.amap.com/lbs-dev-yuntu/static/web/image/home/travel_logo/travel_plan_user_04_2x.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="solution_item">
+            <div class="solution_bg" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/solution/5.jpg);">
+              <!-- <div class="bg_shadow"></div> -->
+            </div>
+            <div class="solution_text">
+              <p class='solution_title'>电商解决方案</p>
+              <p class='solution_title_sub'>智能物流监控实时包裹</p>
+              <ul class='solution_tags'>
+                
+                <li>设置收货地址</li>
+                
+                <li>配送员调度</li>
+                
+                <li>规划配送路线</li>
+                
+                <li>包裹配送进度展示</li>
+                
+              </ul>
+              <p class='solution_des'></p>
+              <div class="solution_ctrl">
+                <a class="home_link" href="https://lbs.amap.com/solution/e-commerce" target='_blank'>了解详情<i class="iconfont icon-link"></i></a>
+              </div>
+            </div>
+            <div class="solution_brand">
+              <img src="https://a.amap.com/lbs-dev-yuntu/static/web/image/home/travel_logo/travel_plan_user_05_2x.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="solution_item">
+            <div class="solution_bg" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/solution/6.jpg);">
+              <!-- <div class="bg_shadow"></div> -->
+            </div>
+            <div class="solution_text">
+              <p class='solution_title'>O2O解决方案</p>
+              <p class='solution_title_sub'>多点配送选择最优路径</p>
+              <ul class='solution_tags'>
+                
+                <li>设置收货地址</li>
+                
+                <li>配送员调度</li>
+                
+                <li>规划配送路线</li>
+                
+                <li>包裹配送进度展示</li>
+                
+              </ul>
+              <p class='solution_des'></p>
+              <div class="solution_ctrl">
+                <a class="home_link" href="https://lbs.amap.com/solution/o2o" target='_blank'>了解详情<i class="iconfont icon-link"></i></a>
+              </div>
+            </div>
+            <div class="solution_brand">
+              <img src="https://a.amap.com/lbs-dev-yuntu/static/web/image/home/travel_logo/travel_plan_user_06_2x.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="solution_item">
+            <div class="solution_bg" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/solution/7.jpg);">
+              <!-- <div class="bg_shadow"></div> -->
+            </div>
+            <div class="solution_text">
+              <p class='solution_title'>社交解决方案</p>
+              <p class='solution_title_sub'>精准定位发现附近精彩</p>
+              <ul class='solution_tags'>
+                
+                <li>附近的人和事</li>
+                
+                <li>实时位置分享</li>
+                
+                <li>用户位置展现</li>
+                
+                <li>大数据分析</li>
+                
+              </ul>
+              <p class='solution_des'></p>
+              <div class="solution_ctrl">
+                <a class="home_link" href="https://lbs.amap.com/solution/social" target='_blank'>了解详情<i class="iconfont icon-link"></i></a>
+              </div>
+            </div>
+            <div class="solution_brand">
+              <img src="https://a.amap.com/lbs-dev-yuntu/static/web/image/home/travel_logo/travel_plan_user_07_2x.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="solution_item">
+            <div class="solution_bg" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/solution/8.jpg);">
+              <!-- <div class="bg_shadow"></div> -->
+            </div>
+            <div class="solution_text">
+              <p class='solution_title'>运动解决方案</p>
+              <p class='solution_title_sub'>轨迹展示分享运动成果</p>
+              <ul class='solution_tags'>
+                
+                <li>运动轨迹分享</li>
+                
+                <li>附近运动的人</li>
+                
+              </ul>
+              <p class='solution_des'></p>
+              <div class="solution_ctrl">
+                <a class="home_link" href="https://lbs.amap.com/solution/sport" target='_blank'>了解详情<i class="iconfont icon-link"></i></a>
+              </div>
+            </div>
+            <div class="solution_brand">
+              <img src="https://a.amap.com/lbs-dev-yuntu/static/web/image/home/travel_logo/travel_plan_user_08_2x.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="solution_item">
+            <div class="solution_bg" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/solution/10.jpg);">
+              <!-- <div class="bg_shadow"></div> -->
+            </div>
+            <div class="solution_text">
+              <p class='solution_title'>智能手表解决方案</p>
+              <p class='solution_title_sub'>赋能智能穿戴设备，开启智慧出行新体验</p>
+              <ul class='solution_tags'>
+                
+                <li>地图导航</li>
+                
+                <li>运动出行</li>
+                
+                <li>智能守护</li>
+                
+                <li>支持RTOS设备</li>
+                
+              </ul>
+              <p class='solution_des'></p>
+              <div class="solution_ctrl">
+                <a class="home_link" href="/solution/smartwatch" target='_blank'>了解详情<i class="iconfont icon-link"></i></a>
+              </div>
+            </div>
+            <div class="solution_brand">
+              <img src="https://a.amap.com/lbs-dev-yuntu/static/web/image/home/travel_logo/xiaomilogo.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div class='slide_item swiper-slide'>
+          <div class="solution_item">
+            <div class="solution_bg" style="background-image: url(https://a.amap.com/lbs-dev-yuntu/static/image/home/solution/9.jpg);">
+              <!-- <div class="bg_shadow"></div> -->
+            </div>
+            <div class="solution_text">
+              <p class='solution_title'>智能硬件解决方案</p>
+              <p class='solution_title_sub'>硬件定位实现智能升级</p>
+              <ul class='solution_tags'>
+                
+                <li>全球地址解析</li>
+                
+                <li>中英文地图展现</li>
+                
+                <li>多功能地理围栏</li>
+                
+                <li>运动轨迹记录</li>
+                
+              </ul>
+              <p class='solution_des'></p>
+              <div class="solution_ctrl">
+                <a class="home_link" href="https://lbs.amap.com/solution/smarthard" target='_blank'>了解详情<i class="iconfont icon-link"></i></a>
+              </div>
+            </div>
+            <div class="solution_brand">
+              <img src="https://a.amap.com/lbs-dev-yuntu/static/web/image/home/travel_logo/travel_plan_user_09_2x.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"><i class="iconfont icon-bannerzuofanyejiantou"></i></div>
+      <div class="swiper-button-next"><i class="iconfont icon-bannerfanyejiantou"></i></div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+    <div class="home_advantage">
+      <div class="map_bg" id="map_bg">
+        <div class="map_bg_outer rellax">
+          <img id="map_bg_image" class="map_bg_image" src="https://a.amap.com/lbs-dev-yuntu/static/image/map-bg.jpg"
+            alt="" />
+        </div>
+      </div>
+      <div class="home_advantage_wrap content_wrap scroll_wrap show_anchor" id="advantage">
+        <p class="home_advantage_title load_hidden">优势介绍</p>
+        <p class="home_advantage_title_sub load_hidden">为业务发展保驾护航</p>
+        <div class="data_content advantage_content load_hidden">
+          <p class="content_title">海量数据</p>
+          <p class="content_title_sub">铸就强大行业优势</p>
+          <div class="data_list advantage_list load_hidden">
+            
+<div class='data_item advantage_item load_hidden'>
+  <div class="data_icon advantage_icon b-lazy"><img class="b-lazy" src="https://a.amap.com/lbs-dev-yuntu/static/image/home/num/loc.png?v=2" alt=""></div>
+  <div class='data_num advantage_title'>1000<span class="data_suffix advantage_suffix">亿</span>
+  </div>
+  <div class="data_desc advantage_desc">日均处理近1000亿次定位<br/>及路线规划请求</div>
+</div>
+
+<div class='data_item advantage_item load_hidden'>
+  <div class="data_icon advantage_icon b-lazy"><img class="b-lazy" src="https://a.amap.com/lbs-dev-yuntu/static/image/home/num/poi.png?v=2" alt=""></div>
+  <div class='data_num advantage_title'>7000<span class="data_suffix advantage_suffix">万</span>
+  </div>
+  <div class="data_desc advantage_desc">涵盖中国超过7000万<br/>POI数据</div>
+</div>
+
+<div class='data_item advantage_item load_hidden'>
+  <div class="data_icon advantage_icon b-lazy"><img class="b-lazy" src="https://a.amap.com/lbs-dev-yuntu/static/image/home/num/addr.png?v=2" alt=""></div>
+  <div class='data_num advantage_title'>3500<span class="data_suffix advantage_suffix">万</span>
+  </div>
+  <div class="data_desc advantage_desc">覆盖国内超过3500万<br/>地址库数据</div>
+</div>
+
+<div class='data_item advantage_item load_hidden'>
+  <div class="data_icon advantage_icon b-lazy"><img class="b-lazy" src="https://a.amap.com/lbs-dev-yuntu/static/image/home/num/traffic.png?v=2" alt=""></div>
+  <div class='data_num advantage_title'>95<span class="data_suffix advantage_suffix">%</span>
+  </div>
+  <div class="data_desc advantage_desc">覆盖地级市实时路况<br/>准确率95%</div>
+</div>
+
+<div class='data_item advantage_item load_hidden'>
+  <div class="data_icon advantage_icon b-lazy"><img class="b-lazy" src="https://a.amap.com/lbs-dev-yuntu/static/image/home/num/poiget.png?v=2" alt=""></div>
+  <div class='data_num advantage_title'>300<span class="data_suffix advantage_suffix">+</span>
+  </div>
+  <div class="data_desc advantage_desc">POI采集能力覆盖<br/>300+城市</div>
+</div>
+
+          </div>
+        </div>
+        <div class="safe_content advantage_content load_hidden">
+          <p class="content_title">安全稳定</p>
+          <p class="content_title_sub">为业务发展保驾护航</p>
+          <div class="safe_list advantage_list load_hidden">
+            
+<div class='safe_item advantage_item load_hidden'>
+  <div class="safe_icon advantage_icon"><img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/safe/stable.png" alt=""></div>
+  <div class='safe_title advantage_title'>稳定的服务可用性 </div>
+  <div class="safe_desc advantage_desc">服务可用性高达99.9%</div>
+</div>
+
+<div class='safe_item advantage_item load_hidden'>
+  <div class="safe_icon advantage_icon"><img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/safe/fast.png" alt=""></div>
+  <div class='safe_title advantage_title'>快速的服务响应 </div>
+  <div class="safe_desc advantage_desc">平均服务响应时长不超过300ms</div>
+</div>
+
+<div class='safe_item advantage_item load_hidden'>
+  <div class="safe_icon advantage_icon"><img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/safe/precise.png" alt=""></div>
+  <div class='safe_title advantage_title'>精准的搜索定位 </div>
+  <div class="safe_desc advantage_desc">搜索定位成功率平均高达99%</div>
+</div>
+
+<div class='safe_item advantage_item load_hidden'>
+  <div class="safe_icon advantage_icon"><img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/safe/wide.png" alt=""></div>
+  <div class='safe_title advantage_title'>全方位的技术支持 </div>
+  <div class="safe_desc advantage_desc">专业技术人员平均24h内极速响应</div>
+</div>
+
+          </div>
+        </div>
+        <div class="cooperate_content advantage_content load_hidden">
+          <p class="content_title">携手合作伙伴</p>
+          <p class="content_title_sub">共创地图生态</p>
+          <div class="cooperate_list ">
+            <div class="home_cooperate">
+  <div class="content">
+    <div class="cooperate_swiper_body">
+      <div class='cooperate_swiper swiper-wrapper'>
+        
+        <div class='cooperate_slide_item swiper-slide'>
+          <div class="cooperate_item">
+            <div class="cooperate_info">
+              <div class="cooperate_txt">
+                <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/shenzhou_logo.png alt="" />
+                <span class="cooperate_desc">「神州专车」采用专业车辆，专业司机的B2C运营模式，和「高德开放平台」一起利用移动互联网及大数据技术，为客户提供随时随地，专人专车的全新专车体验</span>
+                <!-- <a class="home_link" href="https://lbs.amap.com">了解详情<i class="iconfont icon-link"></i></a> -->
+              </div>
+              <div class="cooperate_image">
+                <img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/shenzhou.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class='cooperate_slide_item swiper-slide'>
+          <div class="cooperate_item">
+            <div class="cooperate_info">
+              <div class="cooperate_txt">
+                <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/caocao_logo.png alt="" />
+                <span class="cooperate_desc">「曹操专车」是吉利集团战略投资品牌，定位于高品质服务的专车平台， 跨界整合本地生活服务资源，利用「高德开放平台」位置服务，提供丰富多元的本地商务生活服务内容</span>
+                <!-- <a class="home_link" href="https://lbs.amap.com">了解详情<i class="iconfont icon-link"></i></a> -->
+              </div>
+              <div class="cooperate_image">
+                <img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/caocao.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class='cooperate_slide_item swiper-slide'>
+          <div class="cooperate_item">
+            <div class="cooperate_info">
+              <div class="cooperate_txt">
+                <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/yidao_logo.png alt="" />
+                <span class="cooperate_desc">「易到用车」是智能交通和汽车分享理念的引领者，携手高德开放平台，通过Car Sharing新理念为用户带来愉悦的出行体验。目前已覆盖北京、上海、广州、深圳等全国77大城市及24座海外城市</span>
+                <!-- <a class="home_link" href="https://lbs.amap.com">了解详情<i class="iconfont icon-link"></i></a> -->
+              </div>
+              <div class="cooperate_image">
+                <img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/yidao.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class='cooperate_slide_item swiper-slide'>
+          <div class="cooperate_item">
+            <div class="cooperate_info">
+              <div class="cooperate_txt">
+                <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/shunfeng_logo.png alt="" />
+                <span class="cooperate_desc">「顺丰同城急送」是中国顺丰速运有限公司旗下的即时物流服务，提供城内快速配送服务。利用强大的物流网络和技术优势，结合「高德开放平台」智能调度和路线规划能力，实现实时调度和快速配送</span>
+                <!-- <a class="home_link" href="https://lbs.amap.com">了解详情<i class="iconfont icon-link"></i></a> -->
+              </div>
+              <div class="cooperate_image">
+                <img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/shunfeng.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class='cooperate_slide_item swiper-slide'>
+          <div class="cooperate_item">
+            <div class="cooperate_info">
+              <div class="cooperate_txt">
+                <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/shansong_logo.png alt="" />
+                <span class="cooperate_desc">「闪送」采用O2O的商业模式，通过APP和微信公众号等平台连接客户和配送员，实现线上下单、线下配送的全流程服务。利用「高德开放平台」订单管理、智能调度、多场景路径规划能力，实现快速配送</span>
+                <!-- <a class="home_link" href="https://lbs.amap.com">了解详情<i class="iconfont icon-link"></i></a> -->
+              </div>
+              <div class="cooperate_image">
+                <img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/shansong.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"><i class="iconfont icon-bannerzuofanyejiantou"></i></div>
+      <div class="swiper-button-next"><i class="iconfont icon-bannerfanyejiantou"></i></div>
+    </div>
+    <div class="cooperate_logo_list">
+      
+      <div class="cooperate_logo_line logo_line_1">
+        
+        <div class='cooperate_logo'>
+          <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/aliyun_logo.png alt="" />
+        </div>
+        
+        <div class='cooperate_logo'>
+          <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/alimama_logo.png alt="" />
+        </div>
+        
+        <div class='cooperate_logo'>
+          <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/cainiao_logo.png alt="" />
+        </div>
+        
+        <div class='cooperate_logo'>
+          <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/taobao_logo.png alt="" />
+        </div>
+        
+        <div class='cooperate_logo'>
+          <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/ele_logo.png alt="" />
+        </div>
+        
+        <div class='cooperate_logo'>
+          <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/alibaichuan_logo.png alt="" />
+        </div>
+        
+      </div>
+      
+      <div class="cooperate_logo_line logo_line_2">
+        
+        <div class='cooperate_logo'>
+          <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/shenzhou_logo.png alt="" />
+        </div>
+        
+        <div class='cooperate_logo'>
+          <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/caocao_logo.png alt="" />
+        </div>
+        
+        <div class='cooperate_logo'>
+          <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/yidao_logo.png alt="" />
+        </div>
+        
+        <div class='cooperate_logo'>
+          <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/shunfeng_logo.png alt="" />
+        </div>
+        
+        <div class='cooperate_logo'>
+          <img src=https://a.amap.com/lbs-dev-yuntu/static/image/home/partner/shansong_logo.png alt="" />
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- 开发文档 -->
+    <div class="content_outer">
+      <div class="content_bg apidoc_content_bg load_hidden">
+        <img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/linebg/4.png" alt="">
+      </div>
+      <div class="apidoc_content content_wrap scroll_wrap show_anchor" id="apidoc">
+        <p class="content_title load_hidden">开发文档</p>
+        <p class="content_title_sub load_hidden">完备精确的开发文档</p>
+        <div class="apidoc_list">
+          <div class="home_apidoc">
+  <div class="content">
+    <ul class='api_list'>
+      
+      
+      <li class='api_list_item'>
+        <p>API</p>
+        <ul>
+          
+          
+          <li><a href="/api/webservice/summary">Web服务 API</a></li>
+          
+          <li><a href="/api/yuntu/summary">云图服务 API</a></li>
+          
+          
+          
+        </ul>
+        <i class="iconfont icon-doc-webserver"></i>
+      </li>
+      
+      
+      
+      <li class='api_list_item'>
+        <p>JS API</p>
+        <ul>
+          
+          
+          <li><a href="/api/javascript-api-v2/summary">JS API</a></li>
+          
+          <li><a href="/api/loca-v2/intro">数据可视化JS API</a></li>
+          
+          <li><a href="/api/lightmap/summary/">地图组件</a></li>
+          
+          <li><a href="/api/uri-api/summary/">URI API</a></li>
+          
+          <li><a href="/api/subway-api/subway-summary/">地铁图 JS API</a></li>
+          
+          
+          
+        </ul>
+        <i class="iconfont icon-doc-web"></i>
+      </li>
+      
+      
+      
+      <li class='api_list_item'>
+        <p>Android 平台</p>
+        <ul>
+          
+          
+          <li><a href="/api/android-sdk/summary/">Android 地图SDK</a></li>
+          
+          <li><a href="/api/lightweight-android-sdk">Android 轻量版地图SDK</a></li>
+          
+          <li><a href="/api/android-location-sdk/locationsummary/">Android 定位SDK</a></li>
+          
+          <li><a href="/api/android-navi-sdk/summary/">Android 导航SDK</a></li>
+          
+          <li><a href="/api/android-track/summary/">Android 猎鹰SDK</a></li>
+          
+          
+          
+        </ul>
+        <i class="iconfont icon-doc-android"></i>
+      </li>
+      
+      
+      
+      <li class='api_list_item'>
+        <p>iOS 平台</p>
+        <ul>
+          
+          
+          <li><a href="/api/ios-sdk/summary/">iOS 地图SDK</a></li>
+          
+          <li><a href="/api/lightweight-ios-sdk">iOS 轻量版地图SDK</a></li>
+          
+          <li><a href="/api/ios-location-sdk/summary/">iOS 定位SDK</a></li>
+          
+          <li><a href="/api/ios-navi-sdk/summary/">iOS 导航SDK</a></li>
+          
+          <li><a href="/api/ios-track/summary/">iOS 猎鹰SDK</a></li>
+          
+          
+          
+        </ul>
+        <i class="iconfont icon-doc-ios"></i>
+      </li>
+      
+      
+      
+      
+      
+      <li class='api_list_item'>
+        <p>其他</p>
+        <ul>
+          
+          
+          
+          <li><a href="/api/harmonyosnext-map3d-sdk">鸿蒙星河版地图SDK</a></li>
+          
+          <li><a href="/api/harmonyosnext-location-sdk">鸿蒙星河版定位SDK</a></li>
+          
+          <li><a href="/api/harmonyosnext-navi-sdk/summary">鸿蒙星河版导航SDK</a></li>
+          
+          <li><a href="/api/harmonyos-sdk">HarmonyOS 地图SDK</a></li>
+          
+          <li><a href="/api/wx/">微信小程序插件</a></li>
+          
+          <li><a href="/api/amap-mobile/">高德地图手机版</a></li>
+          
+          
+        </ul>
+        <i class="iconfont icon-doc-others"></i>
+      </li>
+      
+      
+    </ul>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+    <!-- 成为开发者 -->
+    <div class="content_outer">
+      <div class="content_bg devflow_content_bg load_hidden">
+        <img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/linebg/5.png" alt="">
+      </div>
+      <div class="devflow_content content_wrap scroll_wrap show_anchor" id="devflow">
+        <!-- <p class="content_title load_hidden">成为开发者</p> -->
+        <!-- <p class="content_title_sub load_hidden">快速上手 即刻使用</p> -->
+        <div data-join-amap-developer data-join-amap-developer-scene="home"></div>
+
+        <div class="fly1 load_hidden">
+          <img src="https://a.amap.com/lbs-dev-yuntu/static/image/home/linebg/fly1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div></div></div><footer class="foot-pc"><footer class="global_footer">
+  <div class="content">
+    <nav class="footer_nav">
+      <ul>
+        
+        <li class="map_item">
+          <strong>新手入门</strong>
+          
+          
+          <a href="/product/map">产品与服务</a>
+          
+          
+          
+          <a href="/solution/transportation">解决方案</a>
+          
+          
+          
+          <a href="/api">开发文档</a>
+          
+          
+        </li>
+        
+        <li class="map_item">
+          <strong>商务合作</strong>
+          
+          
+          <a href="/cooperation/cooperation/">商务合作</a>
+          
+          
+          
+          <a href="/cooperation/poi/index/">商家合作</a>
+          
+          
+        </li>
+        
+        <li class="map_item">
+          <strong>常见问题</strong>
+          
+          
+          <a href="/faq/account/account">账号问题</a>
+          
+          
+          
+          <a href="/faq/top/feedback/268">定位反馈</a>
+          
+          
+          
+          <a href="/faq/account/registered">常见问题汇总</a>
+          
+          
+          
+          <a href="/home/terms/">服务协议</a>
+          
+          
+          
+          <a href="/home/privacy/">隐私权政策</a>
+          
+          
+          
+          <a href="/home/disclaimer/">免责声明</a>
+          
+          
+          
+          <a href="/agreement/user_device">数据退出</a>
+          
+          
+        </li>
+        
+        <li class="map_item">
+          <strong>开放平台</strong>
+          
+          
+          <span class="footer_social_label">关注我们</span>
+          <a class="footer_social footer_wx" title="高德开放平台微信公众号">
+            <span class="mobile">微信</span>
+            <span class="sns_icon footer_sns_icon">
+              <i class="iconfont icon-wx"></i>
+            </span>
+            <img src="//a.amap.com/lbs/static/img/gaode_qr.jpg" alt="" />
+          </a>
+          <a class="footer_social footer_wb" target="_blank" href="//weibo.com/gaodedituapi" title="高德开放平台新浪微博">
+            <span class="mobile">微博</span>
+            <span class="sns_icon">
+              <i class="iconfont icon-wb"></i>
+            </span>
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </nav>
+    <section class="footer_links">
+      <div class="ali_footer" id="ali_footer">
+        
+        <a target="_blank" href="http://www.alibabagroup.com/cn/global/home">阿里巴巴集团</a>
+        
+        |
+        
+        
+        <a target="_blank" href="https://www.taobao.com">淘宝网</a>
+        
+        |
+        
+        
+        <a target="_blank" href="https://www.tmall.com">天猫</a>
+        
+        |
+        
+        
+        <a target="_blank" href="https://ju.taobao.com">聚划算</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.aliexpress.com">全球速卖通</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.alibaba.com/">阿里巴巴国际交易市场</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.1688.com">1688</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.alimama.com">阿里妈妈</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.fliggy.com/">飞猪</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.aliyun.com">阿里云计算</a>
+        
+        |
+        
+        
+        <a target="_blank" href="https://www.alios.cn">AliOS</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.aliqin.cn/">阿里通信</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.etao.com/">一淘</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.net.cn">万网</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.autonavi.com/">高德</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.uc.cn/">UC</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.umeng.com/">友盟</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.xiami.com">虾米</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.alibabaplanet.com/">阿里星球</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.ddchong.com/">点点虫</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.dingtalk.com/">钉钉</a>
+        
+        |
+        
+        
+        <a target="_blank" href="https://www.alipay.com">支付宝</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.youku.com/">优酷</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.tudou.com/">土豆</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.alihealth.cn/">阿里健康</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.alibabapictures.com/simp/0-home.html">阿里影业</a>
+        
+        |
+        
+        
+        <a target="_blank" href="http://www.alisports.com/cn/">阿里体育</a>
+        
+        |
+        
+        
+        <a target="_blank" href="https://www.mybank.cn/">网商银行</a>
+        
+        |
+        
+        
+        <a target="_blank" href="https://es.amap.com">高德打车企业版</a>
+        
+        |
+        
+        
+        <a target="_blank" href="https://auto.amap.com/">高德地图汽车业务中心</a>
+        
+        |
+        
+        
+        <a target="_blank" href="https://lvyou.amap.com/">高德智慧景区</a>
+        
+        
+      </div><!-- /#ali_footer -->
+      © 2002-2026 Amap.com 版权所有 | <a href='https://beian.miit.gov.cn' target='_blank'>京ICP备2023020281号-12</a> | 甲测资字11112528 | 甲测资字11111093<br><div class='zhengzhao_wrap'><a class='zhengzhao' href='//beian.mps.gov.cn/#/query/webSearch?code=11010502056787' target='_blank'><img src='//a.amap.com/lbs-dev-yuntu/static/web/image/common/beian.png'/>京公网安备 11010502056787号</a></div>
+    </section>
+  </div>
+</footer></footer><div class="quick_entrance"><a id="qe_0" class="go2top" href="javascript:void(0);"><span class="iconfont icon-backtop"></span> <span class="quick_entrance_tip">返回顶部</span> </a><a href="/demo/center" id="entrance_democenter" class="entrance_democenter"><span class="iconfont icon-democenter"></span> <span class="quick_entrance_tip">示例中心</span> </a><a href="/faq" id="entrance_faq" class="entrance_faq"><span class="iconfont icon-help"></span> <span class="quick_entrance_tip">常见问题</span> </a><a href="javascript:void(0)" class="quick_entrance_online_service js_xiaomi_enter" class="advisory"><span class="iconfont icon-customer-service"></span> <span class="quick_entrance_tip">智能客服</span> </a><a href="javascript:void(0)" id="qrcode" class="qrcode"><span class="iconfont icon-lbsqrcode"></span> <span class="qrcode_txt">公众号<br>二维码</span> <span class="quick_entrance_tip"><img src="https://a.amap.com/lbs-dev-yuntu/static/web/image/qrcode.jpg" alt=""></span></a></div></div><script src="//a.amap.com/lbs-dev-yuntu/static/web/lib/lib.js"></script><script src="//w.cnzz.com/q_stat.php?id=1255621432" async="async"></script><script>window.initAssets = {"css":"//a.amap.com/lbs-dev-yuntu/static/web/views/homenew/homenew.umd.11c1c5738d4d6188f925.css","js":"//a.amap.com/lbs-dev-yuntu/static/web/views/homenew/homenew.umd.1026ba68c3589ce36df6.js"};
+    window.pageType = "home";
+    window.pageDevice = "pc";
+    window.pageName = null;
+    window.pageConfig = {};
+
+    //注册和注销sw
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker
+          .register('/sw.js')
+          .then(registration => {
+            // console.log('[SW registered]');
+          })
+          .catch(registrationError => {
+            // console.log('[SW registration failed]', registrationError);
+          });
+
+        //卸载 service worker,需要二次刷新
+        // navigator.serviceWorker.getRegistrations().then(registrations => {
+        //   for(let registration of registrations) {
+        //     registration.unregister()
+        //   }
+        // }).catch(function(err) {
+        //   console.log('Service Worker registration failed: ', err);
+        // });
+      });
+    };</script><script type="text/javascript" src="/public/src/assets/main.umd.5d28224450da66c93f89.js"></script></body></html>

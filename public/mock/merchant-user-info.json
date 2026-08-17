@@ -1,0 +1,11 @@
+{
+  "code": 0,
+  "data": {
+    "buttons_group": [],
+    "currentUser": {
+      "name": "本地商家",
+      "avatar": ""
+    },
+    "employee_id": "1"
+  }
+}

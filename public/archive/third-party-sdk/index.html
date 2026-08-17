@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: auto;"><head>
+    <meta charset="UTF-8">
+    <title>住小帮第三方信息共享清单</title>
+    <link rel="shortcut icon" href="/archive/third-party-sdk/assets/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <style>
+      body {
+        margin: 0 auto;
+        padding-bottom: 50px;
+        font: 12px/1.4 Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei",
+          sans-serif;
+        font-size: 16px;
+        -webkit-font-smoothing: antialiased;
+        color: #484d57;
+        line-height: 30px;
+        background-color: #fff;
+        max-width: 92%;
+      }
+
+      h4 {
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 36px;
+        margin-bottom: 16px;
+        color: #333333;
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      p {
+        margin: 0;
+        padding: 0;
+        font-size: inherit;
+        text-indent: 0;
+        word-break: break-all;
+        line-height: initial;
+      }
+
+      p.p2 {
+        text-indent: 36px;
+        text-indent: 3em;
+        font-size: inherit;
+      }
+
+      span {
+        text-decoration: underline;
+        font-size: inherit;
+      }
+
+      .sdk-box {
+        line-height: 20px;
+        background: rgba(247, 247, 247, 1);
+        box-sizing: border-box;
+        padding: 13px 16px 20px 16px;
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+        color: #737373;
+        margin-bottom: 16px;
+        border-radius: 8px;
+      }
+
+      .sdk-box * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      .sdk-box a,
+      .sdk-box span {
+        text-decoration: none;
+      }
+
+      .sdk-box a {
+        color: #3e72f9;
+      }
+
+      .sdk-box-title {
+        margin-bottom: 6px;
+        font-family: PingFang SC;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      .rules {
+        margin-top: 11px;
+        font-size: 14px;
+      }
+
+      .rules p {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    </style>
+  <script>window.gfdatav1={"env":"prod","envName":"prod","runtime":"node","ver":"1.0.0.204","canary":0,"idc":"lf","region":"CN","vdc":"lf","vregion":"China-North","extra":{"canaryType":null}}</script><style>.zy5Z34YOK7ZhegFKjmCW,.enbrFvXkdmkyURvJ_Quc,[class*="index_notice-overlay"]{display:none!important}</style><script>(function(){var h=function(){document.querySelectorAll('.zy5Z34YOK7ZhegFKjmCW,.enbrFvXkdmkyURvJ_Quc,[class*="index_notice-overlay"]').forEach(function(e){e.remove()})};h();new MutationObserver(h).observe(document.documentElement,{subtree:true,childList:true})})();</script><style>html,body{overflow:auto!important;touch-action:auto!important}</style><script>(function(){var nativeScrollTo=window.scrollTo.bind(window);window.scrollTo=function(x,y){if(arguments.length===2&&x===0&&y===0)return;return nativeScrollTo(x,y)};window.addEventListener("wheel",function(e){e.stopImmediatePropagation()},{capture:true,passive:false});window.addEventListener("touchmove",function(e){e.stopImmediatePropagation()},{capture:true,passive:false});document.documentElement.style.overflow="auto";if(document.body){document.body.style.overflow="auto";document.body.style.touchAction="auto"}})();</script></head>
+
+  <body style="overflow: auto; touch-action: auto;">
+    <div class="rules">
+      <p>
+        1.
+        为保障住小帮相关功能的实现与应用安全稳定的运行，我们可能会接入由合作方提供的软件开发包（SDK）、应用程序接口（API）、应用程序插件等代码或通过其他合作方式，以实现相关目的。
+      </p>
+
+      <p>
+        2. 我们会对获取信息的合作方的代码进行严格的安全监测，以保护数据安全。
+      </p>
+
+      <p>
+        3.
+        我们对接入的相关合作方在目录中列明，合作方具体的处理情况请参见合作方的隐私政策或服务协议。
+      </p>
+
+      <p>
+        4.
+        请注意，合作方的代码可能因为其版本升级、策略调整等原因导致数据处理类型存在一定变化，请以其公示的官方说明为准。
+      </p>
+    </div>
+
+    <h4>
+      <strong>一、第三方SDK目录</strong>
+    </h4>
+
+    <section class="sdk-box-container-three"><section class="sdk-box">
+              <p class="sdk-box-title">高德地图SDK</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符（Android如Android ID、IMEI、MEID、IMSI、OAID、，iOS如IDFV、IDFA）、设备MAC地址、IP 地址、位置信息（如GPS、WLAN接入点（如SSID、BSSID））、设备传感器信息、网络信息</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>帮助用户发布信息时定位位置 </span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>用户使用定位相关功能时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>高德软件有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://lbs.amap.com">https://lbs.amap.com</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://lbs.amap.com/pages/privacy">https://lbs.amap.com/pages/privacy</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">友盟umengSDK 推送 </p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符Android ID、GAID/AAID、SSID</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>推送信息</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在推送消息时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>北京锐讯灵通科技有限公司、友盟同欣（北京）科技有限公司、浙江阿里巴巴云计算有限公司、北京缔元信互联网数据技术有限公司等 </span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://developer.umeng.com/docs/147377/detail/210024">https://developer.umeng.com/docs/147377/detail/210024</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://developer.umeng.com/docs/147377/detail/209997">https://developer.umeng.com/docs/147377/detail/209997</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">Agoo SDK</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>收集设备品牌、型号、联网状态，对消息推送方式、目标系统进行适配。使用utdid组件，仅在应用本地获取Android ID标识设备，用来辅助客户端鉴别淘宝（中国）软件有限公司</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>提供消息推送的通道</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>不涉及该信息</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>淘宝（中国）软件有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://www.taobao.com">https://www.taobao.com</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html">https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">微信 SDK</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符（Android如IMEI、Android ID、硬件序列号/硬件序列号/Serial），设备MAC地址、WLAN接入点（如SSID、BSSID）</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>支持微信登录和分享 </span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在用户使用微信登录或者分享时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>深圳市腾讯计算机系统有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://open.weixin.qq.com/">https://open.weixin.qq.com/</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&amp;t=weixin_agreement&amp;s=privacy">https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&amp;t=weixin_agreement&amp;s=privacy</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">微信支付SDK</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符（Android如IMEI、Android ID、硬件序列号/硬件序列号/Serial），设备MAC地址、WLAN接入点（如SSID、BSSID）</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>支持微信支付 </span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在用户使用微信支付时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>深圳市腾讯计算机系统有限公司 </span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://open.weixin.qq.com/">https://open.weixin.qq.com/</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&amp;t=weixin_agreement&amp;s=privacy">https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&amp;t=weixin_agreement&amp;s=privacy</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">QQ SDK</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符（Android如IMEI、Android ID、IMSI，iOS如IDFV）、设备MAC地址、IP 地址、位置信息（如GPS）</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>QQ登录/分享功能</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在用户使用QQ登录时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>深圳市腾讯计算机系统有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://open.tencent.com/">https://open.tencent.com/</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://wiki.connect.qq.com/qq%e4%ba%92%e8%81%94sdk%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4%e5%a3%b0%e6%98%8e">https://wiki.connect.qq.com/qq%e4%ba%92%e8%81%94sdk%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4%e5%a3%b0%e6%98%8e</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">小米PUSH</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符（如IMEI、Android ID、MEID、硬件序列号/Serial、OAID）、WLAN接入点（如SSID、BSSID）</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>推送消息</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在小米手机终端推送消息时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>北京小米移动软件有限公司 </span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://dev.mi.com/console/appservice/push.html">https://dev.mi.com/console/appservice/push.html</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://dev.mi.com/console/doc/detail?pId=1822">https://dev.mi.com/console/doc/detail?pId=1822</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">华为PUSH</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>应用匿名标识（AAID），应用Token，软件列表、应用基本信息 、应用内设备标识符 、设备的硬件信息 、系统基本信息 、系统设置信息</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>推送消息</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在华为手机终端推送消息时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>华为软件技术有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://developer.huawei.com/consumer/cn/doc/app/20213">https://developer.huawei.com/consumer/cn/doc/app/20213</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/privacy-statement-0000001050042021">https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/privacy-statement-0000001050042021</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">OPPO PUSH</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符（如IMEI、SIM卡序列号、IMSI、Android ID、GAID/AAID）、应用信息（如应用包名、版本号和运行状态）、网络信息（如IP地址或域名连接结果，当前网络类型）</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>推送消息</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在OPPO手机终端推送消息时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>广东欢太科技有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://open.oppomobile.com/wiki/doc#id=10194">https://open.oppomobile.com/wiki/doc#id=10194</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://open.oppomobile.com/wiki/doc#id=10288">https://open.oppomobile.com/wiki/doc#id=10288</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">VIVO PUSH</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备信息 </span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>推送消息</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在VIVO手机终端推送消息时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>广东天宸网络科技有限公司及将来受让运营vivo开放平台的公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://dev.vivo.com.cn/documentCenter/doc/366">https://dev.vivo.com.cn/documentCenter/doc/366</a>
+                </p>
+                <p class="hide">
+                  <span>隐私政策：</span>
+                  <a href="undefined">undefined</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">荣耀PUSH</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>应用匿名标识 (AAID)，应用Token、推送消息内容</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>推送消息</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在荣耀手机终端推送消息时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>荣耀终端有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://developer.hihonor.com/cn/doc/guides/100125">https://developer.hihonor.com/cn/doc/guides/100125</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://developer.hihonor.com/cn/kitdoc?category=%E5%9F%BA%E7%A1%80%E6%9C%8D%E5%8A%A1&amp;kitId=11002&amp;navigation=guides&amp;docId=personal-data-processing.md">https://developer.hihonor.com/cn/kitdoc?category=%E5%9F%BA%E7%A1%80%E6%9C%8D%E5%8A%A1&amp;kitId=11002&amp;navigation=guides&amp;docId=personal-data-processing.md</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">移动一键登录</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符（如IMEI、IMSI、ICCID），IP地址，设备MAC地址，手机号</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>一键登录</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在用户使用移动手机号一键登录时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>中移互联网有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://wap.cmpassport.com/resources/html/contract.html">https://wap.cmpassport.com/resources/html/contract.html</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://wap.cmpassport.com/resources/html/contract.html">https://wap.cmpassport.com/resources/html/contract.html</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">联通一键登录</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符（如IMEI、IMSI），设备MAC地址，IP地址，SSID，手机号</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>一键登录</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在用户使用联通手机号一键登录时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>中国联合网络通信有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://opencloud.wostore.cn/authz/resource/html/disclaimer.html">https://opencloud.wostore.cn/authz/resource/html/disclaimer.html</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://opencloud.wostore.cn/authz/resource/html/disclaimer.html">https://opencloud.wostore.cn/authz/resource/html/disclaimer.html</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">电信一键登录</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符（Android如Android ID、IMSI），设备MAC地址，IP地址，手机号</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>一键登录</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在用户使用电信手机号一键登录时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>世纪龙信息网络有限责任公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://e.189.cn/sdk/agreement/content.do?type=main&amp;appKey=&amp;hidetop=true&amp;returnUrl=">https://e.189.cn/sdk/agreement/content.do?type=main&amp;appKey=&amp;hidetop=true&amp;returnUrl=</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://e.189.cn/sdk/agreement/content.do?type=main&amp;appKey=&amp;hidetop=true&amp;returnUrl=">https://e.189.cn/sdk/agreement/content.do?type=main&amp;appKey=&amp;hidetop=true&amp;returnUrl=</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">京东开普勒SDK</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符（Android如Android ID、OAID，iOS如IDFV），WLAN接入点（如SSID、BSSID）、IMEI 、IMSI 、IP地址 、设备MAC地址、MEID</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>京东投放广告、打开商品等</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在用户点击京东商品详情页时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>北京京东叁佰陆拾度电子商务有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://kepler.jd.com/console/docCenterCatalog/docContent?channelId=26">https://kepler.jd.com/console/docCenterCatalog/docContent?channelId=26</a>
+                </p>
+                <p class="hide">
+                  <span>隐私政策：</span>
+                  <a href=""></a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">Alipay（支付宝） SDK</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符（Android如IMEI、MEID、IMSI、Android ID、硬件序列号/Serial、ICCID，iOS如IDFV、IDFA），设备MAC地址，IP 地址，WLAN接入点（如SSID、BSSID）、Wi-Fi列表、OAID、设备信息、网络信息、软件列表</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>帮助用户在应用内使用支付宝 </span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在用户使用支付宝支付时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>支付宝（杭州）信息技术有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://render.alipay.com/p/f/fd-iwwyijeh/index.html">https://render.alipay.com/p/f/fd-iwwyijeh/index.html</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://docs.open.alipay.com/54/">https://docs.open.alipay.com/54/</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">极光推送 SDK</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备参数及系统信息(设备类型、设备型号、系统版本、及相关硬件信息)、设备标识符（IMEI、IDFA、Android ID、GID、 MAC、OAID、VAID、AAID、IMSI、MEID、UAID、SN、ICCID、SIM信息）</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>推送消息 </span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在推送消息时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>深圳市和讯华谷信息技术有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://www.jiguang.cn/push">https://www.jiguang.cn/push</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://www.jiguang.cn/license/privacy">https://www.jiguang.cn/license/privacy</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <p class="sdk-box-title">阿里云认证 SDK</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>设备标识符（Android如Android ID、OAID、GAID/AAID，iOS如IDFV、IDFA）、IP地址、设备MAC地址、WLAN接入点（如SSID、BSSID）、真实姓名、身份证号、设备传感器信息、设备信息、应用信息、网络信息</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>用于身份实名认证 </span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在用户进行直播电商场景下购物及安全风控时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>阿里云计算有限公司、蚂蚁区块链科技（上海）有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>SDK采集</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="https://help.aliyun.com/document_detail/99173.html?spm=5176.156174.J_7172652090.1.eae05575ZV8YBF">https://help.aliyun.com/document_detail/99173.html?spm=5176.156174.J_7172652090.1.eae05575ZV8YBF</a>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202107281509_18386.html?spm=a2c4g.11186623.0.0.37c330e52FA55i">https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202107281509_18386.html?spm=a2c4g.11186623.0.0.37c330e52FA55i</a>
+                </p>
+              </div>
+            </section></section>
+
+    <h4>
+      <strong>二、关联方App目录</strong>
+    </h4>
+
+    <section class="sdk-box-container-app"><section class="sdk-box">
+              <div class="sdk-box-content">
+                <p>
+                  <span>功能:</span>
+                  <span>抖音</span>
+                </p>
+                <p>
+                  <span>涉及个人信息:</span>
+                  <span>设备信息、用户行为记录</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>接入抖音直播、授权登陆</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>向用户提供抖音授权登录、使用抖音直播功能等抖音服务时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>北京抖音科技有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式:</span>
+                  <span>SDK采集</span>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://open.douyin.com/platform/micro-app/live/open?client_key=aw8vlpvoklw6o5ox#/agreement/e52ba847-282f-4a88-983e-cedbaec91855.html">https://open.douyin.com/platform/micro-app/live/open?client_key=aw8vlpvoklw6o5ox#/agreement/e52ba847-282f-4a88-983e-cedbaec91855.html</a>
+                </p>
+              </div>
+            </section></section>
+
+    <h4>
+      <strong>三、其他合作方目录</strong>
+    </h4>
+
+    <section class="sdk-box-container-other"><section class="sdk-box">
+              <div class="sdk-box-content">
+                <p>
+                  <span>服务类型：</span>
+                  <span>提供基础服务</span>
+                </p>
+                <p>
+                  <span>涉及个人信息:</span>
+                  <span>设备标识符（Android如IMEI、AndroidID、OAID、IMSI、ICCID、MEID、Serial，iOS如IDFV、IDFA），MAC地址，IP 地址，位置信息（如GPS、WLAN接入点、蓝牙和基站）、设备传感器、软件列表</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>提供基本网络服务、安全风控及其他服务功能 </span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在用户使用App时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>北京字节跳动科技有限公司</span>
+                </p>
+                <p>
+                  <span>收集方式:</span>
+                  <span>接口传输、SDK采集</span>
+                </p>
+                <p class="hide">
+                  <span>隐私政策：</span>
+                  <a href="undefined">undefined</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <div class="sdk-box-content">
+                <p>
+                  <span>服务类型：</span>
+                  <span>电商购物服务</span>
+                </p>
+                <p>
+                  <span>涉及个人信息:</span>
+                  <span>设备标识符 （Android如IMEI、AndroidID、OAID），位置信息（GPS位置以及WLAN接入点、蓝牙和基站等 ）</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>为用户提供电商购物功能，跳转到商品详情页  </span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在用户使用电商购物功能时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>上海格物致品网络科技有限公司  </span>
+                </p>
+                <p>
+                  <span>收集方式:</span>
+                  <span>SDK采集或接口传输</span>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://school.jinritemai.com/doudian/web/article/104870">https://school.jinritemai.com/doudian/web/article/104870</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <div class="sdk-box-content">
+                <p>
+                  <span>服务类型：</span>
+                  <span>推送广告服务</span>
+                </p>
+                <p>
+                  <span>涉及个人信息:</span>
+                  <span>设备标识符（Android如IMEI、AndroidID、OAID，iOS如IDFV、IDFA），MAC地址、设备传感器数据</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>向用户推送广告信息、广告归因、反作弊    </span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在向用户推送广告时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>北京巨量引擎网络技术有限公司   </span>
+                </p>
+                <p>
+                  <span>收集方式:</span>
+                  <span>接口传输</span>
+                </p>
+                <p class="hide">
+                  <span>隐私政策：</span>
+                  <a href="undefined">undefined</a>
+                </p>
+              </div>
+            </section><section class="sdk-box">
+              <div class="sdk-box-content">
+                <p>
+                  <span>服务类型：</span>
+                  <span>提供支付功能 </span>
+                </p>
+                <p>
+                  <span>涉及个人信息:</span>
+                  <span>手机号码、用户身份信息、支付交易信息、设备信息、设备传感器数据</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>帮助用户在应用内使用交易、支付及提现功能      </span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>在用户使用合众易宝支付功能时使用</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>武汉合众易宝科技有限公司     </span>
+                </p>
+                <p>
+                  <span>收集方式:</span>
+                  <span>SDK采集</span>
+                </p>
+                <p class="">
+                  <span>隐私政策：</span>
+                  <a href="https://tp-pay.snssdk.com/activity/protocol/privacy?theme=light">https://tp-pay.snssdk.com/activity/protocol/privacy?theme=light</a>
+                </p>
+              </div>
+            </section></section>
+  
+  <script>
+    var __SKD_LIST__ = [
+      {
+        title: "高德地图SDK",
+        info: "设备标识符（Android如Android ID、IMEI、MEID、IMSI、OAID、，iOS如IDFV、IDFA）、设备MAC地址、IP 地址、位置信息（如GPS、WLAN接入点（如SSID、BSSID））、设备传感器信息、网络信息",
+        useInfo: "帮助用户发布信息时定位位置 ",
+        scene: "用户使用定位相关功能时使用",
+        tripartite: "高德软件有限公司",
+        action: "SDK采集",
+        websiteLink: "https://lbs.amap.com",
+        privacyPolicy: "https://lbs.amap.com/pages/privacy",
+      },
+      {
+        title: "友盟umengSDK 推送 ",
+        info: "设备标识符Android ID、GAID/AAID、SSID",
+        useInfo: "推送信息",
+        tripartite:
+          "北京锐讯灵通科技有限公司、友盟同欣（北京）科技有限公司、浙江阿里巴巴云计算有限公司、北京缔元信互联网数据技术有限公司等 ",
+        websiteLink: "https://developer.umeng.com/docs/147377/detail/210024",
+        privacyPolicy: "https://developer.umeng.com/docs/147377/detail/209997",
+        scene: "在推送消息时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "Agoo SDK",
+        info: "收集设备品牌、型号、联网状态，对消息推送方式、目标系统进行适配。使用utdid组件，仅在应用本地获取Android ID标识设备，用来辅助客户端鉴别淘宝（中国）软件有限公司",
+        useInfo: "提供消息推送的通道",
+        tripartite: "淘宝（中国）软件有限公司",
+        websiteLink: "https://www.taobao.com",
+        privacyPolicy:
+          "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html",
+        scene: "不涉及该信息",
+        action: "SDK采集",
+      },
+      {
+        title: "微信 SDK",
+        info: "设备标识符（Android如IMEI、Android ID、硬件序列号/硬件序列号/Serial），设备MAC地址、WLAN接入点（如SSID、BSSID）",
+        useInfo: "支持微信登录和分享 ",
+        tripartite: "深圳市腾讯计算机系统有限公司",
+        websiteLink: "https://open.weixin.qq.com/",
+        privacyPolicy:
+          "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=privacy",
+        scene: "在用户使用微信登录或者分享时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "微信支付SDK",
+        info: "设备标识符（Android如IMEI、Android ID、硬件序列号/硬件序列号/Serial），设备MAC地址、WLAN接入点（如SSID、BSSID）",
+        useInfo: "支持微信支付 ",
+        tripartite: "深圳市腾讯计算机系统有限公司 ",
+        websiteLink: "https://open.weixin.qq.com/",
+        privacyPolicy:
+          "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=privacy",
+        scene: "在用户使用微信支付时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "QQ SDK",
+        info: "设备标识符（Android如IMEI、Android ID、IMSI，iOS如IDFV）、设备MAC地址、IP 地址、位置信息（如GPS）",
+        useInfo: "QQ登录/分享功能",
+        tripartite: "深圳市腾讯计算机系统有限公司",
+        websiteLink: "https://open.tencent.com/",
+        privacyPolicy:
+          "https://wiki.connect.qq.com/qq%e4%ba%92%e8%81%94sdk%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4%e5%a3%b0%e6%98%8e",
+        scene: "在用户使用QQ登录时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "小米PUSH",
+        info: "设备标识符（如IMEI、Android ID、MEID、硬件序列号/Serial、OAID）、WLAN接入点（如SSID、BSSID）",
+        useInfo: "推送消息",
+        tripartite: "北京小米移动软件有限公司 ",
+        websiteLink: "https://dev.mi.com/console/appservice/push.html",
+        privacyPolicy: "https://dev.mi.com/console/doc/detail?pId=1822",
+        scene: "在小米手机终端推送消息时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "华为PUSH",
+        info: "应用匿名标识（AAID），应用Token，软件列表、应用基本信息 、应用内设备标识符 、设备的硬件信息 、系统基本信息 、系统设置信息",
+        useInfo: "推送消息",
+        tripartite: "华为软件技术有限公司",
+        websiteLink: "https://developer.huawei.com/consumer/cn/doc/app/20213",
+        privacyPolicy:
+          "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/privacy-statement-0000001050042021",
+        scene: "在华为手机终端推送消息时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "OPPO PUSH",
+        info: "设备标识符（如IMEI、SIM卡序列号、IMSI、Android ID、GAID/AAID）、应用信息（如应用包名、版本号和运行状态）、网络信息（如IP地址或域名连接结果，当前网络类型）",
+        useInfo: "推送消息",
+        tripartite: "广东欢太科技有限公司",
+        websiteLink: "https://open.oppomobile.com/wiki/doc#id=10194",
+        privacyPolicy: "https://open.oppomobile.com/wiki/doc#id=10288",
+        scene: "在OPPO手机终端推送消息时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "VIVO PUSH",
+        info: "设备信息 ",
+        useInfo: "推送消息",
+        tripartite: "广东天宸网络科技有限公司及将来受让运营vivo开放平台的公司",
+        websiteLink: "https://dev.vivo.com.cn/documentCenter/doc/366",
+        scene: "在VIVO手机终端推送消息时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "荣耀PUSH",
+        info: "应用匿名标识 (AAID)，应用Token、推送消息内容",
+        useInfo: "推送消息",
+        tripartite: "荣耀终端有限公司",
+        websiteLink: "https://developer.hihonor.com/cn/doc/guides/100125",
+        privacyPolicy:
+          "https://developer.hihonor.com/cn/kitdoc?category=%E5%9F%BA%E7%A1%80%E6%9C%8D%E5%8A%A1&kitId=11002&navigation=guides&docId=personal-data-processing.md",
+        scene: "在荣耀手机终端推送消息时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "移动一键登录",
+        info: "设备标识符（如IMEI、IMSI、ICCID），IP地址，设备MAC地址，手机号",
+        useInfo: "一键登录",
+        tripartite: "中移互联网有限公司",
+        websiteLink: "https://wap.cmpassport.com/resources/html/contract.html",
+        privacyPolicy:
+          "https://wap.cmpassport.com/resources/html/contract.html",
+        scene: "在用户使用移动手机号一键登录时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "联通一键登录",
+        info: "设备标识符（如IMEI、IMSI），设备MAC地址，IP地址，SSID，手机号",
+        useInfo: "一键登录",
+        tripartite: "中国联合网络通信有限公司",
+        websiteLink:
+          "https://opencloud.wostore.cn/authz/resource/html/disclaimer.html",
+        privacyPolicy:
+          "https://opencloud.wostore.cn/authz/resource/html/disclaimer.html",
+        scene: "在用户使用联通手机号一键登录时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "电信一键登录",
+        info: "设备标识符（Android如Android ID、IMSI），设备MAC地址，IP地址，手机号",
+        useInfo: "一键登录",
+        tripartite: "世纪龙信息网络有限责任公司",
+        websiteLink:
+          "https://e.189.cn/sdk/agreement/content.do?type=main&appKey=&hidetop=true&returnUrl=",
+        privacyPolicy:
+          "https://e.189.cn/sdk/agreement/content.do?type=main&appKey=&hidetop=true&returnUrl=",
+        scene: "在用户使用电信手机号一键登录时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "京东开普勒SDK",
+        info: "设备标识符（Android如Android ID、OAID，iOS如IDFV），WLAN接入点（如SSID、BSSID）、IMEI 、IMSI 、IP地址 、设备MAC地址、MEID",
+        useInfo: "京东投放广告、打开商品等",
+        tripartite: "北京京东叁佰陆拾度电子商务有限公司",
+        websiteLink:
+          "https://kepler.jd.com/console/docCenterCatalog/docContent?channelId=26",
+        privacyPolicy: "",
+        scene: "在用户点击京东商品详情页时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "Alipay（支付宝） SDK",
+        info: "设备标识符（Android如IMEI、MEID、IMSI、Android ID、硬件序列号/Serial、ICCID，iOS如IDFV、IDFA），设备MAC地址，IP 地址，WLAN接入点（如SSID、BSSID）、Wi-Fi列表、OAID、设备信息、网络信息、软件列表",
+        useInfo: "帮助用户在应用内使用支付宝 ",
+        tripartite: "支付宝（杭州）信息技术有限公司",
+        websiteLink: "https://render.alipay.com/p/f/fd-iwwyijeh/index.html",
+        privacyPolicy: "https://docs.open.alipay.com/54/",
+        scene: "在用户使用支付宝支付时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "极光推送 SDK",
+        info: "设备参数及系统信息(设备类型、设备型号、系统版本、及相关硬件信息)、设备标识符（IMEI、IDFA、Android ID、GID、 MAC、OAID、VAID、AAID、IMSI、MEID、UAID、SN、ICCID、SIM信息）",
+        useInfo: "推送消息 ",
+        tripartite: "深圳市和讯华谷信息技术有限公司",
+        websiteLink: "https://www.jiguang.cn/push",
+        privacyPolicy: "https://www.jiguang.cn/license/privacy",
+        scene: "在推送消息时使用",
+        action: "SDK采集",
+      },
+      {
+        title: "阿里云认证 SDK",
+        info: "设备标识符（Android如Android ID、OAID、GAID/AAID，iOS如IDFV、IDFA）、IP地址、设备MAC地址、WLAN接入点（如SSID、BSSID）、真实姓名、身份证号、设备传感器信息、设备信息、应用信息、网络信息",
+        useInfo: "用于身份实名认证 ",
+        tripartite: "阿里云计算有限公司、蚂蚁区块链科技（上海）有限公司",
+        websiteLink:
+          "https://help.aliyun.com/document_detail/99173.html?spm=5176.156174.J_7172652090.1.eae05575ZV8YBF",
+        privacyPolicy:
+          "https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202107281509_18386.html?spm=a2c4g.11186623.0.0.37c330e52FA55i",
+        scene: "在用户进行直播电商场景下购物及安全风控时使用",
+        action: "SDK采集",
+      },
+    ];
+
+    var __APP_SKD_LIST__ = [
+      {
+        feature: "抖音",
+        info: "设备信息、用户行为记录",
+        useInfo: "接入抖音直播、授权登陆",
+        scene: "向用户提供抖音授权登录、使用抖音直播功能等抖音服务时使用",
+        partner: "北京抖音科技有限公司",
+        action: "SDK采集",
+        privacyPolicy:
+          "https://open.douyin.com/platform/micro-app/live/open?client_key=aw8vlpvoklw6o5ox#/agreement/e52ba847-282f-4a88-983e-cedbaec91855.html",
+      },
+    ];
+
+    var __OTHER_SKD_LIST__ = [
+      {
+        serviceType: "提供基础服务",
+        info: "设备标识符（Android如IMEI、AndroidID、OAID、IMSI、ICCID、MEID、Serial，iOS如IDFV、IDFA），MAC地址，IP 地址，位置信息（如GPS、WLAN接入点、蓝牙和基站）、设备传感器、软件列表",
+        useInfo: "提供基本网络服务、安全风控及其他服务功能 ",
+        scene: "在用户使用App时使用",
+        partner: "北京字节跳动科技有限公司",
+        action: "接口传输、SDK采集",
+      },
+      {
+        serviceType: "电商购物服务",
+        info: "设备标识符 （Android如IMEI、AndroidID、OAID），位置信息（GPS位置以及WLAN接入点、蓝牙和基站等 ）",
+        useInfo: "为用户提供电商购物功能，跳转到商品详情页  ",
+        scene: "在用户使用电商购物功能时使用",
+        partner: "上海格物致品网络科技有限公司  ",
+        action: "SDK采集或接口传输",
+        privacyPolicy:
+          "https://school.jinritemai.com/doudian/web/article/104870",
+      },
+      {
+        serviceType: "推送广告服务",
+        info: "设备标识符（Android如IMEI、AndroidID、OAID，iOS如IDFV、IDFA），MAC地址、设备传感器数据",
+        useInfo: "向用户推送广告信息、广告归因、反作弊    ",
+        scene: "在向用户推送广告时使用",
+        partner: "北京巨量引擎网络技术有限公司   ",
+        action: "接口传输",
+      },
+      {
+        serviceType: "提供支付功能 ",
+        info: "手机号码、用户身份信息、支付交易信息、设备信息、设备传感器数据",
+        useInfo: "帮助用户在应用内使用交易、支付及提现功能      ",
+        scene: "在用户使用合众易宝支付功能时使用",
+        partner: "武汉合众易宝科技有限公司     ",
+        action: "SDK采集",
+        privacyPolicy:
+          "https://tp-pay.snssdk.com/activity/protocol/privacy?theme=light",
+      },
+    ];
+
+    function renderToHtml(list) {
+      return list
+        .map((sdkInfo) => {
+          return `<section class="sdk-box">
+              <p class="sdk-box-title">${sdkInfo.title}</p>
+              <div class="sdk-box-content">
+                <p>
+                  <span>涉及的个人信息类型：</span>
+                  <span>${sdkInfo.info}</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>${sdkInfo.useInfo}</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>${sdkInfo.scene}</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>${sdkInfo.tripartite}</span>
+                </p>
+                <p>
+                  <span>收集方式：</span>
+                  <span>${sdkInfo.action}</span>
+                </p>
+                <p>
+                  <span>官网链接：</span>
+                  <a href="${sdkInfo.websiteLink}">${sdkInfo.websiteLink}</a>
+                </p>
+                <p class="${sdkInfo.privacyPolicy ? "" : "hide"}">
+                  <span>隐私政策：</span>
+                  <a href="${sdkInfo.privacyPolicy}">${
+            sdkInfo.privacyPolicy
+          }</a>
+                </p>
+              </div>
+            </section>`;
+        })
+        .join("");
+    }
+
+    function renderToHtmlApp(list) {
+      return list
+        .map((sdkInfo) => {
+          return `<section class="sdk-box">
+              <div class="sdk-box-content">
+                <p>
+                  <span>功能:</span>
+                  <span>${sdkInfo.feature}</span>
+                </p>
+                <p>
+                  <span>涉及个人信息:</span>
+                  <span>${sdkInfo.info}</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>${sdkInfo.useInfo}</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>${sdkInfo.scene}</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>${sdkInfo.partner}</span>
+                </p>
+                <p>
+                  <span>收集方式:</span>
+                  <span>${sdkInfo.action}</span>
+                </p>
+                <p class="${sdkInfo.privacyPolicy ? "" : "hide"}">
+                  <span>隐私政策：</span>
+                  <a href="${sdkInfo.privacyPolicy}">${
+            sdkInfo.privacyPolicy
+          }</a>
+                </p>
+              </div>
+            </section>`;
+        })
+        .join("");
+    }
+
+    function renderToHtmlOther(list) {
+      return list
+        .map((sdkInfo) => {
+          return `<section class="sdk-box">
+              <div class="sdk-box-content">
+                <p>
+                  <span>服务类型：</span>
+                  <span>${sdkInfo.serviceType}</span>
+                </p>
+                <p>
+                  <span>涉及个人信息:</span>
+                  <span>${sdkInfo.info}</span>
+                </p>
+                <p>
+                  <span>使用目的：</span>
+                  <span>${sdkInfo.useInfo}</span>
+                </p>
+                <p>
+                  <span>使用场景：</span>
+                  <span>${sdkInfo.scene}</span>
+                </p>
+                <p>
+                  <span>合作方主体：</span>
+                  <span>${sdkInfo.partner}</span>
+                </p>
+                <p>
+                  <span>收集方式:</span>
+                  <span>${sdkInfo.action}</span>
+                </p>
+                <p class="${sdkInfo.privacyPolicy ? "" : "hide"}">
+                  <span>隐私政策：</span>
+                  <a href="${sdkInfo.privacyPolicy}">${
+            sdkInfo.privacyPolicy
+          }</a>
+                </p>
+              </div>
+            </section>`;
+        })
+        .join("");
+    }
+
+    function main() {
+      document.querySelector(".sdk-box-container-three").innerHTML =
+        renderToHtml(__SKD_LIST__);
+      document.querySelector(".sdk-box-container-app").innerHTML =
+        renderToHtmlApp(__APP_SKD_LIST__);
+      document.querySelector(".sdk-box-container-other").innerHTML =
+        renderToHtmlOther(__OTHER_SKD_LIST__);
+    }
+
+    window.onload = main();
+  </script>
+
+<script>(function(){
+  function localHref(name){ try{return new URL('assets/' + name, location.href).href}catch(e){return name} }
+  function localizeUrl(url){
+    if(!url || typeof url !== 'string') return url;
+    var m = url.match(/https?:\/\/lf-homed-fe\.zhuxiaobang\.com\/obj\/homed-fe-src\/cgfe\/homed_site\/(?:async\/|image\/|chunk\/|js\/)?([^/?#"'\s)]+)/);
+    if(m) return localHref(decodeURIComponent(m[1]));
+    m = url.match(/https?:\/\/lf3-static\.bytednsdoc\.com\/[^/?#]+\/(?:lib\/|images\/|security\/)?([^/?#"'\s)]+)/);
+    if(m) return localHref(decodeURIComponent(m[1]));
+    m = url.match(/https?:\/\/lf3-short\.ibytedapm\.com\/[^/?#]+\/(?:fe\/sdk-web\/)?([^/?#"'\s)]+)/);
+    if(m) return localHref(decodeURIComponent(m[1]));
+    return url;
+  }
+  function fix(){
+    document.querySelectorAll('img,source,video,audio,script[src],link[href]').forEach(function(el){
+      var attr = el.tagName === 'LINK' ? 'href' : 'src';
+      var orig = el.getAttribute(attr);
+      if(orig){ var loc = localizeUrl(orig); if(loc && loc !== orig) el.setAttribute(attr, loc); }
+      if(el.tagName === 'VIDEO' && el.poster){ var p = localizeUrl(el.poster); if(p && p !== el.poster) el.poster = p; }
+    });
+    document.querySelectorAll('[style]').forEach(function(el){
+      var s = el.getAttribute('style');
+      if(s && /https?:\/\/(?:lf-homed-fe\.zhuxiaobang\.com|lf3-static\.bytednsdoc\.com|lf3-short\.ibytedapm\.com)/.test(s)){
+        el.setAttribute('style', s.replace(/https?:\/\/(?:lf-homed-fe\.zhuxiaobang\.com|lf3-static\.bytednsdoc\.com|lf3-short\.ibytedapm\.com)[^"'\s)]+/g, function(url){ return localizeUrl(url); }));
+      }
+    });
+  }
+  fix();
+  setInterval(fix, 800);
+})();</script><script>
+(function(){
+  function fixMerchantLinks(){
+    document.querySelectorAll('a[href*="e.zhuxiaobang.com/home?app_entrance=login"], a[href="/home?app_entrance=login"]').forEach(function(a){
+      if((a.textContent||'').trim() === '商家入驻'){
+        a.setAttribute('href', '/home?app_entrance=login');
+        a.removeAttribute('target');
+      }
+    });
+  }
+  fixMerchantLinks();
+  new MutationObserver(fixMerchantLinks).observe(document.documentElement, {subtree: true, childList: true});
+})();
+</script><script>
+(function(){
+  function fixZhuhaojiaLinks(){
+    document.querySelectorAll('a[href*="zhuhaojia"]').forEach(function(a){
+      var text = (a.textContent || '').trim();
+      if(text.includes('住好家') || (a.href || '').includes('www.zhuxiaobang.com/zhuhaojia')){
+        a.setAttribute('href', '/zhuhaojia');
+        a.removeAttribute('target');
+      }
+    });
+  }
+  fixZhuhaojiaLinks();
+  new MutationObserver(fixZhuhaojiaLinks).observe(document.documentElement, {subtree: true, childList: true});
+})();
+</script></body></html>

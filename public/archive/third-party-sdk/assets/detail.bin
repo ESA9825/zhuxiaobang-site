@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title>文档中心</title>
+  <link href="/console/doc/assets/css/common.css" rel="stylesheet"><link href="/console/doc/assets/css/docPreview.css" rel="stylesheet"></head>
+  <body>
+    <div class="container__header"></div>
+    <div id="root" class="container column__3 no-sidebar">
+      <div class="container__sidebar"></div>
+      <div class="container__content"></div>
+      <div class="container__toc"></div>
+    </div>
+    <script type="text/javascript" src="https://dev.mi.com/hd-ft.js"></script>
+    
+    <script type="text/javascript">
+    ;(function(){
+      window._hmt=window._hmt || [];
+      var key=location.hostname==='dev.xiaomi.com'
+              ?"9532d6e45254279ac2435a3d9eb31df8"
+              :"135286b3afa2af2d2e8b9ab56a95d022"
+      var url='//hm.baidu.com/hm.js?'+key;
+      var sc=document.createElement("script");
+      sc.src=url;
+      document.body.appendChild(sc);
+      window.openMiuiTestDialog = function() {
+        document.querySelector('.miui-test-dialog').style.display = 'block';
+      }
+      window.closeMiuiTestDialog = function() {
+        document.querySelector('.miui-test-dialog').style.display = 'none';
+      }
+    })();
+    </script>
+    
+  <script type="text/javascript" src="/console/doc/assets/js/common.e415d8d4d03060954690.bundle.js"></script><script type="text/javascript" src="/console/doc/assets/js/docPreview.e415d8d4d03060954690.bundle.js"></script></body>
+</html>
