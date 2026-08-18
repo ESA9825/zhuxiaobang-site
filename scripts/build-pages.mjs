@@ -133,7 +133,6 @@ homeHtml = homeHtml.replace(
 fs.writeFileSync(path.join(homeDir, "index.html"), homeHtml);
 
 writeRedirect("index.html", "archive/home/index.html");
-writeRedirect("home.html", "home/");
 writeRedirect("about.html", "archive/about/index.html");
 writeRedirect("about/index.html", "archive/about/index.html");
 writeRedirect("decorateTips.html", "archive/decorate-tips/index.html");
