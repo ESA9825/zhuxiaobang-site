@@ -121,27 +121,19 @@ let umiJs = fs.readFileSync(umiPath, "utf8");
 umiJs = umiJs.replaceAll("l.off(v,Z)", "l.removeListener(v,Z)");
 umiJs = umiJs.replaceAll('path:"/zhuxiaobang-site/', 'path:"/');
 umiJs = umiJs.replaceAll('redirect:"/zhuxiaobang-site/', 'redirect:"/');
-const loginRoute =
-  '{path:"/home/user/login/",exact:!0,component:(0,Yt.dynamic)({loader:function(){return Promise.all([e.e(1216),e.e(8794),e.e(7998),e.e(3240),e.e(4053)]).then(e.bind(e,13895))},loading:i.Z})},{path:"/user/"';
-umiJs = umiJs.replace(
-  'function y(){var Y=[{path:"/user/"',
-  `function y(){var Y=[${loginRoute}`,
-);
 fs.writeFileSync(umiPath, umiJs);
 
-const merchantLoginDir = path.join(outDir, "home", "user", "login");
-fs.mkdirSync(merchantLoginDir, { recursive: true });
-let loginHtml = fs.readFileSync(merchantPath, "utf8");
-loginHtml = loginHtml.replace(
+const homeDir = path.join(outDir, "home");
+fs.mkdirSync(homeDir, { recursive: true });
+let homeHtml = fs.readFileSync(merchantPath, "utf8");
+homeHtml = homeHtml.replace(
   `window.routerBase = ${JSON.stringify(basePath)}`,
-  `window.routerBase = ${JSON.stringify(`${basePath}home`)}`,
+  `window.routerBase = ${JSON.stringify(basePath.replace(/\/$/, ""))}`,
 );
-fs.writeFileSync(path.join(merchantLoginDir, "index.html"), loginHtml);
-fs.writeFileSync(path.join(outDir, "home", "user", "login.html"), loginHtml);
+fs.writeFileSync(path.join(homeDir, "index.html"), homeHtml);
 
 writeRedirect("index.html", "archive/home/index.html");
-writeRedirect("home.html", "home/user/login/");
-writeRedirect("home/index.html", "home/user/login/");
+writeRedirect("home.html", "home/");
 writeRedirect("about.html", "archive/about/index.html");
 writeRedirect("about/index.html", "archive/about/index.html");
 writeRedirect("decorateTips.html", "archive/decorate-tips/index.html");
