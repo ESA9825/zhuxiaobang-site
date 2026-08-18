@@ -114,6 +114,8 @@ merchantHtml = merchantHtml.replace(
   'window.routerBase = "/"',
   `window.routerBase = ${JSON.stringify(basePath)}`,
 );
+const swRegister = `<script>if("serviceWorker" in navigator){navigator.serviceWorker.register(${JSON.stringify(`${basePath}sw.js`)},{scope:${JSON.stringify(basePath)}});}</script>`;
+merchantHtml = merchantHtml.replace("</body>", swRegister + "</body>");
 fs.writeFileSync(merchantPath, merchantHtml);
 
 const umiPath = path.join(outDir, "archive", "merchant", "assets", "umi.36248b50.js");
