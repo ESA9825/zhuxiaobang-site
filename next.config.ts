@@ -62,6 +62,18 @@ const nextConfig: NextConfig = {
         destination: "/mock/merchant-phone-init.json",
       },
       {
+        source: "/homed/business/bservice/opportunity/phoneInit/",
+        destination: "/mock/merchant-phone-init.json",
+      },
+      {
+        source: "/homed/business/bservice/config/navibarButtons",
+        destination: "/mock/merchant-navibar-buttons.json",
+      },
+      {
+        source: "/homed/business/bservice/config/navibarButtons/",
+        destination: "/mock/merchant-navibar-buttons.json",
+      },
+      {
         source: "/homed/business/bservice/businessOrganization/queryPlatformPackInfo",
         destination: "/mock/merchant-pack-info.json",
       },

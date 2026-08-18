@@ -86,9 +86,9 @@ function writeRedirect(relativePath, target) {
 }
 
 function copyRewrite(routePath, mockFile) {
-  const fullPath = path.join(outDir, ...routePath.split("/"));
-  fs.mkdirSync(path.dirname(fullPath), { recursive: true });
-  fs.copyFileSync(path.join(publicDir, "mock", mockFile), fullPath);
+  const routeDir = path.join(outDir, ...routePath.split("/"));
+  fs.mkdirSync(routeDir, { recursive: true });
+  fs.copyFileSync(path.join(publicDir, "mock", mockFile), path.join(routeDir, "index.html"));
 }
 
 fs.rmSync(outDir, { recursive: true, force: true });
@@ -98,9 +98,50 @@ removeDsStore(outDir);
 fs.writeFileSync(path.join(outDir, ".nojekyll"), "");
 prefixRootUrls(outDir);
 
+for (const slug of ["about", "decorate-tips", "institute"]) {
+  const pagePath = path.join(outDir, "archive", slug, "index.html");
+  let html = fs.readFileSync(pagePath, "utf8");
+  html = html.replace(
+    /<script[^>]*src="[^"]*index\.f433a181\.js"[^>]*><\/script>/g,
+    "",
+  );
+  fs.writeFileSync(pagePath, html);
+}
+
+const merchantPath = path.join(outDir, "archive", "merchant", "index.html");
+let merchantHtml = fs.readFileSync(merchantPath, "utf8");
+merchantHtml = merchantHtml.replace(
+  'window.routerBase = "/"',
+  `window.routerBase = ${JSON.stringify(basePath)}`,
+);
+fs.writeFileSync(merchantPath, merchantHtml);
+
+const umiPath = path.join(outDir, "archive", "merchant", "assets", "umi.36248b50.js");
+let umiJs = fs.readFileSync(umiPath, "utf8");
+umiJs = umiJs.replaceAll("l.off(v,Z)", "l.removeListener(v,Z)");
+umiJs = umiJs.replaceAll('path:"/zhuxiaobang-site/', 'path:"/');
+umiJs = umiJs.replaceAll('redirect:"/zhuxiaobang-site/', 'redirect:"/');
+const loginRoute =
+  '{path:"/home/user/login/",exact:!0,component:(0,Yt.dynamic)({loader:function(){return Promise.all([e.e(1216),e.e(8794),e.e(7998),e.e(3240),e.e(4053)]).then(e.bind(e,13895))},loading:i.Z})},{path:"/user/"';
+umiJs = umiJs.replace(
+  'function y(){var Y=[{path:"/user/"',
+  `function y(){var Y=[${loginRoute}`,
+);
+fs.writeFileSync(umiPath, umiJs);
+
+const merchantLoginDir = path.join(outDir, "home", "user", "login");
+fs.mkdirSync(merchantLoginDir, { recursive: true });
+let loginHtml = fs.readFileSync(merchantPath, "utf8");
+loginHtml = loginHtml.replace(
+  `window.routerBase = ${JSON.stringify(basePath)}`,
+  `window.routerBase = ${JSON.stringify(`${basePath}home`)}`,
+);
+fs.writeFileSync(path.join(merchantLoginDir, "index.html"), loginHtml);
+fs.writeFileSync(path.join(outDir, "home", "user", "login.html"), loginHtml);
+
 writeRedirect("index.html", "archive/home/index.html");
-writeRedirect("home.html", "archive/merchant/index.html");
-writeRedirect("home/index.html", "archive/merchant/index.html");
+writeRedirect("home.html", "home/user/login/");
+writeRedirect("home/index.html", "home/user/login/");
 writeRedirect("about.html", "archive/about/index.html");
 writeRedirect("about/index.html", "archive/about/index.html");
 writeRedirect("decorateTips.html", "archive/decorate-tips/index.html");
@@ -129,6 +170,7 @@ const rewrites = [
   ["homed/business/bservice/userType/get", "merchant-route-list.json"],
   ["homed/business/bservice/user/get_user_info", "merchant-user-info.json"],
   ["homed/business/bservice/opportunity/phoneInit", "merchant-phone-init.json"],
+  ["homed/business/bservice/config/navibarButtons", "merchant-navibar-buttons.json"],
   [
     "homed/business/bservice/businessOrganization/queryPlatformPackInfo",
     "merchant-pack-info.json",
