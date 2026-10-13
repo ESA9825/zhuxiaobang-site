@@ -413,3 +413,50 @@ python3 scripts/build_mirror.py         # 生成 index.html 并改写 URL（含�
 python3 serve.py --port 8899            # 本地服务
 bash   scripts/verify_all.sh            # 一键门禁（约 10 分钟，含线上对照）
 ```
+
+## 7. GitHub Pages 部署
+
+**目标**：把本项目部署到 `github.com/ESA9825/zhuxiaobang-site`，替换原来的站点
+（仓库内容已整体更换，历史保留在上一条提交里）。
+
+**结构**：仓库里放镜像本体 + 构建脚本，由 GitHub Actions 生成并发布：
+
+```
+mirror/                         站点本体（含商家归档）
+scripts/build_pages.py          Pages 构建脚本
+.github/workflows/deploy-pages.yml   checkout -> build_pages.py -> upload-pages-artifact -> deploy-pages
+```
+
+**Pages 是子路径部署**（`https://<user>.github.io/<repo>/`），而镜像是按 origin 根写的
+（`/cdn/…`、`/site/…`、`/archive/…`），所以 `build_pages.py` 做五件事：
+
+1. `mirror/` → `out/`；
+2. 把根绝对 URL 加上 `/<repo>` 前缀（HTML/JS/CSS/JSON/SVG）；
+3. 把两处 router base 挪到同一前缀下：主站 SPA 的 `basename:"/site"` → `"/<repo>/site"`，
+   商家应用的 `window.routerBase = "/"` → `"/<repo>/"`；
+4. 静态托管没有 SPA 回退，因此把客户端路由落成真文件：主站 4 条路由 + 商家应用路由表里
+   的 73 条（从它的 umi bundle 里读取）；
+5. 商家接口：11 个 fixture 写成对应路径的静态文件，并复用上游那份 `sw.js`
+   （注册在主站前缀下）兜住其余 `/homed/*`、`/passport/*` 请求。
+
+**踩到的三个坑**（都已修，并写进脚本注释）：
+
+| 现象 | 原因 | 处理 |
+| --- | --- | --- |
+| 商家应用整页空白 | 路由表里的 `path:"/home/"` 被一起加了前缀，路由匹配不上（`rg -c` 按行计数还骗过我一次：这个 bundle 只有一行） | 加 `unprefix_route_paths`：`path:"/<repo>/…"` → `path:"/…"`（上游构建也是这么做的） |
+| 商家页满屏「网络异常」 | 接口路径 `/homed/business/` 被加了前缀，而页面内置 mock 是按**原路径**做子串匹配的，匹配不上就真的发请求、然后失败 | 接口 token（`homed`/`passport`/`addone`）排除在前缀替换之外 |
+| 主站 `/home` 路由依赖兜底 | 同一类问题（主站的 `/home` 路由也被加过前缀） | 同上，由路由还原步骤统一处理 |
+
+**验证**：
+
+- 本地先用纯静态服务器模拟子路径（`/zhuxiaobang-site/` 挂到 `out/`）：主站四页、商家落地页/登录页、
+  住好家、协议页、商家静态资源、接口 fixture、`sw.js` 全部 200 且渲染正常；
+- 线上（Actions 部署完成后）实测同样一组路径：全部 200；浏览器渲染
+  `/site/home/`、`/site/about/`、`/home/`、`/zhuhaojia/` 标题与内容正确，
+  商家落地页无报错。
+
+**已知限制**（静态归档 + 离线 fixture 的固有边界）：
+
+- 登录后的商家后台页（如 `/bank/dashboard/`）只能渲染空态/提示，因为 fixture 只覆盖落地页与登录流；
+- 主站页面的 slardar 埋点插件按 `<origin>/slardar/...` 取，Pages 上必然是 404（纯埋点，无影响）；
+- 商家归档缺 `assets/static/bg.039718a0.jpg`（上游同样缺）。

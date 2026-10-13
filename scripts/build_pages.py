@@ -28,12 +28,15 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MIRROR = os.path.join(BASE_DIR, "mirror")
 TEXT_EXT = (".html", ".js", ".css", ".json", ".svg", ".txt", ".xml")
 
-# root tokens that mark a URL as absolute in this mirror
+# Root tokens that mark a page/asset URL as absolute in this mirror. API paths
+# (homed, passport, addone) are deliberately absent: they are data endpoints, the
+# merchant page's own mock shims match them by substring, and the service worker
+# answers them by path - prefixing them breaks both.
 ROOT_TOKENS = (
     "cdn|vendor|archive|site|zhuhaojia|faas|home|user|account|activity|"
     "assets-management|bank|business-operation|commodity|dashboard|imchat|"
     "info-admin|marketing-promotion|member|nopower|order|product|team|"
-    "redirectToHome|redirectToHttp|homed|passport|addone|mock"
+    "redirectToHome|redirectToHttp|mock"
 )
 
 # main-site SPA routes (basename /site) plus the shell for "/"

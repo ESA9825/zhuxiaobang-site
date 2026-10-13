@@ -131,3 +131,14 @@ python3 scripts/audit_refs.py       # 本地引用是否全部存在、有没有
 | `scripts/audit_refs.py` | 静态引用审计 |
 | `scripts/extract_capture.py` | 从 REA 证据包还原逐路由事务与响应体 |
 | `serve.py` | 本地服务（SPA 回退、正确的 MIME、目录式媒体 URL、逐请求日志） |
+
+## 部署到 GitHub Pages
+
+仓库 `github.com/ESA9825/zhuxiaobang-site` 就是本项目的部署形态：镜像本体 + 构建脚本，
+由 Actions 生成静态树并发布（见 [REPORT.md](REPORT.md) §7）。
+
+```bash
+python3 scripts/build_pages.py --base /<repo>     # 本地产出 out/，用任意静态服务器预览
+```
+
+线上地址：<https://esa9825.github.io/zhuxiaobang-site/>
