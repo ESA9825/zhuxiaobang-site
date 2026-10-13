@@ -1,0 +1,935 @@
+{
+ "generated_from": "scripts/fetch_assets.py",
+ "assets": [
+  {
+   "url": "http://lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/images/favicon.ico",
+   "path": "vendor/lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/images/favicon.ico",
+   "bytes": 1191,
+   "sha256": "c2c3e3e885c69280aa010bf5f881355ca962995c8321e2623f5b9fb910bbecb4",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/48.4d555b07.css",
+   "path": "cdn/48.4d555b07.css",
+   "bytes": 72539,
+   "sha256": "c12b968b201f09a4323fcc63b4851669aa593ac1656bf2c03ee89eb37f079ba1",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/633.4a4bf70d.js",
+   "path": "cdn/633.4a4bf70d.js",
+   "bytes": 25065,
+   "sha256": "9f99afdb787c509fedf94cec4f61cd4d36e9dcdfe376d772cd6ef73723167ce9",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/136.71670d8e.js",
+   "path": "cdn/async/136.71670d8e.js",
+   "bytes": 14819,
+   "sha256": "aaffa439fc0d9b4dab53853787b3a71870313c9b3264e96a3919c42ed9667a01",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/136.fe1ac9c4.css",
+   "path": "cdn/async/136.fe1ac9c4.css",
+   "bytes": 17888,
+   "sha256": "b384dce40bd4735b6f5a58e6459868c8f07368727ddb5740d5daf3c771b202e3",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/161.c17f93c5.css",
+   "path": "cdn/async/161.c17f93c5.css",
+   "bytes": 184709,
+   "sha256": "cbd6b7c5a72e0613b4097da3b867ee52caa564c17c27e3ce84d58c46fa43edd9",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/381.ac0be242.js",
+   "path": "cdn/async/381.ac0be242.js",
+   "bytes": 29976,
+   "sha256": "0c853a39e229bdf9b643c65d6e1584b42d26699792f268c1741a6a94d6ca12f7",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/381.bed7d3ba.css",
+   "path": "cdn/async/381.bed7d3ba.css",
+   "bytes": 13557,
+   "sha256": "43bfb567db229468a861461e32e75e417e0212f2aabbb8c36d923a5667a0d74e",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/467.51cb14ae.css",
+   "path": "cdn/async/467.51cb14ae.css",
+   "bytes": 38351,
+   "sha256": "adeebf5a424d718ec87da71ab22de0355b810b9a55976f8ebb33980f5e8a7564",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/467.b5543a47.js",
+   "path": "cdn/async/467.b5543a47.js",
+   "bytes": 158765,
+   "sha256": "2a7698ac9fcc65d73d6951b017f3d98535a35431f8d1db7583c3cb208cb8f1ac",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/635.2d3b16c7.js",
+   "path": "cdn/async/635.2d3b16c7.js",
+   "bytes": 14864,
+   "sha256": "ba3752e395766448b262a8f4a6b6414074009cab4c14b799edb284c12c6b6906",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/635.3bb761d3.css",
+   "path": "cdn/async/635.3bb761d3.css",
+   "bytes": 7198,
+   "sha256": "654b1f622f749c626847f5f2a6ae358534a32a4da3d76f890f6a27ee5bef0e1f",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/785.3c8db384.css",
+   "path": "cdn/async/785.3c8db384.css",
+   "bytes": 41241,
+   "sha256": "03e5dc0a5d35500a60d10a214fdcc1d4db5e72c5029eb6b001e398a22d1dd7f4",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/800.0e7d6d45.css",
+   "path": "cdn/async/800.0e7d6d45.css",
+   "bytes": 29605,
+   "sha256": "91741fc495564ddd121bd1fb617f8e8b92d368881787ea5c741af6b3ebc8cf6a",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/800.a9c59e4b.js",
+   "path": "cdn/async/800.a9c59e4b.js",
+   "bytes": 12765,
+   "sha256": "ea3deb5fdeef18c333664e7acb4cf0386075dccb0e0cff81df5203202d2392e4",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/chunk/161.a5798cc0.js",
+   "path": "cdn/chunk/161.a5798cc0.js",
+   "bytes": 1267067,
+   "sha256": "6e7a184c486aa41d6113c7425a9f98e56ca8fedf0fd0793203b286b1e364a4d5",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/chunk/48.0c173d84.js",
+   "path": "cdn/chunk/48.0c173d84.js",
+   "bytes": 169968,
+   "sha256": "088769ca4ad2822f69d0dec7b0839f6c7c0c3af9e22b80b2cfd878a10fcdddf0",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/chunk/513.d8698c29.js",
+   "path": "cdn/chunk/513.d8698c29.js",
+   "bytes": 11178,
+   "sha256": "9074b24793e4aa14a1f21f74c2decf47e3982fc989ee0f23d7dfa68a65fe3e7f",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/chunk/70.ca6329e4.js",
+   "path": "cdn/chunk/70.ca6329e4.js",
+   "bytes": 18502,
+   "sha256": "7c0105642a3eab39c76187d1d25e3c19bbe11d4ae066f25389957bdd8bd8dde5",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/chunk/945.fbaa53f2.js",
+   "path": "cdn/chunk/945.fbaa53f2.js",
+   "bytes": 86147,
+   "sha256": "953ea5ed90178a56727561f88e92a70a82dcfbee1c8e299f68dbefffd3c314c1",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/about_header_bg.261551b8.png",
+   "path": "cdn/image/about_header_bg.261551b8.png",
+   "bytes": 311426,
+   "sha256": "a4e4ab5dfc84891bb538cd652eac2b90b74856ea4420d56b9dda6de3c8a94226",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/about_location_bg.9004e9d2.png",
+   "path": "cdn/image/about_location_bg.9004e9d2.png",
+   "bytes": 326004,
+   "sha256": "7c8c002abb0d3a05ae1095a41c5b1c6b686e4f19ac6620c55ebac49265142d9b",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/about_userstory_poster.494a99ed.png",
+   "path": "cdn/image/about_userstory_poster.494a99ed.png",
+   "bytes": 39736,
+   "sha256": "357ab070567524477a4a6695f90b3097a690c9774f9f06ca2b6c472da87454e7",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_designer_bg.40a2fd08.png",
+   "path": "cdn/image/decorate_designer_bg.40a2fd08.png",
+   "bytes": 681885,
+   "sha256": "c510b71d5246106c28d7800545db37b7a594de30a1d5ecab7c19e1b22d83440c",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_guide_app_bg.da7d15ff.png",
+   "path": "cdn/image/decorate_guide_app_bg.da7d15ff.png",
+   "bytes": 133171,
+   "sha256": "21bb943688bed7a073228476e6c3dca8cc6783c7aa982afeadd0cf3d7a20ae3c",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_header_bg.49d8611d.png",
+   "path": "cdn/image/decorate_header_bg.49d8611d.png",
+   "bytes": 198499,
+   "sha256": "2c0bb335167ce0f1dcb2dfdfc9661f656503ae2e14448cdd698268e1833b2e3a",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_introduction_bg_01.2ad5cf39.png",
+   "path": "cdn/image/decorate_introduction_bg_01.2ad5cf39.png",
+   "bytes": 57002,
+   "sha256": "63074bc3bbc9b1f75ab31739910bb36820ac29dcc162c208ae35ade9b82cdec8",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_introduction_bg_02.8948717e.png",
+   "path": "cdn/image/decorate_introduction_bg_02.8948717e.png",
+   "bytes": 78033,
+   "sha256": "0c1c36c54c807e4de42c18de396f7a1ccf9f9fb64685bc56257bbb1194458e06",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_picture_bg_01.a3cb19b7.png",
+   "path": "cdn/image/decorate_picture_bg_01.a3cb19b7.png",
+   "bytes": 71029,
+   "sha256": "7ab24602748435cab12e077693a94889894302bc59dbf419970f817360056f5d",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_picture_bg_02.5d45d323.png",
+   "path": "cdn/image/decorate_picture_bg_02.5d45d323.png",
+   "bytes": 87373,
+   "sha256": "a7437ca880aa7d56330eec4815fcafe16cd55eba083dc06c71b48d2d7e145aa5",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_solution_bg.8ce37f03.png",
+   "path": "cdn/image/decorate_solution_bg.8ce37f03.png",
+   "bytes": 219057,
+   "sha256": "b8de04b52247f735bb52681981d0392a08fa4a34c37ace2b9a4b75ae3bb92f12",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_appinfo_bg.19288fac.png",
+   "path": "cdn/image/home_appinfo_bg.19288fac.png",
+   "bytes": 11857,
+   "sha256": "82213f363c255c8b3c9080012b9d50c6d710dd2b33605cbec10c391b891abd3a",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_avatar_07.e04143bd.png",
+   "path": "cdn/image/home_decoration_avatar_07.e04143bd.png",
+   "bytes": 8281,
+   "sha256": "a5f7c1debb22146f8c2d8d8e5f9eaafb8c53688d1bdf7779aae90f791a6679de",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_01.57ff4199.png",
+   "path": "cdn/image/home_decoration_bg_01.57ff4199.png",
+   "bytes": 83089,
+   "sha256": "c3eacbcb2b08385042e83aed72c4f9d238cbc5899e22b7c9d0e03cc38ed3cf9f",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_02.8e5c3de2.png",
+   "path": "cdn/image/home_decoration_bg_02.8e5c3de2.png",
+   "bytes": 83485,
+   "sha256": "9bcf529232d673c7d7f5dab470ff82e824d31882c046881873201c9b44f2538a",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_03.99d15a1c.png",
+   "path": "cdn/image/home_decoration_bg_03.99d15a1c.png",
+   "bytes": 100757,
+   "sha256": "23900127d9309738eb94b07e5be58998d911310292e1bc4b6223059309d9070e",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_04.7fe12428.png",
+   "path": "cdn/image/home_decoration_bg_04.7fe12428.png",
+   "bytes": 96537,
+   "sha256": "9be1e2330b15065477a96999b2eedd33271c912acaa7061e31dd1297926f6f3f",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_05.ec22e4b2.png",
+   "path": "cdn/image/home_decoration_bg_05.ec22e4b2.png",
+   "bytes": 99381,
+   "sha256": "0bf6f8ccc35e31189cde1ad769a078beb3d24b93b41b076aa00f59fc52eeb3f5",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_06.1dd86561.png",
+   "path": "cdn/image/home_decoration_bg_06.1dd86561.png",
+   "bytes": 88839,
+   "sha256": "04c1158ba62c01a1164dadbac4c3a1ee2b7e3b7f071b98d67d9e6c0d547c3c3b",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_07.3c0035c7.png",
+   "path": "cdn/image/home_decoration_bg_07.3c0035c7.png",
+   "bytes": 93089,
+   "sha256": "82a91edb9e293d44b69fe22d4a622e00ba84aeaf50d37c5b5eb5850faa7ca258",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_08.c0ab3354.png",
+   "path": "cdn/image/home_decoration_bg_08.c0ab3354.png",
+   "bytes": 94751,
+   "sha256": "db3b976572ac6a80932c64f47e7a6314b655c224541e0b39e6fbd0e421c8bb12",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_09.9136c5f8.png",
+   "path": "cdn/image/home_decoration_bg_09.9136c5f8.png",
+   "bytes": 106593,
+   "sha256": "f7de008edc6cd606dc56216d5fd804beee53756dd78e30242c4a319f5fa7552d",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_10.fba76190.png",
+   "path": "cdn/image/home_decoration_bg_10.fba76190.png",
+   "bytes": 102011,
+   "sha256": "7799868ef448806ae1c9009297e6d817f3afc53f105d03c727316bfc41a5db7e",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_11.0a4839bd.png",
+   "path": "cdn/image/home_decoration_bg_11.0a4839bd.png",
+   "bytes": 97371,
+   "sha256": "1f106843f114f7d8b3824b8f724c98e2d1427d710ae378eaf168cac30a266a11",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_12.33616f3d.png",
+   "path": "cdn/image/home_decoration_bg_12.33616f3d.png",
+   "bytes": 95941,
+   "sha256": "0030acbbfc1c05cb82e98a2449b7f9b436881c2e46e0b6fddc15ac2059b9eb4d",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_13.1e849d1c.png",
+   "path": "cdn/image/home_decoration_bg_13.1e849d1c.png",
+   "bytes": 96647,
+   "sha256": "16c9fcd5f3dc30f40b34594297db29672844173b2ad36186b041d57035f7763b",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_14.e8e018d5.png",
+   "path": "cdn/image/home_decoration_bg_14.e8e018d5.png",
+   "bytes": 88412,
+   "sha256": "760bca2d1eb3087b9f8cd55d3117780646f1cfeb1574f49975bc994e2a6d90d5",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_15.c1eb7317.png",
+   "path": "cdn/image/home_decoration_bg_15.c1eb7317.png",
+   "bytes": 102582,
+   "sha256": "1f866a5f2f27cf893300160048347b469e0d5c61dd9435d5786efa5c16af5eca",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_16.e895af94.png",
+   "path": "cdn/image/home_decoration_bg_16.e895af94.png",
+   "bytes": 98896,
+   "sha256": "a2c50898fa9def20801cd8f1517d3b3e5a1ca8dbc628c0094acdf0b91e9e31c1",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_footer_layer_bg.850f278b.png",
+   "path": "cdn/image/home_footer_layer_bg.850f278b.png",
+   "bytes": 18915,
+   "sha256": "683270ee727e65c8dd241e9d9dc112a6fecd0de89755a0fa311b2c0907912b9d",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_header_bg.a597ce1d.png",
+   "path": "cdn/image/home_header_bg.a597ce1d.png",
+   "bytes": 1067338,
+   "sha256": "c9d4c38f8dbbd6d7b4fd209a27c6e93c28215d7ff3824726a23903e60f6f9280",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_content_bg01.9948abb0.png",
+   "path": "cdn/image/home_institute_content_bg01.9948abb0.png",
+   "bytes": 350406,
+   "sha256": "c77f8b3394f9aa9efc218f105401f939ed2a9d4474c0e1dd55b4f266600a2ee3",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_content_bg02.bef7e232.png",
+   "path": "cdn/image/home_institute_content_bg02.bef7e232.png",
+   "bytes": 388355,
+   "sha256": "cf84ae0553304cd05f47796a2992d531a119375ea147be53f78d98b70b73e52a",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_content_bg03.7656722f.png",
+   "path": "cdn/image/home_institute_content_bg03.7656722f.png",
+   "bytes": 276392,
+   "sha256": "fc47c1ca5b8f91590324975104ded726059c868bf3a7fcecd2c6a4ee9da18eb9",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_content_bg04.50086331.png",
+   "path": "cdn/image/home_institute_content_bg04.50086331.png",
+   "bytes": 404693,
+   "sha256": "f31f1499217b2540b3d2151bbde308063ead1d9087e57e2497413b6830f5f899",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_data_report_01.081b1368.png",
+   "path": "cdn/image/home_institute_data_report_01.081b1368.png",
+   "bytes": 317917,
+   "sha256": "b3023ed06e745a15831e62160527d5a987910faebbd14ae68b865b20adb219eb",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_data_report_02.5821043c.png",
+   "path": "cdn/image/home_institute_data_report_02.5821043c.png",
+   "bytes": 115885,
+   "sha256": "5b2ad86891f08faee7f8efbbfad6224b478ff393e3de1b4854675e585cd6f983",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_data_report_03.8294d0f1.png",
+   "path": "cdn/image/home_institute_data_report_03.8294d0f1.png",
+   "bytes": 95909,
+   "sha256": "36c9c171bfe7d764516772f510e16abc251a3a9f68f010ee68827882876fe78d",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_data_report_04.0c4da9bd.png",
+   "path": "cdn/image/home_institute_data_report_04.0c4da9bd.png",
+   "bytes": 192268,
+   "sha256": "014e5b513a18b643c869b24796e25948d64e4d6e274b755793b892c41f885aa1",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_footer.fcfc0cac.png",
+   "path": "cdn/image/home_institute_footer.fcfc0cac.png",
+   "bytes": 341497,
+   "sha256": "c42dc55e69f3ddc9e660bec9a8f91b57f7396e35f0f5d459824cc548ba73309c",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_header.161ff97c.png",
+   "path": "cdn/image/home_institute_header.161ff97c.png",
+   "bytes": 1111354,
+   "sha256": "1df3220246968a2ce74fd092b700928accab7b12a4a4bdd59a82a71e7e82a8cf",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_service_bg_02.9eb199f9.png",
+   "path": "cdn/image/home_service_bg_02.9eb199f9.png",
+   "bytes": 8254,
+   "sha256": "276598628c79d16674fc750da36d75cdf6bf11b050b3a85764bfea00ba9cd29e",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_service_bg_03.efd49b5a.png",
+   "path": "cdn/image/home_service_bg_03.efd49b5a.png",
+   "bytes": 10099,
+   "sha256": "681b4809e9489b54c2eb2eb91513aa8dd4f9121a1d2937eb7436b63995e9d90c",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_service_bg_04.7600b409.png",
+   "path": "cdn/image/home_service_bg_04.7600b409.png",
+   "bytes": 15190,
+   "sha256": "1dec0028eb3d136052f9cc83d99b4068c736a820e915b5b3e8302737c3a31f16",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tips_bg_01.3dddce2f.png",
+   "path": "cdn/image/home_tips_bg_01.3dddce2f.png",
+   "bytes": 142465,
+   "sha256": "b9e6158485a2b53fda6a8719b875cc42ee9afcc2c571ecda62ce04dc34c1570d",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tips_bg_02.adb1cde1.png",
+   "path": "cdn/image/home_tips_bg_02.adb1cde1.png",
+   "bytes": 100100,
+   "sha256": "25ad7fdfbcd00eb5d4eaa26e90814006c4c5cf824563df5a7db45586f0d2327b",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tool_bg_01.1d4050ca.png",
+   "path": "cdn/image/home_tool_bg_01.1d4050ca.png",
+   "bytes": 70817,
+   "sha256": "cb7769f43c180561778c40d715da6035039ae555209dfc6be77aa14e32f749f4",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tool_bg_02.f43d8d34.png",
+   "path": "cdn/image/home_tool_bg_02.f43d8d34.png",
+   "bytes": 35922,
+   "sha256": "457064d98faf668604557dd1d2df0f88c9a91f57523ebfefa5211e29e82347a2",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tool_bg_03.b7e24b92.png",
+   "path": "cdn/image/home_tool_bg_03.b7e24b92.png",
+   "bytes": 44691,
+   "sha256": "dce374eb83a90cd9b9f3bf7316408d79070d7d1d00d0dc3daa5f1c5305968f8b",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tool_bg_04.dcbf9af1.png",
+   "path": "cdn/image/home_tool_bg_04.dcbf9af1.png",
+   "bytes": 98117,
+   "sha256": "2e735eab564511174923c8d00ab1a01334929035a1793153712be19ee3f55f5b",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tool_bg_05.f23c5c2b.png",
+   "path": "cdn/image/home_tool_bg_05.f23c5c2b.png",
+   "bytes": 34742,
+   "sha256": "f578d8101d936e284064b3859be320d96348ed24511226c2b041ea7cc035cb78",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tool_bg_06.96c4fbe1.png",
+   "path": "cdn/image/home_tool_bg_06.96c4fbe1.png",
+   "bytes": 56004,
+   "sha256": "777993ca3a8a256966b459b3b3e89a44d697ee2c7bf4465b1335c5a13cf03889",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/qrcode_douyin.c72ecd8c.png",
+   "path": "cdn/image/qrcode_douyin.c72ecd8c.png",
+   "bytes": 12770,
+   "sha256": "69df77a7aac2147212e61bd71a7ad83865f5ab5d233d1680b92672172f31cb4b",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/index.b12a9bb2.css",
+   "path": "cdn/index.b12a9bb2.css",
+   "bytes": 284,
+   "sha256": "756e82276b06ea5a0533fb97f2e96766821851f89b702e36d52a8020813489a8",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/index.f433a181.js",
+   "path": "cdn/index.f433a181.js",
+   "bytes": 7221,
+   "sha256": "1ae6e0e6787cecae7a6f9f1b2cfb7ab5c9c60ddf4ffa5350f6ca7b46137d05bc",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/public/favicon.ico",
+   "path": "cdn/public/favicon.ico",
+   "bytes": 1191,
+   "sha256": "c2c3e3e885c69280aa010bf5f881355ca962995c8321e2623f5b9fb910bbecb4",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/favicon.ico",
+   "path": "zhuhaojia/favicon.ico",
+   "bytes": 3313,
+   "sha256": "9a43927d3912c757b2b300cd0f161a76b3cecf766b0af9202da1820e84b320f2",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/manifest.json",
+   "path": "zhuhaojia/manifest.json",
+   "bytes": 308,
+   "sha256": "602c2bc9459ff1c756ed8d99605e05d9c3fee403676f8b578d03dc3e4b855dfb",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/css/main.9eb295c4.css",
+   "path": "zhuhaojia/static/css/main.9eb295c4.css",
+   "bytes": 653095,
+   "sha256": "0426df45201fa10242f6a62f1a54ed703317de54ee4302f25f91f34ef4ca99bf",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/js/main.f9a99cdd.js",
+   "path": "zhuhaojia/static/js/main.f9a99cdd.js",
+   "bytes": 240897,
+   "sha256": "4d815392b5a0b90f7af791208e2a8d035d409054b898a1a8945ef83d7834ab0a",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/banner1.9e5294396ec08d09a336.png",
+   "path": "zhuhaojia/static/media/banner1.9e5294396ec08d09a336.png",
+   "bytes": 9531962,
+   "sha256": "1072bda5caecb8c886b71139252e66148ad4bdeebd420378e94f4ef10bebc865",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/banner2.7f5b59a34e95364355d5.png",
+   "path": "zhuhaojia/static/media/banner2.7f5b59a34e95364355d5.png",
+   "bytes": 12022011,
+   "sha256": "4107744a24ed8dce5cf153d7f258c72e7abed9d25da9f9b3138bb2b8b59d5196",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/banner3.cf129455918b81499f56.png",
+   "path": "zhuhaojia/static/media/banner3.cf129455918b81499f56.png",
+   "bytes": 9975739,
+   "sha256": "163e89a1f5198468826b9d855aaac6fddc488b16610eeb1f1eb9aee33d6052d1",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/logoFooter.f9b9750ad9cb267e54c4.png",
+   "path": "zhuhaojia/static/media/logoFooter.f9b9750ad9cb267e54c4.png",
+   "bytes": 11134,
+   "sha256": "c8fe6a5ec74f2109f6b02613a5f36f83f9930ec1ea7a356f5653214c64a2a870",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/phone1.8d70e8dc33aa1fabd1c6.png",
+   "path": "zhuhaojia/static/media/phone1.8d70e8dc33aa1fabd1c6.png",
+   "bytes": 310680,
+   "sha256": "94a7f96e5e3060144f91a2ca8ad5ec2f63ebe062f812fce3fe3bd03c2fb6bef0",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/phone2.6c29131f3f9b7e2e9130.png",
+   "path": "zhuhaojia/static/media/phone2.6c29131f3f9b7e2e9130.png",
+   "bytes": 77122,
+   "sha256": "a855056fa1f36f0845c1f4d72428df9f6dbd43be50a44a4a77cfed8dc467c098",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/phone3.44f396e298030a8d3a7e.png",
+   "path": "zhuhaojia/static/media/phone3.44f396e298030a8d3a7e.png",
+   "bytes": 41680,
+   "sha256": "ca1a55634b49d8bbe576b9c618d0a3569fe15da7400f8334fb438db77cf08ff7",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/phone4.ef123a36a892a2c70fe8.png",
+   "path": "zhuhaojia/static/media/phone4.ef123a36a892a2c70fe8.png",
+   "bytes": 84696,
+   "sha256": "898a96ec470e30e6b69eba2cd188592ec1741945e5da829b76ee20ff21b78d77",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/realTimeDuration.8ab23228537d3d9ac0b4.png",
+   "path": "zhuhaojia/static/media/realTimeDuration.8ab23228537d3d9ac0b4.png",
+   "bytes": 10234,
+   "sha256": "4bf48bb558ff77dfe2fab57583fa0a6b483a41a119c4bcc7e0f2fd004359b768",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/title.6f820101685aa874e515.png",
+   "path": "zhuhaojia/static/media/title.6f820101685aa874e515.png",
+   "bytes": 17461,
+   "sha256": "5da69154b2bd1265465df58e18911527f1b97ed00493186fde0c97fa865dffce",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf26-addone-sign.bytetos.com/tos-cn-v-736065/fbb3831fae9e43228a82b08a5381622d.pdf?x-expires=1992342633&x-signature=7NdXBa229e%2BMFaJRHpHfYSgXuLI%3D",
+   "path": "vendor/lf26-addone-sign.bytetos.com/tos-cn-v-736065/fbb3831fae9e43228a82b08a5381622d.pdf",
+   "bytes": 1158895,
+   "sha256": "b533fcb0ea815f151847eb55f244bfbbbbeb493479a5a441ec4b6870bfb4759d",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf26-addone-sign.bytetos.com/tos-cn-v-736065/o8esxKxFegHI8YZFueff5AwVBIjCgM8AAAnBAe.pdf?x-expires=2041399531&x-signature=5d23o9J5CGV06U0fo9mwLsSjYEA%3D",
+   "path": "vendor/lf26-addone-sign.bytetos.com/tos-cn-v-736065/o8esxKxFegHI8YZFueff5AwVBIjCgM8AAAnBAe.pdf",
+   "bytes": 132221,
+   "sha256": "b692e11411d46afdc62acd47e583db803e975c62e5800ef65db621ce11d2eaad",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf3-addone-sign.bytetos.com/tos-cn-v-736065/57043c21d2b54655b0a419177bb915ed.pdf?x-expires=1987570572&x-signature=ezjRvkpsZFG4jf8jQbbnWu63JyU%3D",
+   "path": "vendor/lf3-addone-sign.bytetos.com/tos-cn-v-736065/57043c21d2b54655b0a419177bb915ed.pdf",
+   "bytes": 136899,
+   "sha256": "bae404da2da5615ccbb6f3a7653ce9a4a9069be7115bd4ea5b65c56101985824",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js",
+   "path": "vendor/lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js",
+   "bytes": 46192,
+   "sha256": "154c673d321d7cb97f480c9412dd2cd791e633e33e9201fe712a48ba34b9bf27",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/plugins/blank-screen.1.16.9.js",
+   "path": "vendor/lf3-short.ibytedapm.com/slardar/fe/sdk-web/plugins/blank-screen.1.16.9.js",
+   "bytes": 9089,
+   "sha256": "710ac049e9a5a14846423a08b34566945767bf2ee816a032a8a771b6380024db",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/plugins/common-monitors.1.16.9.js",
+   "path": "vendor/lf3-short.ibytedapm.com/slardar/fe/sdk-web/plugins/common-monitors.1.16.9.js",
+   "bytes": 24537,
+   "sha256": "96800b6e2c1abd0da89bccc160c28d8e6941c8d9367a019dbd63b51f7811a2b8",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/fapybjlz_lm_zlp/ljhwZthlaukjlkulzlp/security/secsdk.umd.js",
+   "path": "vendor/lf3-static.bytednsdoc.com/obj/eden-cn/fapybjlz_lm_zlp/ljhwZthlaukjlkulzlp/security/secsdk.umd.js",
+   "bytes": 48433,
+   "sha256": "fb4c8e0c1e1a0b67511db2f8be6c9e8b616a223ca7066581174c391bd669bfd5",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/images/loading.png",
+   "path": "vendor/lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/images/loading.png",
+   "bytes": 902,
+   "sha256": "aa9c76d7ea50e8807cea0d0edc0347ca3075cce862960fa4aa825d20d648cbaf",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/lib/react-dom.17.0.2.production.min.js",
+   "path": "vendor/lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/lib/react-dom.17.0.2.production.min.js",
+   "bytes": 120645,
+   "sha256": "763a29804e5a6ca1728f4b8b37e974ce0d257413d2b7e3cd3b487fa3df99843b",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/lib/react.production.17.0.2.min.js",
+   "path": "vendor/lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/lib/react.production.17.0.2.min.js",
+   "bytes": 11440,
+   "sha256": "229bbf4d0e7488209564152c6723497f1ac3934136ca1684233d2fa88fa4146f",
+   "status": 200,
+   "cross_check": "verified"
+  },
+  {
+   "url": "https://v9-default.365yg.com/37dcd7237e7e733c5bc7efffe25fd522/77d808cb/video/tos/cn/tos-cn-v-736065/osWyVppBPCyEQqqRQEfUhthzCtiO7IdhgUAMLE/",
+   "path": "vendor/v9-default.365yg.com/37dcd7237e7e733c5bc7efffe25fd522/77d808cb/video/tos/cn/tos-cn-v-736065/osWyVppBPCyEQqqRQEfUhthzCtiO7IdhgUAMLE/video.mp4",
+   "bytes": 16551639,
+   "sha256": "d4306541d8dc5de6c24a2060623030560ee9f3731fbcfb5d2461688cf3c0b2d5",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://v9-default.365yg.com/62d716b20eb42ddbb9c7140b97d15f13/77d97ad5/video/tos/cn/tos-cn-v-736065/oELXenDeREDt0KBp6A3DdBc6cQgVgs83l1Bwob/",
+   "path": "vendor/v9-default.365yg.com/62d716b20eb42ddbb9c7140b97d15f13/77d97ad5/video/tos/cn/tos-cn-v-736065/oELXenDeREDt0KBp6A3DdBc6cQgVgs83l1Bwob/video.mp4",
+   "bytes": 32164810,
+   "sha256": "fb584e775f343d900bdef89a2b56067bdabecf995dac9c402184c2b22bb62546",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://www.zhuxiaobang.com/faas/ugc/account_logout.html",
+   "path": "faas/ugc/account_logout.html",
+   "bytes": 5252,
+   "sha256": "b664d95af16c85260d7b9563b4b9d66857f3e7994d91a5de9df19098ab3a75ca",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://www.zhuxiaobang.com/faas/ugc/apply_and_use.html",
+   "path": "faas/ugc/apply_and_use.html",
+   "bytes": 10695,
+   "sha256": "0733202221bc0a04ced589068ed74a2a0cda83722734996c4c5b366360623699",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://www.zhuxiaobang.com/faas/ugc/config.js",
+   "path": "faas/ugc/config.js",
+   "bytes": 181,
+   "sha256": "ab7656f8041c6661b0d5850f3ef970e4167ac830a572396b79159a05cb5fb97a",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://www.zhuxiaobang.com/faas/ugc/ehome_message_protect.html",
+   "path": "faas/ugc/ehome_message_protect.html",
+   "bytes": 6993,
+   "sha256": "61dce0b4ef38f9738bf09fb078d8be0bf0597c3e78802ca87136daea9ffda257",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://www.zhuxiaobang.com/faas/ugc/merchant_commitment_letter.html",
+   "path": "faas/ugc/merchant_commitment_letter.html",
+   "bytes": 12580,
+   "sha256": "3daa7bc01834453f3361075abdab773d9b32531e6fd6dc5bca629ec48115a126",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://www.zhuxiaobang.com/faas/ugc/merchant_privacy_protocol.html",
+   "path": "faas/ugc/merchant_privacy_protocol.html",
+   "bytes": 23738,
+   "sha256": "37fb9f6000bfda1ea06082b33fe889bd71815f0798dd1696b89b424cdb6af758",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://www.zhuxiaobang.com/faas/ugc/merchant_service_protocol.html",
+   "path": "faas/ugc/merchant_service_protocol.html",
+   "bytes": 29025,
+   "sha256": "dc6b9c5162c92599212ba25ef265978f1f4a566482749d038280951f31950a0b",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://www.zhuxiaobang.com/faas/ugc/private_protocal_text.html",
+   "path": "faas/ugc/private_protocal_text.html",
+   "bytes": 45044,
+   "sha256": "7a4afa4dcc190a16d5003044b165ff48f6580cc20931a33190a482e37ceb4099",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://www.zhuxiaobang.com/faas/ugc/sensitive_personal_message.html",
+   "path": "faas/ugc/sensitive_personal_message.html",
+   "bytes": 3769,
+   "sha256": "d3a051e0e900750364296c4e77c71a8dc2142731e356cca4e6f8a2d708be2b1b",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://www.zhuxiaobang.com/faas/ugc/third_party_sdk.html",
+   "path": "faas/ugc/third_party_sdk.html",
+   "bytes": 21775,
+   "sha256": "4dbfda7dae18e1db8bcee3b80c76dd577f403d61133facbe822ceb8aa7265c0b",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://www.zhuxiaobang.com/faas/ugc/user_protocal.html",
+   "path": "faas/ugc/user_protocal.html",
+   "bytes": 39747,
+   "sha256": "19441a79f29e7496b1bc4ed4388e94cd45e48eb3528052887473b518a94b19d8",
+   "status": 200,
+   "cross_check": null
+  },
+  {
+   "url": "https://www.zhuxiaobang.com/zhuhaojia",
+   "path": "zhuhaojia/index.html",
+   "bytes": 1095,
+   "sha256": "2f98f0911a8b2f6121ca147ac01b7e845c4b3fec275aa6ed7873e2460d524c72",
+   "status": 200,
+   "cross_check": null
+  }
+ ],
+ "failures": [],
+ "absent_upstream": [
+  {
+   "url": "https://lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/chunk/785.d5b28db2.js",
+   "error": "HTTP 404",
+   "note": "not requested by the live site"
+  }
+ ],
+ "digest_mismatches": [],
+ "captured_bodies_not_downloaded": [
+  "mcs.zijieapi.com/list",
+  "mcs.zijieapi.com/webid",
+  "www.zhuxiaobang.com/site/about",
+  "www.zhuxiaobang.com/site/decorateTips",
+  "www.zhuxiaobang.com/site/home",
+  "www.zhuxiaobang.com/site/institute",
+  "www.zhuxiaobang.com/site/notfound-probe"
+ ]
+}

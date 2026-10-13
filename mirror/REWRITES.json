@@ -1,0 +1,505 @@
+{
+ "files_rewritten": [
+  {
+   "file": "cdn/index.f433a181.js",
+   "rewrites": 1,
+   "sha256_after": "9f638f59ebef445446352bc4a29bade41bea4c6b92aebbb420a7b926e1e73ba2"
+  },
+  {
+   "file": "cdn/chunk/161.a5798cc0.js",
+   "rewrites": 1,
+   "sha256_after": "867eaa7cbdefa1470a2e70f193385e9d141a4852a248926bbfbc864c799cb5f3"
+  },
+  {
+   "file": "cdn/async/381.bed7d3ba.css",
+   "rewrites": 2,
+   "sha256_after": "ec5dd0a4967584215411bf2bed1b85c41ffd62222cc00e740907aa5b53047bc1"
+  },
+  {
+   "file": "cdn/async/635.2d3b16c7.js",
+   "rewrites": 6,
+   "sha256_after": "6f3d069a041c83893e7de8cf505d29de34e641efffb8559fd48958692af76299",
+   "code_patches": [
+    "local-merchant-entry"
+   ]
+  },
+  {
+   "file": "cdn/async/800.0e7d6d45.css",
+   "rewrites": 1,
+   "sha256_after": "5d3edd9132bf61c9f10deb5a92a4da245ae69fcfe75d84b341cdbdac5d5d2828"
+  },
+  {
+   "file": "cdn/async/800.a9c59e4b.js",
+   "rewrites": 1,
+   "sha256_after": "be788b68da37ebc4bd7e15344c37badfa4fb9f0b65879eca4e95c41ac2c9e23c"
+  },
+  {
+   "file": "cdn/async/136.fe1ac9c4.css",
+   "rewrites": 2,
+   "sha256_after": "fd111473c22bd1d484bed9cd6a7d189044e0ac43f3aa0e206c80bc42c8032148"
+  },
+  {
+   "file": "cdn/async/381.ac0be242.js",
+   "rewrites": 1,
+   "sha256_after": "f283bc5ce2587f580b41ba9665636993d0af9ae9530f9a0eaa7b2a7c5ff413da"
+  },
+  {
+   "file": "cdn/async/467.51cb14ae.css",
+   "rewrites": 2,
+   "sha256_after": "27f1f14558d44c451e8d5f0b9b7882c44f30e93631c294f930ba097c41bc25bd"
+  },
+  {
+   "file": "zhuhaojia/index.html",
+   "rewrites": 4,
+   "sha256_after": "bbca49b1fbcd056d0917627dec02f27b7ad4fdef1e350ede4990ac331dec1602",
+   "local_patches": [
+    "hide-zhuhaojia-shutdown-notice",
+    "unlock-zhuhaojia-scroll"
+   ]
+  },
+  {
+   "file": "zhuhaojia/static/css/main.9eb295c4.css",
+   "rewrites": 5,
+   "sha256_after": "840a59530ab3c3914dbd603ee7c5d8165a549ffeeb86917339e615435d0c2933"
+  },
+  {
+   "file": "zhuhaojia/static/js/main.f9a99cdd.js",
+   "rewrites": 2,
+   "sha256_after": "3846bc04b554c56063301e854477a5a8aba243730dd2d135d3fd984cdeb850f8",
+   "code_patches": [
+    "unlock-zhuhaojia-input"
+   ]
+  },
+  {
+   "file": "faas/ugc/sensitive_personal_message.html",
+   "rewrites": 1,
+   "sha256_after": "c3faeb50f22805167df2bcacc22de05cde417bd5902b242ef200a846b95dc4b3"
+  },
+  {
+   "file": "faas/ugc/private_protocal_text.html",
+   "rewrites": 5,
+   "sha256_after": "9dbf912a3657feaef151f671b5064adaa58325acdda08bded2c825bc185ffb4e"
+  },
+  {
+   "file": "faas/ugc/account_logout.html",
+   "rewrites": 1,
+   "sha256_after": "10dc9858b2d38836c8818dddf604293fe41cf751b5fac1c0ec7edf996a4bd9b5"
+  },
+  {
+   "file": "faas/ugc/third_party_sdk.html",
+   "rewrites": 1,
+   "sha256_after": "40526fdf05da2f96920fbf240c89c2dbc11ebbe038196b869edce5764ad7e3cc"
+  },
+  {
+   "file": "faas/ugc/merchant_commitment_letter.html",
+   "rewrites": 1,
+   "sha256_after": "c4b51310eafb67cc780c17b9ef85e08c9e51ed24f22f27004692f051adcd4961"
+  },
+  {
+   "file": "faas/ugc/ehome_message_protect.html",
+   "rewrites": 1,
+   "sha256_after": "4ccbae489326a98cb9b73f7ab9c4888e2d1c31d608b458fd18824ea3103bd67d"
+  },
+  {
+   "file": "faas/ugc/user_protocal.html",
+   "rewrites": 1,
+   "sha256_after": "ef787362521c8862b23207a0a351cc104bdd805f1e7db88c69251c53507ee775"
+  },
+  {
+   "file": "faas/ugc/apply_and_use.html",
+   "rewrites": 1,
+   "sha256_after": "d0d817b575bb03cabf3f82bd39e0fa9ca0efad1f35c910c6fd74b99af93a72d5"
+  },
+  {
+   "file": "index.html",
+   "rewrites": 9,
+   "sha256_after": "6b525b22e29b7184f8f4fed2b6bc89d5ddacd617eec132649acde26e537bb2bf",
+   "local_patches": [
+    "hide-shutdown-notice",
+    "clickable-swiper-dots",
+    "merchant-entry-click"
+   ]
+  },
+  {
+   "file": "cdn/async/467.b5543a47.js",
+   "rewrites": 0,
+   "code_patches": [
+    "unpin-home-scroll"
+   ],
+   "sha256_after": "91b32b0144f3c30fc2c290aaff06f74e5858b7c494e1d48aa09ae37194632717"
+  },
+  {
+   "file": "archive/merchant/index.html",
+   "rewrites": 0,
+   "code_patches": [
+    "merchant-missing-script-tag"
+   ],
+   "sha256_after": "914bde42880fa65a1d5ba72f52714664dde61f358a2d15251506cf98b410e018"
+  }
+ ],
+ "total_rewrites": 49,
+ "rules": {
+  "lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/images/favicon.ico": "/vendor/lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/images/favicon.ico",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/48.4d555b07.css": "/cdn/48.4d555b07.css",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/633.4a4bf70d.js": "/cdn/633.4a4bf70d.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/136.71670d8e.js": "/cdn/async/136.71670d8e.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/136.fe1ac9c4.css": "/cdn/async/136.fe1ac9c4.css",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/161.c17f93c5.css": "/cdn/async/161.c17f93c5.css",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/381.ac0be242.js": "/cdn/async/381.ac0be242.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/381.bed7d3ba.css": "/cdn/async/381.bed7d3ba.css",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/467.51cb14ae.css": "/cdn/async/467.51cb14ae.css",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/467.b5543a47.js": "/cdn/async/467.b5543a47.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/635.2d3b16c7.js": "/cdn/async/635.2d3b16c7.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/635.3bb761d3.css": "/cdn/async/635.3bb761d3.css",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/785.3c8db384.css": "/cdn/async/785.3c8db384.css",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/800.0e7d6d45.css": "/cdn/async/800.0e7d6d45.css",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/async/800.a9c59e4b.js": "/cdn/async/800.a9c59e4b.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/chunk/161.a5798cc0.js": "/cdn/chunk/161.a5798cc0.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/chunk/48.0c173d84.js": "/cdn/chunk/48.0c173d84.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/chunk/513.d8698c29.js": "/cdn/chunk/513.d8698c29.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/chunk/70.ca6329e4.js": "/cdn/chunk/70.ca6329e4.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/chunk/945.fbaa53f2.js": "/cdn/chunk/945.fbaa53f2.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/about_header_bg.261551b8.png": "/cdn/image/about_header_bg.261551b8.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/about_location_bg.9004e9d2.png": "/cdn/image/about_location_bg.9004e9d2.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/about_userstory_poster.494a99ed.png": "/cdn/image/about_userstory_poster.494a99ed.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_designer_bg.40a2fd08.png": "/cdn/image/decorate_designer_bg.40a2fd08.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_guide_app_bg.da7d15ff.png": "/cdn/image/decorate_guide_app_bg.da7d15ff.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_header_bg.49d8611d.png": "/cdn/image/decorate_header_bg.49d8611d.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_introduction_bg_01.2ad5cf39.png": "/cdn/image/decorate_introduction_bg_01.2ad5cf39.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_introduction_bg_02.8948717e.png": "/cdn/image/decorate_introduction_bg_02.8948717e.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_picture_bg_01.a3cb19b7.png": "/cdn/image/decorate_picture_bg_01.a3cb19b7.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_picture_bg_02.5d45d323.png": "/cdn/image/decorate_picture_bg_02.5d45d323.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/decorate_solution_bg.8ce37f03.png": "/cdn/image/decorate_solution_bg.8ce37f03.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_appinfo_bg.19288fac.png": "/cdn/image/home_appinfo_bg.19288fac.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_avatar_07.e04143bd.png": "/cdn/image/home_decoration_avatar_07.e04143bd.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_01.57ff4199.png": "/cdn/image/home_decoration_bg_01.57ff4199.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_02.8e5c3de2.png": "/cdn/image/home_decoration_bg_02.8e5c3de2.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_03.99d15a1c.png": "/cdn/image/home_decoration_bg_03.99d15a1c.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_04.7fe12428.png": "/cdn/image/home_decoration_bg_04.7fe12428.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_05.ec22e4b2.png": "/cdn/image/home_decoration_bg_05.ec22e4b2.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_06.1dd86561.png": "/cdn/image/home_decoration_bg_06.1dd86561.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_07.3c0035c7.png": "/cdn/image/home_decoration_bg_07.3c0035c7.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_08.c0ab3354.png": "/cdn/image/home_decoration_bg_08.c0ab3354.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_09.9136c5f8.png": "/cdn/image/home_decoration_bg_09.9136c5f8.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_10.fba76190.png": "/cdn/image/home_decoration_bg_10.fba76190.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_11.0a4839bd.png": "/cdn/image/home_decoration_bg_11.0a4839bd.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_12.33616f3d.png": "/cdn/image/home_decoration_bg_12.33616f3d.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_13.1e849d1c.png": "/cdn/image/home_decoration_bg_13.1e849d1c.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_14.e8e018d5.png": "/cdn/image/home_decoration_bg_14.e8e018d5.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_15.c1eb7317.png": "/cdn/image/home_decoration_bg_15.c1eb7317.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_decoration_bg_16.e895af94.png": "/cdn/image/home_decoration_bg_16.e895af94.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_footer_layer_bg.850f278b.png": "/cdn/image/home_footer_layer_bg.850f278b.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_header_bg.a597ce1d.png": "/cdn/image/home_header_bg.a597ce1d.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_content_bg01.9948abb0.png": "/cdn/image/home_institute_content_bg01.9948abb0.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_content_bg02.bef7e232.png": "/cdn/image/home_institute_content_bg02.bef7e232.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_content_bg03.7656722f.png": "/cdn/image/home_institute_content_bg03.7656722f.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_content_bg04.50086331.png": "/cdn/image/home_institute_content_bg04.50086331.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_data_report_01.081b1368.png": "/cdn/image/home_institute_data_report_01.081b1368.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_data_report_02.5821043c.png": "/cdn/image/home_institute_data_report_02.5821043c.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_data_report_03.8294d0f1.png": "/cdn/image/home_institute_data_report_03.8294d0f1.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_data_report_04.0c4da9bd.png": "/cdn/image/home_institute_data_report_04.0c4da9bd.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_footer.fcfc0cac.png": "/cdn/image/home_institute_footer.fcfc0cac.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_institute_header.161ff97c.png": "/cdn/image/home_institute_header.161ff97c.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_service_bg_02.9eb199f9.png": "/cdn/image/home_service_bg_02.9eb199f9.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_service_bg_03.efd49b5a.png": "/cdn/image/home_service_bg_03.efd49b5a.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_service_bg_04.7600b409.png": "/cdn/image/home_service_bg_04.7600b409.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tips_bg_01.3dddce2f.png": "/cdn/image/home_tips_bg_01.3dddce2f.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tips_bg_02.adb1cde1.png": "/cdn/image/home_tips_bg_02.adb1cde1.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tool_bg_01.1d4050ca.png": "/cdn/image/home_tool_bg_01.1d4050ca.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tool_bg_02.f43d8d34.png": "/cdn/image/home_tool_bg_02.f43d8d34.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tool_bg_03.b7e24b92.png": "/cdn/image/home_tool_bg_03.b7e24b92.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tool_bg_04.dcbf9af1.png": "/cdn/image/home_tool_bg_04.dcbf9af1.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tool_bg_05.f23c5c2b.png": "/cdn/image/home_tool_bg_05.f23c5c2b.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/home_tool_bg_06.96c4fbe1.png": "/cdn/image/home_tool_bg_06.96c4fbe1.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/image/qrcode_douyin.c72ecd8c.png": "/cdn/image/qrcode_douyin.c72ecd8c.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/index.b12a9bb2.css": "/cdn/index.b12a9bb2.css",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/index.f433a181.js": "/cdn/index.f433a181.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/public/favicon.ico": "/cdn/public/favicon.ico",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/favicon.ico": "/zhuhaojia/favicon.ico",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/manifest.json": "/zhuhaojia/manifest.json",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/css/main.9eb295c4.css": "/zhuhaojia/static/css/main.9eb295c4.css",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/js/main.f9a99cdd.js": "/zhuhaojia/static/js/main.f9a99cdd.js",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/banner1.9e5294396ec08d09a336.png": "/zhuhaojia/static/media/banner1.9e5294396ec08d09a336.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/banner2.7f5b59a34e95364355d5.png": "/zhuhaojia/static/media/banner2.7f5b59a34e95364355d5.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/banner3.cf129455918b81499f56.png": "/zhuhaojia/static/media/banner3.cf129455918b81499f56.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/logoFooter.f9b9750ad9cb267e54c4.png": "/zhuhaojia/static/media/logoFooter.f9b9750ad9cb267e54c4.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/phone1.8d70e8dc33aa1fabd1c6.png": "/zhuhaojia/static/media/phone1.8d70e8dc33aa1fabd1c6.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/phone2.6c29131f3f9b7e2e9130.png": "/zhuhaojia/static/media/phone2.6c29131f3f9b7e2e9130.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/phone3.44f396e298030a8d3a7e.png": "/zhuhaojia/static/media/phone3.44f396e298030a8d3a7e.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/phone4.ef123a36a892a2c70fe8.png": "/zhuhaojia/static/media/phone4.ef123a36a892a2c70fe8.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/realTimeDuration.8ab23228537d3d9ac0b4.png": "/zhuhaojia/static/media/realTimeDuration.8ab23228537d3d9ac0b4.png",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/static/media/title.6f820101685aa874e515.png": "/zhuhaojia/static/media/title.6f820101685aa874e515.png",
+  "lf26-addone-sign.bytetos.com/tos-cn-v-736065/fbb3831fae9e43228a82b08a5381622d.pdf": "/vendor/lf26-addone-sign.bytetos.com/tos-cn-v-736065/fbb3831fae9e43228a82b08a5381622d.pdf",
+  "lf26-addone-sign.bytetos.com/tos-cn-v-736065/o8esxKxFegHI8YZFueff5AwVBIjCgM8AAAnBAe.pdf": "/vendor/lf26-addone-sign.bytetos.com/tos-cn-v-736065/o8esxKxFegHI8YZFueff5AwVBIjCgM8AAAnBAe.pdf",
+  "lf3-addone-sign.bytetos.com/tos-cn-v-736065/57043c21d2b54655b0a419177bb915ed.pdf": "/vendor/lf3-addone-sign.bytetos.com/tos-cn-v-736065/57043c21d2b54655b0a419177bb915ed.pdf",
+  "lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js": "/vendor/lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js",
+  "lf3-short.ibytedapm.com/slardar/fe/sdk-web/plugins/blank-screen.1.16.9.js": "/vendor/lf3-short.ibytedapm.com/slardar/fe/sdk-web/plugins/blank-screen.1.16.9.js",
+  "lf3-short.ibytedapm.com/slardar/fe/sdk-web/plugins/common-monitors.1.16.9.js": "/vendor/lf3-short.ibytedapm.com/slardar/fe/sdk-web/plugins/common-monitors.1.16.9.js",
+  "lf3-static.bytednsdoc.com/obj/eden-cn/fapybjlz_lm_zlp/ljhwZthlaukjlkulzlp/security/secsdk.umd.js": "/vendor/lf3-static.bytednsdoc.com/obj/eden-cn/fapybjlz_lm_zlp/ljhwZthlaukjlkulzlp/security/secsdk.umd.js",
+  "lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/images/loading.png": "/vendor/lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/images/loading.png",
+  "lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/lib/react-dom.17.0.2.production.min.js": "/vendor/lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/lib/react-dom.17.0.2.production.min.js",
+  "lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/lib/react.production.17.0.2.min.js": "/vendor/lf3-static.bytednsdoc.com/obj/eden-cn/jpahaz_lm_kltvo/ljhwZthlaukjlkulzlp/lib/react.production.17.0.2.min.js",
+  "v9-default.365yg.com/37dcd7237e7e733c5bc7efffe25fd522/77d808cb/video/tos/cn/tos-cn-v-736065/osWyVppBPCyEQqqRQEfUhthzCtiO7IdhgUAMLE/": "/vendor/v9-default.365yg.com/37dcd7237e7e733c5bc7efffe25fd522/77d808cb/video/tos/cn/tos-cn-v-736065/osWyVppBPCyEQqqRQEfUhthzCtiO7IdhgUAMLE/",
+  "v9-default.365yg.com/62d716b20eb42ddbb9c7140b97d15f13/77d97ad5/video/tos/cn/tos-cn-v-736065/oELXenDeREDt0KBp6A3DdBc6cQgVgs83l1Bwob/": "/vendor/v9-default.365yg.com/62d716b20eb42ddbb9c7140b97d15f13/77d97ad5/video/tos/cn/tos-cn-v-736065/oELXenDeREDt0KBp6A3DdBc6cQgVgs83l1Bwob/",
+  "www.zhuxiaobang.com/faas/ugc/account_logout.html": "/faas/ugc/account_logout.html",
+  "www.zhuxiaobang.com/faas/ugc/apply_and_use.html": "/faas/ugc/apply_and_use.html",
+  "www.zhuxiaobang.com/faas/ugc/config.js": "/faas/ugc/config.js",
+  "www.zhuxiaobang.com/faas/ugc/ehome_message_protect.html": "/faas/ugc/ehome_message_protect.html",
+  "www.zhuxiaobang.com/faas/ugc/merchant_commitment_letter.html": "/faas/ugc/merchant_commitment_letter.html",
+  "www.zhuxiaobang.com/faas/ugc/merchant_privacy_protocol.html": "/faas/ugc/merchant_privacy_protocol.html",
+  "www.zhuxiaobang.com/faas/ugc/merchant_service_protocol.html": "/faas/ugc/merchant_service_protocol.html",
+  "www.zhuxiaobang.com/faas/ugc/private_protocal_text.html": "/faas/ugc/private_protocal_text.html",
+  "www.zhuxiaobang.com/faas/ugc/sensitive_personal_message.html": "/faas/ugc/sensitive_personal_message.html",
+  "www.zhuxiaobang.com/faas/ugc/third_party_sdk.html": "/faas/ugc/third_party_sdk.html",
+  "www.zhuxiaobang.com/faas/ugc/user_protocal.html": "/faas/ugc/user_protocal.html",
+  "www.zhuxiaobang.com/zhuhaojia": "/zhuhaojia",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/cgfe/homed_site/": "/cdn/",
+  "lf-homed-fe.zhuxiaobang.com/obj/homed-fe-src/scm/homed_fe_new_pc/": "/zhuhaojia/"
+ },
+ "local_patches_applied": [
+  {
+   "id": "hide-shutdown-notice",
+   "description": "隐藏首页「住小帮关停公告」整屏浮层（主站 bundle 硬编码）",
+   "targets": [
+    "index.html"
+   ],
+   "kind": "style",
+   "selectors": [
+    ".zy5Z34YOK7ZhegFKjmCW"
+   ],
+   "css": null
+  },
+  {
+   "id": "hide-zhuhaojia-shutdown-notice",
+   "description": "隐藏住好家官网「住好家部分服务关停公告」整屏浮层",
+   "targets": [
+    "zhuhaojia/index.html"
+   ],
+   "kind": "style",
+   "selectors": [
+    ".index_notice-overlay__\\+MWtd"
+   ],
+   "css": null
+  },
+  {
+   "id": "unlock-zhuhaojia-scroll",
+   "description": "住好家公告组件挂载时把 body 设成 overflow:hidden；隐藏浮层不会解除滚动锁，这里用 !important 覆盖它",
+   "targets": [
+    "zhuhaojia/index.html"
+   ],
+   "kind": "style",
+   "selectors": null,
+   "css": "html,body{overflow:visible !important;touch-action:auto !important}"
+  },
+  {
+   "id": "clickable-swiper-dots",
+   "description": "让分屏 swiper 的分页点可点击（与滚轮翻页并存；只挂点击事件，不改动 DOM 结构）",
+   "targets": [
+    "index.html"
+   ],
+   "kind": "script",
+   "selectors": null,
+   "css": ".swiper-pagination-bullet{cursor:pointer}"
+  },
+  {
+   "id": "merchant-entry-click",
+   "description": "「商家入驻」链接交给 SPA 路由会被当成本站路由（/home 被拼成 /site/home）；这段在捕获阶段接管点击，直接整页跳转到本地商家平台",
+   "targets": [
+    "index.html"
+   ],
+   "kind": "script",
+   "selectors": null,
+   "css": null
+  }
+ ],
+ "code_patches_applied": [
+  {
+   "id": "unpin-home-scroll",
+   "description": "解除首页「每次 scroll 都拉回顶部」的锁定",
+   "edits": [
+    {
+     "file": "cdn/async/467.b5543a47.js",
+     "find": "window.addEventListener(\"scroll\",p,{passive:!1})",
+     "replace": "(void 0)",
+     "note": "首页组件每次 scroll 都把窗口拉回顶部"
+    }
+   ]
+  },
+  {
+   "id": "unlock-zhuhaojia-input",
+   "description": "住好家根组件用 non-passive wheel/touchmove 监听无条件 preventDefault，彻底锁死滚动；去掉这两条",
+   "edits": [
+    {
+     "file": "zhuhaojia/static/js/main.f9a99cdd.js",
+     "find": "document.addEventListener(\"touchmove\",e,{passive:!1})",
+     "replace": "(void 0)",
+     "note": "touchmove 阻止默认，等于锁死触摸滚动"
+    },
+    {
+     "file": "zhuhaojia/static/js/main.f9a99cdd.js",
+     "find": "document.addEventListener(\"wheel\",t,{passive:!1})",
+     "replace": "(void 0)",
+     "note": "wheel 阻止默认，等于锁死滚轮滚动"
+    }
+   ]
+  },
+  {
+   "id": "merchant-missing-script-tag",
+   "description": "归档的商家应用 index.html 少了一个 <script> 开标签（只有 </script>），导致那段 mock 脚本被当成正文文字显示、而且没有执行；补回开标签",
+   "edits": [
+    {
+     "file": "archive/merchant/index.html",
+     "find": "</script>\n\n(function () {\n  var originalFetch = window.fetch;",
+     "replace": "</script>\n\n<script>\n(function () {\n  var originalFetch = window.fetch;",
+     "note": "补回缺失的 <script> 开标签（上游归档缺陷，其线上部署同样显示这段文字）"
+    }
+   ]
+  },
+  {
+   "id": "local-merchant-entry",
+   "description": "主站「业务合作 → 商家入驻」原本指向线上 e.zhuxiaobang.com，改为指向本地已归档的商家平台（/home?app_entrance=login）",
+   "edits": [
+    {
+     "file": "cdn/async/635.2d3b16c7.js",
+     "find": "url:\"https://e.zhuxiaobang.com/home?app_entrance=login\"",
+     "replace": "url:(location.origin+\"/home?app_entrance=login\")",
+     "note": "导航配置里的商家入驻入口：指向本地商家平台"
+    }
+   ]
+  }
+ ],
+ "code_patches_available": [
+  {
+   "id": "unpin-home-scroll",
+   "env": "ZXB_FIX_SCROLL_RESET",
+   "description": "解除首页「每次 scroll 都拉回顶部」的锁定",
+   "edits": [
+    {
+     "file": "cdn/async/467.b5543a47.js",
+     "find": "window.addEventListener(\"scroll\",p,{passive:!1})",
+     "replace": "(void 0)",
+     "note": "首页组件每次 scroll 都把窗口拉回顶部"
+    }
+   ]
+  },
+  {
+   "id": "disable-home-wheel-pager",
+   "env": "ZXB_FIX_WHEEL_PAGER",
+   "description": "移除全局非 passive 滚轮翻屏监听（它会牵住主线程，导致滚轮/手势都不生效）",
+   "edits": [
+    {
+     "file": "cdn/633.4a4bf70d.js",
+     "find": "(0,f.Z)(\"wheel\",C,{passive:!1})",
+     "replace": "(void 0)",
+     "note": "分屏翻页器的全局 non-passive wheel 监听"
+    }
+   ]
+  },
+  {
+   "id": "unlock-zhuhaojia-input",
+   "env": "ZXB_FIX_ZHUHAOJIA_SCROLL",
+   "description": "住好家根组件用 non-passive wheel/touchmove 监听无条件 preventDefault，彻底锁死滚动；去掉这两条",
+   "edits": [
+    {
+     "file": "zhuhaojia/static/js/main.f9a99cdd.js",
+     "find": "document.addEventListener(\"touchmove\",e,{passive:!1})",
+     "replace": "(void 0)",
+     "note": "touchmove 阻止默认，等于锁死触摸滚动"
+    },
+    {
+     "file": "zhuhaojia/static/js/main.f9a99cdd.js",
+     "find": "document.addEventListener(\"wheel\",t,{passive:!1})",
+     "replace": "(void 0)",
+     "note": "wheel 阻止默认，等于锁死滚轮滚动"
+    }
+   ]
+  },
+  {
+   "id": "merchant-missing-script-tag",
+   "env": "ZXB_FIX_MERCHANT_SCRIPT_TAG",
+   "description": "归档的商家应用 index.html 少了一个 <script> 开标签（只有 </script>），导致那段 mock 脚本被当成正文文字显示、而且没有执行；补回开标签",
+   "edits": [
+    {
+     "file": "archive/merchant/index.html",
+     "find": "</script>\n\n(function () {\n  var originalFetch = window.fetch;",
+     "replace": "</script>\n\n<script>\n(function () {\n  var originalFetch = window.fetch;",
+     "note": "补回缺失的 <script> 开标签（上游归档缺陷，其线上部署同样显示这段文字）"
+    }
+   ]
+  },
+  {
+   "id": "local-merchant-entry",
+   "env": "ZXB_FIX_MERCHANT_ENTRY",
+   "description": "主站「业务合作 → 商家入驻」原本指向线上 e.zhuxiaobang.com，改为指向本地已归档的商家平台（/home?app_entrance=login）",
+   "edits": [
+    {
+     "file": "cdn/async/635.2d3b16c7.js",
+     "find": "url:\"https://e.zhuxiaobang.com/home?app_entrance=login\"",
+     "replace": "url:(location.origin+\"/home?app_entrance=login\")",
+     "note": "导航配置里的商家入驻入口：指向本地商家平台"
+    }
+   ]
+  }
+ ],
+ "local_patches_available": [
+  {
+   "id": "hide-shutdown-notice",
+   "env": "ZXB_HIDE_SHUTDOWN_NOTICE",
+   "description": "隐藏首页「住小帮关停公告」整屏浮层（主站 bundle 硬编码）",
+   "targets": [
+    "index.html"
+   ],
+   "kind": "style",
+   "selectors": [
+    ".zy5Z34YOK7ZhegFKjmCW"
+   ],
+   "css": null
+  },
+  {
+   "id": "hide-zhuhaojia-shutdown-notice",
+   "env": "ZXB_HIDE_ZHUHAOJIA_NOTICE",
+   "description": "隐藏住好家官网「住好家部分服务关停公告」整屏浮层",
+   "targets": [
+    "zhuhaojia/index.html"
+   ],
+   "kind": "style",
+   "selectors": [
+    ".index_notice-overlay__\\+MWtd"
+   ],
+   "css": null
+  },
+  {
+   "id": "unlock-zhuhaojia-scroll",
+   "env": "ZXB_FIX_ZHUHAOJIA_SCROLL",
+   "description": "住好家公告组件挂载时把 body 设成 overflow:hidden；隐藏浮层不会解除滚动锁，这里用 !important 覆盖它",
+   "targets": [
+    "zhuhaojia/index.html"
+   ],
+   "kind": "style",
+   "selectors": null,
+   "css": "html,body{overflow:visible !important;touch-action:auto !important}"
+  },
+  {
+   "id": "clickable-swiper-dots",
+   "env": "ZXB_FIX_SWIPER_DOTS",
+   "description": "让分屏 swiper 的分页点可点击（与滚轮翻页并存；只挂点击事件，不改动 DOM 结构）",
+   "targets": [
+    "index.html"
+   ],
+   "kind": "script",
+   "selectors": null,
+   "css": ".swiper-pagination-bullet{cursor:pointer}"
+  },
+  {
+   "id": "merchant-entry-click",
+   "env": "ZXB_FIX_MERCHANT_ENTRY_CLICK",
+   "description": "「商家入驻」链接交给 SPA 路由会被当成本站路由（/home 被拼成 /site/home）；这段在捕获阶段接管点击，直接整页跳转到本地商家平台",
+   "targets": [
+    "index.html"
+   ],
+   "kind": "script",
+   "selectors": null,
+   "css": null
+  }
+ ]
+}

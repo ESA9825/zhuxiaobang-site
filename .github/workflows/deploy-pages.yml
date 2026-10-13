@@ -1,4 +1,4 @@
-name: Deploy static site to GitHub Pages
+name: Deploy mirror to GitHub Pages
 
 on:
   push:
@@ -22,13 +22,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+
+      - uses: actions/setup-python@v5
         with:
-          node-version: 24
-      - name: Build static pages
-        run: node scripts/build-pages.mjs
+          python-version: "3.12"
+
+      - name: Build the static tree for this Pages sub-path
+        run: python3 scripts/build_pages.py --base "/${GITHUB_REPOSITORY#*/}"
+
+      - name: Show what will be published
+        run: |
+          du -sh out
+          find out -type f | wc -l
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
+
       - id: deployment
         uses: actions/deploy-pages@v4

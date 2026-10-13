@@ -1,0 +1,612 @@
+{
+ "source": "github.com/ESA9825/zhuxiaobang-site (main)",
+ "fetched_at": "2026-10-13T05:18:02+0800",
+ "files": [
+  {
+   "repo_path": "public/mock/merchant-account.json",
+   "path": "_mock/merchant-account.json",
+   "bytes": 1277,
+   "sha256": "8f41e6138c5fea619fe56a099f50d45cc175c4a273a26501afd8dc762fc0aea6"
+  },
+  {
+   "repo_path": "public/mock/merchant-empty.json",
+   "path": "_mock/merchant-empty.json",
+   "bytes": 30,
+   "sha256": "e7da5d165d54284a9747359cc84a653a4c97181e6c390d909280bdedc66ee9cc"
+  },
+  {
+   "repo_path": "public/mock/merchant-navibar-buttons.json",
+   "path": "_mock/merchant-navibar-buttons.json",
+   "bytes": 88,
+   "sha256": "88b43dc2e32a57f5da9ea853c1a79eca2b3715317d1e4b51031998483f60426d"
+  },
+  {
+   "repo_path": "public/mock/merchant-pack-info.json",
+   "path": "_mock/merchant-pack-info.json",
+   "bytes": 88,
+   "sha256": "075bf0b8c5b3e783c87382d2add9178b566c078e1029ed2ecc30006461fd6653"
+  },
+  {
+   "repo_path": "public/mock/merchant-phone-init.json",
+   "path": "_mock/merchant-phone-init.json",
+   "bytes": 79,
+   "sha256": "a1417c9602d88f709eda5756bde1d531a9137090981e7b69aee322da22f0f9bd"
+  },
+  {
+   "repo_path": "public/mock/merchant-route-list.json",
+   "path": "_mock/merchant-route-list.json",
+   "bytes": 30,
+   "sha256": "e7da5d165d54284a9747359cc84a653a4c97181e6c390d909280bdedc66ee9cc"
+  },
+  {
+   "repo_path": "public/mock/merchant-user-info.json",
+   "path": "_mock/merchant-user-info.json",
+   "bytes": 158,
+   "sha256": "20d7e5c2c5c9ea5875e7a2eb04e54b28b412623d3caf319eba55a7002fe54cb1"
+  },
+  {
+   "repo_path": "public/mock/passport-login-list.json",
+   "path": "_mock/passport-login-list.json",
+   "bytes": 30,
+   "sha256": "e7da5d165d54284a9747359cc84a653a4c97181e6c390d909280bdedc66ee9cc"
+  },
+  {
+   "repo_path": "public/sw.js",
+   "path": "_mock/sw.js",
+   "bytes": 1481,
+   "sha256": "933483a2cdd966709424583044fd1e3b8f82a1fc8e62b239a1bb407449a75632"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/2454.0504010a.async.js",
+   "path": "archive/merchant/assets/2454.0504010a.async.js",
+   "bytes": 7436,
+   "sha256": "967c2a7fe398018b7165cb7853538b40b7ab68a8ea786dcc7c145f20fd7d0651"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/2e7ded00f078fd4ec6492110af6d0a14.otf",
+   "path": "archive/merchant/assets/2e7ded00f078fd4ec6492110af6d0a14.otf",
+   "bytes": 89060,
+   "sha256": "4f353e87997c254c379a81770045d40814f32baa2c534540d103415337b5fb93"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/3240.1b0409c8.async.js",
+   "path": "archive/merchant/assets/3240.1b0409c8.async.js",
+   "bytes": 40956,
+   "sha256": "e47b933ced88b434f5c9a715819b84d844b36aecf9c00db655cbf67a71d10c2f"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/3603.5a1c7038.async.js",
+   "path": "archive/merchant/assets/3603.5a1c7038.async.js",
+   "bytes": 77611,
+   "sha256": "7c0bf62ffe9b32103fa639ad5b827c01cc663d785675f67a12dc9e1de1d44980"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/3999.77d18591.async.js",
+   "path": "archive/merchant/assets/3999.77d18591.async.js",
+   "bytes": 40034,
+   "sha256": "215835593f0e1a31e52b55d0c25127b743891716479f7cbaea7129567ca5190f"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/4053.372b3f50.async.js",
+   "path": "archive/merchant/assets/4053.372b3f50.async.js",
+   "bytes": 108,
+   "sha256": "54450e9244e70c74c4d5355396c523e7a2a8562b42334287a95b75136c2997dd"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/47.6ea538cd.async.js",
+   "path": "archive/merchant/assets/47.6ea538cd.async.js",
+   "bytes": 4636,
+   "sha256": "ed270b82133bd481992eabe7f2d69ba672862c6f149dd8a3eb1e2bb3fb5ecea2"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/5059.706d3238.async.js",
+   "path": "archive/merchant/assets/5059.706d3238.async.js",
+   "bytes": 21713,
+   "sha256": "c0da4afb70a079b9c0bfe45ad101db92040d57ca90ec82f21e9ed0f585e47e4e"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/6037.00231b62.async.js",
+   "path": "archive/merchant/assets/6037.00231b62.async.js",
+   "bytes": 5359,
+   "sha256": "1b9f52310ce4ec5a09ef8ee1cd26cdfe726dc3fc0300f12bef51d81bf583ae52"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/6559.64dc6a56.async.js",
+   "path": "archive/merchant/assets/6559.64dc6a56.async.js",
+   "bytes": 149074,
+   "sha256": "ae131c7c18f60ab8baddbef57bee694e3c8c8e6921929203af4d3b928ace6fe7"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/7998.f29eedbb.async.js",
+   "path": "archive/merchant/assets/7998.f29eedbb.async.js",
+   "bytes": 28352,
+   "sha256": "9dc916b41509723e86d5fd86f57fbacab24ff6e0841550e34a3fac9772f39c8c"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/9696.5a86a8d9.async.js",
+   "path": "archive/merchant/assets/9696.5a86a8d9.async.js",
+   "bytes": 12886,
+   "sha256": "56d6d07972101e2c7cab61eca0e8aab072627eae0cd2d088504fab4e1596c17e"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/QRcode.155e8311.png",
+   "path": "archive/merchant/assets/QRcode.155e8311.png",
+   "bytes": 98508,
+   "sha256": "5be914b9cc322f300cac87476dbc117db622d673f190877e0c94817f73931473"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/Vector.1dbc6ad1.svg",
+   "path": "archive/merchant/assets/Vector.1dbc6ad1.svg",
+   "bytes": 810,
+   "sha256": "585277ca5b019e642cb899ad0f97011a2ff796dd1a19e639766685ebaecd4da4"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/ball.4dbb3bcd.png",
+   "path": "archive/merchant/assets/ball.4dbb3bcd.png",
+   "bytes": 48463,
+   "sha256": "2cacb42d655284b70f8f345c04ab69f811f052b6cf7b7e39671daee2842d3d16"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/block1.79e2b6e7.png",
+   "path": "archive/merchant/assets/block1.79e2b6e7.png",
+   "bytes": 16011,
+   "sha256": "a2697528525470bced3d7e52fd01f9ff759eceaf08556ca14dd59340cd2c70ea"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/block2.f9fa5c36.png",
+   "path": "archive/merchant/assets/block2.f9fa5c36.png",
+   "bytes": 122632,
+   "sha256": "e37b5f736b86a66c9147bbf824cc7b3f94083a6bdbb674458bc6317819dc6447"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/byted.614f9f7a.async.js",
+   "path": "archive/merchant/assets/byted.614f9f7a.async.js",
+   "bytes": 1394649,
+   "sha256": "3a9d9f6744f4e0d3a8e9f45d090d502a4da9e81ddc60d69ade2b9b99ebc937d5"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/bytedDesign.af489d71.async.js",
+   "path": "archive/merchant/assets/bytedDesign.af489d71.async.js",
+   "bytes": 1432815,
+   "sha256": "a8b87683063fa90d869cfa7714124315e570f78c160486263297f16deca68f23"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/bytedForce.6a362f0a.js",
+   "path": "archive/merchant/assets/bytedForce.6a362f0a.js",
+   "bytes": 308084,
+   "sha256": "c39e60293015b2f3ffe44edb25874dbf05951be71cb371ac75a8281cd77e2adc"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/cbb8d83522bd1b2d06a48b5e45f30346.otf",
+   "path": "archive/merchant/assets/cbb8d83522bd1b2d06a48b5e45f30346.otf",
+   "bytes": 87364,
+   "sha256": "617311af2fbd10bf1a1c15643661740c83fb812ac56fcd83478c00e239eb5080"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/common.2073d6f7.js",
+   "path": "archive/merchant/assets/common.2073d6f7.js",
+   "bytes": 389187,
+   "sha256": "c8d345418f754e9952425b74f095b83bf22641b90399587daf0d0eb386f1dae8"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/data_0_6614ce9076ac45b9b7b8fd8ca9477f9a.png",
+   "path": "archive/merchant/assets/config/data_0_6614ce9076ac45b9b7b8fd8ca9477f9a.png",
+   "bytes": 184488,
+   "sha256": "c12bbe2c0db5e63a86849ae506ed2f71d3f1ce2e1961759b878e14eea5bcd037"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/data_1_1d4b51914526492fa59c0259c6197bb3.png",
+   "path": "archive/merchant/assets/config/data_1_1d4b51914526492fa59c0259c6197bb3.png",
+   "bytes": 467517,
+   "sha256": "fde40c43ee228f3fa9136a9009c1582286ebb022e89f945694664ed9000a4b3e"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/data_2_fc47e777cf204728a09168a4f4b11f13.png",
+   "path": "archive/merchant/assets/config/data_2_fc47e777cf204728a09168a4f4b11f13.png",
+   "bytes": 184905,
+   "sha256": "31fc4b7c5a0b3944d0424dbc5e828fec08f7401701f90f24f497f67ce268452e"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/data_3_00b07a158f0b4a53ab42e3012200d2ea.png",
+   "path": "archive/merchant/assets/config/data_3_00b07a158f0b4a53ab42e3012200d2ea.png",
+   "bytes": 530759,
+   "sha256": "1fe3a37e23a237948ae90bc468d05a22a106032f7fd137a3fc6503c51e7d8548"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/data_4_e0e645e647054c0c93f83f7bfb95addc.png",
+   "path": "archive/merchant/assets/config/data_4_e0e645e647054c0c93f83f7bfb95addc.png",
+   "bytes": 217570,
+   "sha256": "342c46b40d39ae2b105f52d3735994356933023deaad9114fd3d6d7e8826d9ce"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/data_5_bea19218bf624b0db748f79bc03790d9.png",
+   "path": "archive/merchant/assets/config/data_5_bea19218bf624b0db748f79bc03790d9.png",
+   "bytes": 504572,
+   "sha256": "bd282d41e5c37f4324a2c406108e502148ab5a3731591eed0c370f82c09119a8"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/data_6_a32d0fa5e4af4d17a2aa8eba61e58f0c.png",
+   "path": "archive/merchant/assets/config/data_6_a32d0fa5e4af4d17a2aa8eba61e58f0c.png",
+   "bytes": 172189,
+   "sha256": "27efb746b0282838ee7b9e0180c3d3ae66e5818f21204cbad1f7dfde001e0ae8"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/data_7_8d5d9257d2fa4c368e381936e6da9213.png",
+   "path": "archive/merchant/assets/config/data_7_8d5d9257d2fa4c368e381936e6da9213.png",
+   "bytes": 805595,
+   "sha256": "0d90e59daa641e72f3d25f61721214b401b9613309cc0fdea1f02d2b7ddcd5b2"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/data_8_f5f1a0e4f4254ca09ed6bf21826e907b.png",
+   "path": "archive/merchant/assets/config/data_8_f5f1a0e4f4254ca09ed6bf21826e907b.png",
+   "bytes": 223202,
+   "sha256": "ba101abfdd04d18a1e3fcf6fccf401c37c09ce34030ab9e9cd494df0ec0d6493"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/data_9_49869d37d491425896ca814db339779c.png",
+   "path": "archive/merchant/assets/config/data_9_49869d37d491425896ca814db339779c.png",
+   "bytes": 515863,
+   "sha256": "dac42e55a6da5e7068678dbad4a50901d960b3fe4f1505df2a76f6062a01449d"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_16_ab0db979acac42f2b7fb41e253c0c1b3.png",
+   "path": "archive/merchant/assets/config/logos_16_ab0db979acac42f2b7fb41e253c0c1b3.png",
+   "bytes": 3642,
+   "sha256": "bbdd8aa03c243e81a177ec0342cb723df5a129f4feb1355493c0d88b58b52d8a"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_17_87bce2683b35466d951429c7d429ea53.png",
+   "path": "archive/merchant/assets/config/logos_17_87bce2683b35466d951429c7d429ea53.png",
+   "bytes": 4400,
+   "sha256": "18120407cecb2939a97bb6931f036e0c3521b668c53c4ef254cab49ec89756de"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_18_355bf37f70c348c381cc34ba1c1d071f.png",
+   "path": "archive/merchant/assets/config/logos_18_355bf37f70c348c381cc34ba1c1d071f.png",
+   "bytes": 3446,
+   "sha256": "605a50b803a33e2422e09a84983555288aba12e3f348af88f87c760e6fb0bce7"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_19_6bcd421a0cad470cb7cbeae96c18f8d7.png",
+   "path": "archive/merchant/assets/config/logos_19_6bcd421a0cad470cb7cbeae96c18f8d7.png",
+   "bytes": 5009,
+   "sha256": "ad70c8c61c0b8d7ad17f4704c4b3e5ed2531512ca08f666158cf21c62e26ffb3"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_20_337a90dbf9b2438391456126cb0c9292.png",
+   "path": "archive/merchant/assets/config/logos_20_337a90dbf9b2438391456126cb0c9292.png",
+   "bytes": 3387,
+   "sha256": "5c97cbd710f0bf901a3020eae803f74e6c67eae870261b4cafd1d187ae3721f1"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_21_95c775147ae34b4ea8c951dae6f5843c.png",
+   "path": "archive/merchant/assets/config/logos_21_95c775147ae34b4ea8c951dae6f5843c.png",
+   "bytes": 2418,
+   "sha256": "c6e17bd21f447aa314a274d0cf704a00b116704f0ad8622926e9ac718f795171"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_22_7f395522f888447589580309c11c8a0c.png",
+   "path": "archive/merchant/assets/config/logos_22_7f395522f888447589580309c11c8a0c.png",
+   "bytes": 3051,
+   "sha256": "92c51e336e7b60e3af636c94b46b32d3b39d330424acf823a0d7508dd7d682b5"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_23_047405b2f4e94f4a9a8c40362727425d.png",
+   "path": "archive/merchant/assets/config/logos_23_047405b2f4e94f4a9a8c40362727425d.png",
+   "bytes": 3336,
+   "sha256": "56a52db5e2223e9678c9215d16088fdaf25b19c84511b99225a308858db444c2"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_24_bc8228c137d8482c856b77bf3aac1b0b.png",
+   "path": "archive/merchant/assets/config/logos_24_bc8228c137d8482c856b77bf3aac1b0b.png",
+   "bytes": 3203,
+   "sha256": "da25bc2412ff5ca275e5410b7ac00118c14cfb1c3dd5b6fe9bbd7206ac94fbe5"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_25_9bad2229ff3a44e4a54cab257ab5d537.png",
+   "path": "archive/merchant/assets/config/logos_25_9bad2229ff3a44e4a54cab257ab5d537.png",
+   "bytes": 4014,
+   "sha256": "05726d6d1b8196abebbcd0afbd4319564cc8db0d51a2f5d28c98b4194a121ebe"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_26_d08a6bc810f445428c0881d70c117a3c.png",
+   "path": "archive/merchant/assets/config/logos_26_d08a6bc810f445428c0881d70c117a3c.png",
+   "bytes": 3242,
+   "sha256": "1082998275a27fb8ce774d8f730669c90196f8fbc03336332ae8323f73406fb3"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_27_f9822335f7874ccb88abf8a13f650df3.png",
+   "path": "archive/merchant/assets/config/logos_27_f9822335f7874ccb88abf8a13f650df3.png",
+   "bytes": 5267,
+   "sha256": "535a2e2082737f326ee12e8cf4d3140d25252f75bc35ef262e3e68798173ff94"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_28_56f1a23401d746459a5273ee9004d98e.png",
+   "path": "archive/merchant/assets/config/logos_28_56f1a23401d746459a5273ee9004d98e.png",
+   "bytes": 6299,
+   "sha256": "48224ac7ebe906878c59abdfd4dd1d58693192c2febfc916349268664ab1c6fd"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_29_7aa08f5ef9a24a19a365690c5a310de2.png",
+   "path": "archive/merchant/assets/config/logos_29_7aa08f5ef9a24a19a365690c5a310de2.png",
+   "bytes": 3659,
+   "sha256": "2523847e9559ecbd3529b63493491acad1210bce092254dc3a2d18ae64b36d93"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_30_63a0c69222954d96945a0ebd25b8fe7a.png",
+   "path": "archive/merchant/assets/config/logos_30_63a0c69222954d96945a0ebd25b8fe7a.png",
+   "bytes": 3371,
+   "sha256": "7fb4a0eae838dcf6e92c430bb3df8b0d7cb238db01d965029c5ede4b921b3b02"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_31_b8a0d01d8521431fa720c7bfea9f7c2d.png",
+   "path": "archive/merchant/assets/config/logos_31_b8a0d01d8521431fa720c7bfea9f7c2d.png",
+   "bytes": 3103,
+   "sha256": "5ad8272794ece413b32fa4262afbc52bf6d26af5949cad7c4fc7414e032e098f"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_32_b11fe28e79b74850893a1b1eda83bba2.png",
+   "path": "archive/merchant/assets/config/logos_32_b11fe28e79b74850893a1b1eda83bba2.png",
+   "bytes": 3202,
+   "sha256": "d78b8bde7a497f0a16bd062365c5b51aac40562f83df6ef0d7d9d174107b066b"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/logos_33_674687fb72ae44809c12e1f0563682fa.png",
+   "path": "archive/merchant/assets/config/logos_33_674687fb72ae44809c12e1f0563682fa.png",
+   "bytes": 5245,
+   "sha256": "3e3304c952aa49bd65e5ba9e69b9bdba504e42970385ae561352bab1ea65b0d3"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/praise_10_7413631a4ac24c3daa6a700f77f754e7.png",
+   "path": "archive/merchant/assets/config/praise_10_7413631a4ac24c3daa6a700f77f754e7.png",
+   "bytes": 2938,
+   "sha256": "40d4c23b0eb01336b469ea2c039e675fd008701208ef6bbc25c7b4b452088793"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/praise_11_622c7c739951413f9ad83b0faa663a9c.png",
+   "path": "archive/merchant/assets/config/praise_11_622c7c739951413f9ad83b0faa663a9c.png",
+   "bytes": 3073,
+   "sha256": "102b829037e345103c379a1696139bc09842bc1e60f29d8bbeddd49485e05d37"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/praise_12_a949a24bb72a4ec2963a70785e1fae52.png",
+   "path": "archive/merchant/assets/config/praise_12_a949a24bb72a4ec2963a70785e1fae52.png",
+   "bytes": 4846,
+   "sha256": "d69f2927da9790d226f548b0479afd4d3d8fb23cc990b23d3c8068b97b11450d"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/praise_13_6c36f000d60b437d9126e494c5bcce6d.png",
+   "path": "archive/merchant/assets/config/praise_13_6c36f000d60b437d9126e494c5bcce6d.png",
+   "bytes": 2207,
+   "sha256": "c81d7d1036d542cac9f674499aea6a6c2ae666e3706223626cbfe8821aa28799"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/praise_14_7356e358c65f493894f557b364c4aacd.png",
+   "path": "archive/merchant/assets/config/praise_14_7356e358c65f493894f557b364c4aacd.png",
+   "bytes": 6344,
+   "sha256": "138c6234ad92d136b1711d392d9c9a96a1125eb3cb387cf3dc3cf860fa7c1cb5"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/config/praise_15_757e9725e140451390b45a0223cffe85.png",
+   "path": "archive/merchant/assets/config/praise_15_757e9725e140451390b45a0223cffe85.png",
+   "bytes": 5757,
+   "sha256": "e3979e343086e895abaf22a01dd53c4829c685dc8ff125284523507651b9d76c"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/d3c192a5cb57e7531db9d3e4310c525f.otf",
+   "path": "archive/merchant/assets/d3c192a5cb57e7531db9d3e4310c525f.otf",
+   "bytes": 90228,
+   "sha256": "e67ddf8c385e538b5cc80dfc0e7ac15b1bee2c59280a626321c5f8bae467cec0"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/data_page_bg.08d22890.png",
+   "path": "archive/merchant/assets/data_page_bg.08d22890.png",
+   "bytes": 69633,
+   "sha256": "7b0023b552122219b378aa511a04758b1044f1536d422fa341590060d80d7c2f"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/favicon.ico",
+   "path": "archive/merchant/assets/favicon.ico",
+   "bytes": 44346,
+   "sha256": "89d170acb808642ba24e6eb0c753dbbdfe65b2206f4d5f61b9fdd074e4b2d37e"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/homed.9a854e22.chunk.css",
+   "path": "archive/merchant/assets/homed.9a854e22.chunk.css",
+   "bytes": 334261,
+   "sha256": "e7c8b3ec743cc7a9f0c65a06e0795404325e3fa263aaa779d631b8f7a8d55f28"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/homed.f5bdc255.async.js",
+   "path": "archive/merchant/assets/homed.f5bdc255.async.js",
+   "bytes": 466224,
+   "sha256": "5b06dd1ee0ee2bc51a4b46a47f9a378762ade3a174d4b8976f5ef6a946d27a68"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/iconfont.css",
+   "path": "archive/merchant/assets/iconfont.css",
+   "bytes": 40196,
+   "sha256": "774453497683a0a46598240c93da6d381c59bb472f95332da776e5c701ad7f24"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/iconfont.eot",
+   "path": "archive/merchant/assets/iconfont.eot",
+   "bytes": 45972,
+   "sha256": "cb6c6d1f6a8a221c68cfa5ea80c4ab0142bbd45131e872fd82f6ce18d27492b5"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/iconfont.svg",
+   "path": "archive/merchant/assets/iconfont.svg",
+   "bytes": 162726,
+   "sha256": "abc66410121a08a5ed43452fee25c0cc3cb9ef28925fac984ebfd1dabcedb24a"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/iconfont.ttf",
+   "path": "archive/merchant/assets/iconfont.ttf",
+   "bytes": 45780,
+   "sha256": "2aabf4e204b71ab45f40fdcfe29bdace6783c00abfdf3990ce7d5cc52206c158"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/iconfont.woff",
+   "path": "archive/merchant/assets/iconfont.woff",
+   "bytes": 25312,
+   "sha256": "11feff792ce8b6b80ae1c70fe3b77d2540aa16e8f168f3ce1a97b7aa2043bb92"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/layouts__BasicLayout.6b867e91.chunk.css",
+   "path": "archive/merchant/assets/layouts__BasicLayout.6b867e91.chunk.css",
+   "bytes": 13326,
+   "sha256": "0863b7632e26c2c6c85176e6ff16a3f4a36510823b46d119670750d893004396"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/layouts__BasicLayout.d83149f6.async.js",
+   "path": "archive/merchant/assets/layouts__BasicLayout.d83149f6.async.js",
+   "bytes": 91489,
+   "sha256": "2ef3598aaea801a7a3cf32da4309d1d8ad71c2730d81be5c025e38a0d77ad97e"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/layouts__BlankLayout.3e5b1079.async.js",
+   "path": "archive/merchant/assets/layouts__BlankLayout.3e5b1079.async.js",
+   "bytes": 318,
+   "sha256": "0bed2315acd851617a727daddc160c586a0438da8f08bb5a3208d8dc4e2eaeeb"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/merchant_home_config.json",
+   "path": "archive/merchant/assets/merchant_home_config.json",
+   "bytes": 9239,
+   "sha256": "024fd64188538d83adbfaf87502ab4112ddb2de45f377c8b7e75efee68963b8a"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/p__HomePage.8231ef24.chunk.css",
+   "path": "archive/merchant/assets/p__HomePage.8231ef24.chunk.css",
+   "bytes": 30272,
+   "sha256": "3f4f05775dc16dcdda93afc5c865b644682f3521bf99e216a413c7d585f95dba"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/p__HomePage.c3f20029.async.js",
+   "path": "archive/merchant/assets/p__HomePage.c3f20029.async.js",
+   "bytes": 82189,
+   "sha256": "d9bd442c155b64fddc0c80dbe4d4fe346827cb7ac63f058b5a28e75cc07658b0"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/p__user__login.a3cd65e8.chunk.css",
+   "path": "archive/merchant/assets/p__user__login.a3cd65e8.chunk.css",
+   "bytes": 7932,
+   "sha256": "0998510b2c2cefe0673e0291a1ae3a47e9b7c79dc408434ddee778e8056dcc1a"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/static/QRcode.155e8311.png",
+   "path": "archive/merchant/assets/static/QRcode.155e8311.png",
+   "bytes": 98508,
+   "sha256": "5be914b9cc322f300cac87476dbc117db622d673f190877e0c94817f73931473"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/static/Vector.1dbc6ad1.svg",
+   "path": "archive/merchant/assets/static/Vector.1dbc6ad1.svg",
+   "bytes": 810,
+   "sha256": "585277ca5b019e642cb899ad0f97011a2ff796dd1a19e639766685ebaecd4da4"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/static/ball.4dbb3bcd.png",
+   "path": "archive/merchant/assets/static/ball.4dbb3bcd.png",
+   "bytes": 48463,
+   "sha256": "2cacb42d655284b70f8f345c04ab69f811f052b6cf7b7e39671daee2842d3d16"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/static/block1.79e2b6e7.png",
+   "path": "archive/merchant/assets/static/block1.79e2b6e7.png",
+   "bytes": 16011,
+   "sha256": "a2697528525470bced3d7e52fd01f9ff759eceaf08556ca14dd59340cd2c70ea"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/static/block2.f9fa5c36.png",
+   "path": "archive/merchant/assets/static/block2.f9fa5c36.png",
+   "bytes": 122632,
+   "sha256": "e37b5f736b86a66c9147bbf824cc7b3f94083a6bdbb674458bc6317819dc6447"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/static/data_page_bg.08d22890.png",
+   "path": "archive/merchant/assets/static/data_page_bg.08d22890.png",
+   "bytes": 69633,
+   "sha256": "7b0023b552122219b378aa511a04758b1044f1536d422fa341590060d80d7c2f"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/static/logo_white.604762de.svg",
+   "path": "archive/merchant/assets/static/logo_white.604762de.svg",
+   "bytes": 13763,
+   "sha256": "4abf39ca1aceb2cda2a2d41f3dcd9d0f79d8d7d29035bffecc0d4b72a8450506"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/static/top_card_icon1.bcfb37db.svg",
+   "path": "archive/merchant/assets/static/top_card_icon1.bcfb37db.svg",
+   "bytes": 5652,
+   "sha256": "704e6da8499c358d4ba00b78233c88f7c39488a7437fb62183cba7b23c4822be"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/static/top_card_icon2.0a39ef5b.svg",
+   "path": "archive/merchant/assets/static/top_card_icon2.0a39ef5b.svg",
+   "bytes": 3503,
+   "sha256": "a265efb85b0384b87e0b115ae9dbd4ed4e215c6f5f4bb7818e3b81dbcc048eb0"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/static/top_card_icon3.cfbdc9f0.svg",
+   "path": "archive/merchant/assets/static/top_card_icon3.cfbdc9f0.svg",
+   "bytes": 2219,
+   "sha256": "18ef3da557cb2c76e3caeae4501725f5144d8fa877af9e2860c96ff7a39a4cd3"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/static/vactorSelected.cf85c9b1.svg",
+   "path": "archive/merchant/assets/static/vactorSelected.cf85c9b1.svg",
+   "bytes": 788,
+   "sha256": "f679abf40652a18e5ef9efbc98d5ccd9ee954abc15ae5847f07688e7e5325979"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/umi.36248b50.js",
+   "path": "archive/merchant/assets/umi.36248b50.js",
+   "bytes": 1855018,
+   "sha256": "767a8ae81b8849f9b795480ba440e91000e30a3bc79b8f9ab96e84bddd02a610"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/umi.f38c4400.css",
+   "path": "archive/merchant/assets/umi.f38c4400.css",
+   "bytes": 940224,
+   "sha256": "62ecd1a2c8307415e5486a1d3a332b62b7ccdb12c0c6243693a8cf51e814d392"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/vactorSelected.cf85c9b1.svg",
+   "path": "archive/merchant/assets/vactorSelected.cf85c9b1.svg",
+   "bytes": 788,
+   "sha256": "f679abf40652a18e5ef9efbc98d5ccd9ee954abc15ae5847f07688e7e5325979"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/vendors.34eb3b0b.js",
+   "path": "archive/merchant/assets/vendors.34eb3b0b.js",
+   "bytes": 2062946,
+   "sha256": "aba3cf73949d64dba6e90d54df9ccac148a4816d36c025869fdec1c38086b0c0"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/vendors.eb595fd3.css",
+   "path": "archive/merchant/assets/vendors.eb595fd3.css",
+   "bytes": 446156,
+   "sha256": "722d3b8e33e9a76ea8397ee092433f1f2ea3ebc67436df07c0b82af4a36eca1e"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/video1.mp4",
+   "path": "archive/merchant/assets/video1.mp4",
+   "bytes": 10924132,
+   "sha256": "e5167432344e83438f0430be235bbf60a3f421a311686842a44df27580d31825"
+  },
+  {
+   "repo_path": "public/archive/merchant/assets/video2.mp4",
+   "path": "archive/merchant/assets/video2.mp4",
+   "bytes": 44717238,
+   "sha256": "63b8ed23c553ee8bf07efa5cf46b7c6f18396b5e85ef6508462eb13b66162358"
+  },
+  {
+   "repo_path": "public/archive/merchant/index.html",
+   "path": "archive/merchant/index.html",
+   "bytes": 21369,
+   "sha256": "376b328a069e92a654c8e4dae6d22aa34c30ae7fa897728fc2d3558c4650f28f"
+  }
+ ]
+}
